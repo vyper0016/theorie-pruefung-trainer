@@ -146,14 +146,28 @@ def scrape_sub(url):
     return qids
 
 
+def find_in_tbl(qid):
+    with open('tblQuestions.json', 'r') as f:
+        datat = json.load(f)
+        
+    
+    for i in datat:
+        if i['number'] == qid:
+            return i
+    
+    print(qid, 'Not found')
+
+
 def count_questions():
     subs = get_json('sub_categories.json')
     c = 0
+
     for s in subs:
-        c += subs[s]['count']
+        for q in subs[s]['questions']:
+            entry = find_in_tbl(q)
+            if entry:
+                c += 1
     
     return c
 
-
-print(count_questions())
-    
+print(len(get_json('tblQuestions.json')))
