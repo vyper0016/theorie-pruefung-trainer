@@ -156,7 +156,6 @@ def find_in_tbl(qid):
             return i
     
 
-
 def count_questions():
     subs = get_json('sub_categories.json')
     c = 0
@@ -179,4 +178,33 @@ def count_grund():
             c+=1
     return c
 
-print(count_grund())
+
+def get_video_from_qs(link):
+    soup = get_soup(link)
+    vid = soup.find('video')
+    source = vid.find('source')
+    vid_link = source['src']
+    return vid_link
+
+
+def find_qs_in_sub(sub_link, qid):
+    soup = get_soup(sub_link)
+    divs = soup.find_all('div', class_='theoryQuestion')
+    for d in divs:
+        number = d.find('span', class_='number').text.strip()
+        if number == qid:
+            link = d.find('a')['href']
+            return link
+
+
+def get_video_link_qid(qid):
+    subs = get_json('sub_categories.json')
+    for i in subs:
+        if qid in subs[i]['questions']:
+            q_link = find_qs_in_sub(subs[i]['link'], qid)
+            vid = get_video_from_qs(q_link)
+            assert vid
+            return vid
+        
+    print('could not find', qid)
+            

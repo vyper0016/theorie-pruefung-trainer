@@ -1,4 +1,3 @@
 
-while True:
-    a = list(input('\n'))
-    print(len(a))
+v = 1
+assert v

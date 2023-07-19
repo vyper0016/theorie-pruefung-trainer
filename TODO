@@ -5,4 +5,5 @@ Todo:
   ☐ make it work with apk directly
   ☐ scrape cliclickdrive for video links
   ☐ delete unnecessary questions in scraped sub_categories.json
+  ☐ add categories to each question
   ☐ 
