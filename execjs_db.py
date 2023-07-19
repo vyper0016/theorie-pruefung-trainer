@@ -4,6 +4,10 @@ from selenium.webdriver.chrome.options import Options
 import json
 import codecs
 from scrape import get_video_link_qid
+import os
+
+
+IMG_PATH = "./assets/img"
 
 
 def concatenate_js_files(input_files, output_file, function_calls):
@@ -163,7 +167,7 @@ def filter_sets_class6(data, output_filename=None):
 
 def change_etc_imgs(data, output_filename=None):
     to_replace = "./assets/img/etc/gb/"
-    new_img_path = "./assets/img"
+    new_img_path = IMG_PATH
 
     for i in data:
         if to_replace in i['asw_1']:
@@ -262,14 +266,19 @@ def final_qs(data, output_filename):
 
 def exec_and_filter():
     output_file = merge_files()
+    print('merged files')
     qs = execute_js(output_file, 'dbTblQ', 'js/dbs/questions_table1.json')
     sets = execute_js(output_file, 'dbTableSets', 'js/dbs/sets_table1.json')
+    print('executed javascript')
     qs = decrypt_qs(qs, 'js/dbs/questions_table2.json')
     qs = change_etc_imgs(qs)
     qs = remove_unn(qs)
     qs = replace_categories(qs)
     qs = number_qs(qs)
+    print('getting video links...')
     v = sort_videos(qs)
+    print('done')
+    print('finals sort...')
     qs_basic = filter_qs_basic(qs, 'js/dbs/questions_basic.json')
     qs_class6 = filter_qs_class6(qs, 'js/dbs/questions_class6.json')
     sets_class6 = filter_sets_class6(sets, 'js/dbs/sets.json')
@@ -281,5 +290,38 @@ def exec_and_filter():
         print(len(i), s)
 
 
+def remove_unn_imgs():
+    with open('data/questions_6.json') as f:
+        questions1 = json.load(f)    
+    
+    with open('data/questions_b.json') as f:
+        questions2 = json.load(f)
+
+    imgs_used = []
+
+    for questions in [questions1, questions2]:
+        for i in questions:
+            if not questions[i]['picture']:
+                continue
+            if questions[i]['picture'].endswith('.jpg'):
+                imgs_used.append(questions[i]['picture'])
+
+    removed = 0
+    size_removed = 0
+    imgs = [file for file in os.listdir(IMG_PATH) if os.path.isfile(os.path.join(IMG_PATH, file))]
+    for i in imgs:
+        if i not in imgs_used:
+            img_path = os.path.join(IMG_PATH, i)
+            removed += 1
+            size_removed += os.path.getsize(img_path)
+            os.remove(img_path)
+    
+    print(f'removed {removed} images')
+    print(round(size_removed / (1024*1024), 3), 'Mbs')
+
+
+
+
 if __name__ == '__main__':
-    exec_and_filter()
+    #exec_and_filter()
+    remove_unn_imgs()
