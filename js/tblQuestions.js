@@ -1,5 +1,11 @@
 /* Fragen */
-
+var dbTblQ = new Array();
+function getDb1ValidFromDate() {
+	return "2023-04-01";
+}
+function getDb1ValidBeforeDate() {
+	return "2023-10-01";
+}
 function initDb1TableQuestions() {
 	dbTblQ = [];
 	dbTblQ[1] = {"number":"1.1.01-001","picture":"","stvo":"","asw_pretext":"","points":4,"basic":1,"basic_mofa":1,"mq_flag":0,"category_id":",49,","classes":"","text":"Jnf irefgrug zna hagre qrsrafvirz Snuera?","asw_1":"Nicht auf dem eigenen Recht bestehen","asw_type_1":"1","asw_corr1":1,"asw_2":"Mit Fehlern anderer rechnen","asw_type_2":"1","asw_corr2":1,"asw_3":"Vorsorglich an jeder Kreuzung anhalten","asw_type_3":"1","asw_corr3":0};
@@ -1850,7 +1856,4 @@ function initDb1TableQuestions() {
 			dbTblQ[key].asw_hint_3 = "";
 		}
 	}
-	return dbTblQ
 }
-
-

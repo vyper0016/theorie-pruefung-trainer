@@ -2,14 +2,18 @@
 <html>
 <head>
     <title>My Web Page</title>
-    <script src="tblQuestionInfos.js"></script>
+    <script src="merged.js"></script>
 </head>
 <body>
     <h1>Welcome to My Web Page</h1>
     <p>This is a sample HTML page that includes a JavaScript file.</p>
     <script>
         console.log('hello')
-        console.log(dbfunc())
+        initDb1TableQuestions();
+        translateDB();
+        initQuestionInfoDb1("gb");
+        initDb1TableSets();
+        replaceQuestionIdsWithNumbers();
     </script>
 </body>
 </html>

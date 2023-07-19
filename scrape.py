@@ -147,15 +147,14 @@ def scrape_sub(url):
 
 
 def find_in_tbl(qid):
-    with open('tblQuestions.json', 'r') as f:
+    with open('executed_decrypted.json', 'r') as f:
         datat = json.load(f)
         
     
     for i in datat:
-        if i['number'] == qid:
+        if i['number'] == qid and ',6,' in i['classes']:
             return i
     
-    print(qid, 'Not found')
 
 
 def count_questions():
@@ -170,4 +169,14 @@ def count_questions():
     
     return c
 
-print(len(get_json('tblQuestions.json')))
+
+def count_grund():
+    with open('executed_decrypted.json', 'r') as f:
+        d = json.load(f)
+    c = 0
+    for i in d:
+        if i["mq_flag"] == 0: 
+            c+=1
+    return c
+
+print(count_grund())

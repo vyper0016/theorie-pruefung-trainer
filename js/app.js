@@ -13777,6 +13777,7 @@ urlSupportCenterDE: "https://help.theorie24.de/",
 urlSupportCenterGB: "https://help.theorie24.de/?lang=en",
 msgExplainExtClass: "Um eine Erweiterungspr\u00fcfung handelt es sich immer dann, wenn eine bestandene noch g\u00fcltige theoretische Fahrerlaubnispr\u00fcfung oder eine Fahrerlaubnis vorhanden ist.",
 appMaxAvailableSetsForUser: 66,
+
 msgWordChapter: "Kapitel",
 msgVideoDlComplete: "Video-Downloads abgeschlossen",
 msgVideoDlInProgress: "Download ",

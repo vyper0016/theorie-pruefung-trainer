@@ -1,3 +1,4 @@
 
-s = 'abcd'
-print(s[:-1])
+while True:
+    a = list(input('\n'))
+    print(len(a))
