@@ -1,9 +1,9 @@
 
 Todo:
-  ☐ finish change_etc_imgs
-  ☐ func to delete unnecessary imgs
+  ✔ finish change_etc_imgs @done(23-07-19 17:58)
+  ✔ func to delete unnecessary imgs @done(23-07-19 17:58)
   ☐ make it work with apk directly
-  ☐ scrape cliclickdrive for video links
-  ☐ delete unnecessary questions in scraped sub_categories.json
-  ☐ add categories to each question
+  ✔ scrape cliclickdrive for video links @done(23-07-19 17:58)
+  ✔ delete unnecessary questions in scraped sub_categories.json @done(23-07-19 17:58)
+  ✔ add categories to each question @done(23-07-19 17:58)
   ☐ 

@@ -10,6 +10,7 @@ CACHE_FOLDER = "cache"
 DBS_FOLDER = "data"
 
 webpage_test_sample = 'https://www.ifuhrerscheintest.de/test.aspx'
+MAIN_URL = 'https://www.clickclickdrive.de/fragenkatalog/en'
 
 #examples for question types
 example_text = 'https://www.clickclickdrive.de/fragenkatalog/en/1.1.-danger-teaching/1.1.01-basic-forms-of-traffic-behavior/1.1.01-001'
@@ -93,10 +94,10 @@ def dump_dict(dic: dict, filename):
         json.dump(dic, f, indent=3)
 
 
-def get_categories(dump=True):
+def get_categories():
     db_name = 'categories.json'
     categories = {}
-    soup = get_soup('https://www.clickclickdrive.de/fragenkatalog/en')
+    soup = get_soup(MAIN_URL)
     cat_divs = soup.find_all('div', class_='theoryWorld')
     for d in cat_divs:
         cid = d.find('span', class_='number').text.split(' ')[-1]
@@ -109,11 +110,10 @@ def get_categories(dump=True):
         
         categories[cid] = {'name': name, 'link': link, 'count': count, 'subs': subs}
     
-    if dump:
-        dump_dict(categories, db_name)
+    dump_dict(categories, db_name)
 
 
-def scrape_category(url, dump=True):
+def scrape_category(url):
     db_name = 'sub_categories.json'
     soup = get_soup(url)
     cat_divs = soup.find_all('div', class_='theoryLevel')
@@ -140,43 +140,9 @@ def scrape_sub(url):
     qids = []
     for d in qs_divs:
         qid = d.find('span', class_='number').text.strip()
-        link = d.find('a')['href']
         qids.append(qid)
     
     return qids
-
-
-def find_in_tbl(qid):
-    with open('executed_decrypted.json', 'r') as f:
-        datat = json.load(f)
-        
-    
-    for i in datat:
-        if i['number'] == qid and ',6,' in i['classes']:
-            return i
-    
-
-def count_questions():
-    subs = get_json('sub_categories.json')
-    c = 0
-
-    for s in subs:
-        for q in subs[s]['questions']:
-            entry = find_in_tbl(q)
-            if entry:
-                c += 1
-    
-    return c
-
-
-def count_grund():
-    with open('executed_decrypted.json', 'r') as f:
-        d = json.load(f)
-    c = 0
-    for i in d:
-        if i["mq_flag"] == 0: 
-            c+=1
-    return c
 
 
 def get_video_from_qs(link):
@@ -207,4 +173,7 @@ def get_video_link_qid(qid):
             return vid
         
     print('could not find', qid)
-            
+
+
+if __name__ == '__main__':
+    get_video_link_qid()
