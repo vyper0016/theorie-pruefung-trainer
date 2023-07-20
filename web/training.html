@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Training Page</title>
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <link rel="stylesheet" type="text/css" href="./css/training.css">
+</head>
+<body>
+  <button onclick="history.back()" class="back-button">Go Back</button>
+  <div class="button-container2">
+    <button onclick="handlePage('training_30random')">
+      <span>Start 30 random</span>
+    </button>
+    <button onclick="handlePage('training_infinite')">
+      <span>Start inifinite run</span>
+    </button>
+    <button onclick="handlePage('training_30mistakes')">
+      <span>Start 30 last mistakes</span>
+    </button>
+  </div>
+
+ <details>
+  <summary>
+    Filters
+    <span class="icon">👇</span>
+  </summary>
+  <div class="content-foldable">
+  
+    <button class="add-filter" onclick="addFilter()">Add</button>
+    <table id="filters-table">
+      <!-- This table will be populated with filters dynamically -->
+    </table>
+  </div>
+</details>
+  
+  <script type="text/javascript" src="/eel.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+  <script type="text/javascript" src="./js/training.js"></script>
+  <script type="text/javascript">
+    handlePage('training');
+  </script>
+</body>
+</html>

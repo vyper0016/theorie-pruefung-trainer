@@ -1,0 +1,121 @@
+/* Secondary buttons (Search Question, Statistics, STVO, Settings) */
+button {
+    width: 100%;
+    height: auto;
+    padding: 1.6%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row; /* Change to row to align image and text horizontally */
+    align-items: center;
+    padding: 4vh 10%; /* Adjust the vertical padding using 'vh' unit */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    background-color: #2068a4;
+    text-decoration: none;
+  }
+
+button:hover {
+    background-color: #2581ccfd;
+  }
+  details {
+    user-select: none;
+  }
+  
+  details>summary span.icon {
+    width: 24px;
+    height: 24px;
+    transition: all 0.3s;
+    margin-left: auto;
+  }
+  
+  details[open] summary span.icon {
+    transform: rotate(180deg);
+  }
+  
+  summary {
+    display: flex;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background: #2068a4;
+    padding: 1%;
+    border-radius: 5px;
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .add-filter {
+    width: 10%;
+    height: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Add this property to center the text horizontally */
+    align-items: center; /* Optionally, add this property to center the text vertically */
+    font-size: 17px;
+    padding: 5px;
+    margin: 0;
+  }
+
+.content-foldable{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Add this property to center the text horizontally */
+    align-items: center; /* Optionally, add this property to center the text vertically */
+    background: #0f385a;
+    padding-top: 10px;
+}
+
+#filters-table {
+    width: 100%;
+    border-collapse: collapse; /* Optional: Remove the space between table cells */
+  }
+  
+select {
+    width: 100%;
+padding: 8px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 4px;
+background-color: #092339;
+cursor: pointer;
+color: white;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="checkbox"] {
+    width: 100%;
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #092339;
+  color: white;
+}
+  
+  td {
+    padding: 8px;
+    text-align: center;
+  }
+  
+  button.delete-button {
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Add this property to center the text horizontally */
+    align-items: center; /* Optionally, add this property to center the text vertically */
+    font-size: 17px;
+    padding: 5px;
+    margin: 10px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

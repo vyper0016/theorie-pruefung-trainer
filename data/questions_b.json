@@ -1706,9 +1706,9 @@
       "category": "1.2.03"
    },
    "1.2.03-104": {
-      "asw_1": "<img src='./assets/imgdiv10mult3.png' alt='div10mult3.png' />",
-      "asw_2": "<img src='./assets/imgdiv10mult5.png' alt='div10mult5.png' />",
-      "asw_3": "<img src='./assets/imgdiv100.png' alt='div100.png' />",
+      "asw_1": "<img src='./assets/img/div10mult3.png' alt='div10mult3.png' />",
+      "asw_2": "<img src='./assets/img/div10mult5.png' alt='div10mult5.png' />",
+      "asw_3": "<img src='./assets/img/div100.png' alt='div100.png' />",
       "asw_corr1": 1,
       "asw_corr2": 0,
       "asw_corr3": 0,
@@ -1726,9 +1726,9 @@
       "category": "1.2.03"
    },
    "1.2.03-105": {
-      "asw_1": "<img src='./assets/imgdiv100.png' alt='div100.png' />",
-      "asw_2": "<img src='./assets/imgdiv10mult5.png' alt='div10mult5.png' />",
-      "asw_3": "<img src='./assets/imgdiv10mult3.png' alt='div10mult3.png' />",
+      "asw_1": "<img src='./assets/img/div100.png' alt='div100.png' />",
+      "asw_2": "<img src='./assets/img/div10mult5.png' alt='div10mult5.png' />",
+      "asw_3": "<img src='./assets/img/div10mult3.png' alt='div10mult3.png' />",
       "asw_corr1": 1,
       "asw_corr2": 0,
       "asw_corr3": 0,

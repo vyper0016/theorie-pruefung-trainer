@@ -788,9 +788,9 @@
       "category": "2.2.03"
    },
    "2.2.03-015": {
-      "asw_1": "<img src='./assets/imgdiv100div2.png' alt='div100div2.png' />",
-      "asw_2": "<img src='./assets/imgdiv10mult5div2.png' alt='div10mult5div2.png' />",
-      "asw_3": "<img src='./assets/imgdiv10mult3div2.png' alt='div10mult3div2.png' />",
+      "asw_1": "<img src='./assets/img/div100div2.png' alt='div100div2.png' />",
+      "asw_2": "<img src='./assets/img/div10mult5div2.png' alt='div10mult5div2.png' />",
+      "asw_3": "<img src='./assets/img/div10mult3div2.png' alt='div10mult3div2.png' />",
       "asw_corr1": 1,
       "asw_corr2": 0,
       "asw_corr3": 0,

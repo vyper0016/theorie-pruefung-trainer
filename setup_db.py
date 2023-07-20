@@ -8,8 +8,8 @@ import os
 import zipfile
 
 
-IMG_PATH = "./assets/img"
-VID_PATH = './assets/vid'
+IMG_PATH = "./web/assets/img"
+VID_PATH = './web/assets/vid'
 APK_PATH = './apk/'
 DB_1_OR_2 = '1'
 
@@ -37,7 +37,6 @@ def get_files_from_apk():
 
     extract_from_zip(apk, 'js/en', js_path+'ext/GB/tblQuestions.js')
     print('done extracting')
-
 
 
 def extract_from_zip(apk, output_folder, file_to_extract):
@@ -191,7 +190,7 @@ def decrypt_qs(data, output_filename=None):
     return data
 
 
-#also removes basic and classes
+#also removes classes
 def filter_qs_class6(data, output_filename=None):
     filtered = []
     for i in data:
@@ -202,7 +201,6 @@ def filter_qs_class6(data, output_filename=None):
 
         if ',6,' in i['classes']:
             i.pop('classes')
-            i.pop('basic')
             filtered.append(i)
     
     if output_filename:
@@ -212,13 +210,11 @@ def filter_qs_class6(data, output_filename=None):
     return filtered
     
 
-#also removes basic and classes
 def filter_qs_basic(data, output_filename=None):
     filtered = []
     for i in data:
         if i['basic'] == 1:
             i.pop('classes')
-            i.pop('basic')
             filtered.append(i)
     
     if output_filename:
@@ -243,7 +239,7 @@ def filter_sets_class6(data, output_filename=None):
 
 def change_etc_imgs(data, output_filename=None):
     to_replace = "./assets/img/etc/gb/"
-    new_img_path = IMG_PATH
+    new_img_path = IMG_PATH.replace('web/', '') + '/'
 
     for i in data:
         if to_replace in i['asw_1']:
