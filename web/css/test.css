@@ -1,0 +1,111 @@
+/* Basic CSS Reset */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d4f5da;
+  }
+  
+  /* Styling for the top bar */
+  .top-bar {
+    background-color: #008000; /* Choose your desired background color */
+    overflow: hidden;
+  }
+  
+  /* Styling for the bottom bar */
+  .bottom-bar {
+    display: flex;
+    background-color: #389149;
+    color: #fff; /* Choose your desired text color */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  /* Styling for the middle content section */
+  .content {
+    margin-top: 1%; /* Adjust the margin as per your requirement to separate the content from the top bar */
+    margin-bottom: 60px; /* Adjust the margin as per your requirement to separate the content from the bottom bar */
+    margin-left: 2%;
+    padding: 20px;
+    color: black;
+    font-size: 28px;
+  }
+  
+  /* Styling for the buttons in the bottom bar */
+.buttons {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 81vh; /* Adjust the top position to move the buttons up or down */
+    right: 6%; /* Adjust the right position to move the buttons left or right */
+  }
+
+  .q-button {
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row; /* Change to row to align image and text horizontally */
+    align-items: center;
+    height: 30px;
+    width: 120px;
+    padding: 7%;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    margin: 3%;
+    border: none;
+    color: white;
+  }
+
+  button[onclick="markQuestion()"]{
+    background-color: #f5ab00;
+  }  
+  
+  button[onclick="correctQuestion()"]{
+    background-color: #008000;
+  }
+
+  .bar-button{
+    float: right;
+    width: 50px;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 5px;
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+  }
+
+  button[onclick="popInfos()"]{
+    background-image: url("/img/info.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #text{
+    float: left;
+  }
+
+  #image{
+    position: absolute;
+    float: left;
+    width: 40vw;
+    height: 50vh;
+    object-fit: contain;
+    top: 20vh;
+    left: 20px;
+  }
+
+  

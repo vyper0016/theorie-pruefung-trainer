@@ -19,4 +19,11 @@ def called_page(page):
 def get_filter_keys_json():
     return json.dumps(AVAILABLE_FILTERS)
 
-eel.start('index.html', size=(1280, 720))  # Open the GUI window
+
+@eel.expose
+def get_filters():
+    filters = eel.getCurrentFilters()()
+    print(filters)
+    
+
+ eel.start('index.html', size=(1280, 720))  # Open the GUI window
