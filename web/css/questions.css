@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #d4f5da;
+    font-size: 16px;
   }
   
   /* Styling for the top bar */
@@ -22,6 +23,7 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
+    font-weight: 600;
     font-size: 16px;
   }
   
@@ -32,7 +34,11 @@ body {
     margin-left: 2%;
     padding: 20px;
     color: black;
-    font-size: 28px;
+  }
+
+  #text{
+    font-size: 20px;
+    text-align: left;
   }
   
   /* Styling for the buttons in the bottom bar */
@@ -97,22 +103,31 @@ body {
     float: left;
   }
 
-  #image{
-    position: absolute;
-    float: left;
-    width: 40vw;
-    height: 50vh;
-    object-fit: contain;
-    top: 20vh;
-    left: 20px;
-  }
+.image-holder{
+  position: absolute;
+  width: 100%;
+  top: 20vh;
+  left: 20px;
+  display: flex;
+  flex-direction: row;
+}
 
-  .asw-container {
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
+  #image{
+    margin-top: 10px;
+    width: 0;
+    height: 0;
     float: left;
-    margin-left: 30%;
+    object-fit: contain;
+  }
+  
+#asw_pretext{
+  width: 100%;
+  text-align: left;
+}
+  .asw-container {
+    margin-left: 10px;
+    overflow-wrap: break-word;
+    font-size: large;
   }
   
   .asw {
@@ -120,7 +135,6 @@ body {
     display: flex;
     align-items: center; /* Center the elements vertically */
     white-space: nowrap;
-    margin-top: 15%;
   }
   
 

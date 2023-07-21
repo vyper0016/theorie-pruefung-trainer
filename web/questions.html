@@ -3,7 +3,7 @@
 <head>
   <title>Test Page</title>
   <link rel="stylesheet" type="text/css" href="./css/index.css">
-  <link rel="stylesheet" type="text/css" href="./css/test.css">
+  <link rel="stylesheet" type="text/css" href="./css/questions.css">
 </head>
 <body>
   <div class="top-bar">
@@ -16,6 +16,9 @@
 
   <div class="content">
     <span id="text">Questions text</span>
+
+    <div class="image-holder">
+    <img id="image" src="assets/img/1.1.02-024-B.jpg">
     <div class="asw-container">
       <span id="asw_pretext">asw pretext</span>
       <div class="asw">
@@ -25,8 +28,6 @@
       <div class="asw">
       <input type="checkbox" name="asw3"><span class="checkmark"></span><span id="asw3">asw3 text</span></div>
     </div>
-    <div class="image-holder">
-    <img id="image" src="assets/img/1.1.02-024-B.jpg">
   </div>
   </div>
 
@@ -37,7 +38,7 @@
   <div class="bottom-bar">
     <!-- Content for the bottom bar goes here -->
       <button class="nq-button" onclick="nextQuestion()"><</button>
-      Question <span id="qc">1</span> / <span id="qct">30</span>
+      Question  <span id="qc">1</span>  /  <span id="qct">30</span>
       <button class="nq-button" onclick="nextQuestion()">></button>
   </div>
 
@@ -78,12 +79,28 @@
           <td>times right:</td>
           <td><span id="tr">1</span></td>
         </tr>
+        <tr>
+          <td>stvo</td>
+          <td><span id="stvo">1</span></td>
+        </tr>
       </table>
-      
-        </table>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup2" class="overlay">
+    <div class="popup">
+      <h2>Question Info</h2>
+      <a class="close" href="#">&times;</a>
+      <div class="content">
+        <p id="qinfo">this is the question info</p>
+        <b>stvo: </b><span id="stvo"></span>
       </div>
     </div>
   </div>
   
+  <script type="text/javascript" src="/eel.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>  
+  <script type="text/javascript" src="./js/questions.js"></script>
 </body>
 </html>

@@ -1,0 +1,37 @@
+
+total: qct
+current: qc
+asw_1: asw1
+asw_2: asw2
+asw_3: asw3
+text: text
+asw_pretext: asw_pretext
+points: points
+category: category
+times_seen: ts
+times_right: tr
+last_seen: ls
+info: info
+number: qid (two items have this id)
+stvo: stvo (two items have this id)
+
+ease:
+marked:
+
+
+type: 
+if type == 'number'
+    make everything in 
+
+
+asw_corr1:
+asw_corr2:
+asw_corr3:
+basic:
+mq_flag:
+picture:
+asw_hint:
+
+last_was_right:
+times_right_iar:
+times_wrong:

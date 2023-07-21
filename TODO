@@ -6,4 +6,10 @@ Todo:
   ✔ scrape cliclickdrive for video links @done(23-07-19 17:58)
   ✔ delete unnecessary questions in scraped sub_categories.json @done(23-07-19 17:58)
   ✔ add categories to each question @done(23-07-19 17:58)
-  ☐ start gui
+  ☐ start gui @started(22-07-21 05:42)
+  ☐ fix missing images
+  ☐ handle videos
+  ☐ handle number type
+  ☐ handle the other keys
+  ☐ make all the buttons work
+  ☐ add the correction

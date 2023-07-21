@@ -6,3 +6,8 @@ function handlePage(page) {
 function redirect(page){
   window.location.href = page;
 }
+
+eel.expose(alertMsg)
+function alertMsg(msg){
+  alert(msg);
+}

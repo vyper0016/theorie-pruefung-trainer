@@ -327,7 +327,7 @@ def sort_videos(data, output_filename='data/vids.json'):
     
     return vids
 
-
+# adds a type for each question and removes the asw_type_{n} keys 
 def add_question_types(data):
     for i in data:
         try:
@@ -346,6 +346,9 @@ def add_question_types(data):
             type_ = 'text_image'
         
         i['type'] = type_
+        i.pop('asw_type_1')
+        i.pop('asw_type_2')
+        i.pop('asw_type_3')
     return data
 
 

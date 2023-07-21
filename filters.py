@@ -34,12 +34,12 @@ def find_qs(term:str):
     return filtered
 
 
-def filter_questions(**kwargs):
+def filter_question_properties(**kwargs):
     for i in list(kwargs):
         assert i in FILTERS1
     
     questions = get_questions()
-    filtered = []
+    filtered = {}
     for q in questions:
         qdata = questions[q]
         
@@ -49,7 +49,7 @@ def filter_questions(**kwargs):
                 filter_ok = False
                 break
         if filter_ok:
-            filtered.append(q)
+            filtered[q] = qdata
     
     return filtered
                     
@@ -59,7 +59,7 @@ def filter_questions_proggress(**kwargs):
     for i in list(kwargs):
         assert i in FILTERS2
     
-    filtered = []
+    filtered = {}
     for q in progress:
         qdata = progress[q]
         
@@ -69,12 +69,12 @@ def filter_questions_proggress(**kwargs):
                 filter_ok = False
                 break
         if filter_ok:
-            filtered.append(q)
+            filtered[q] = qdata
 
     return filtered
 
 
-def combine_filter(**kwargs):
+def filter_questions(**kwargs):
     filters1 = {}
     filters2 = {}
     for i in kwargs:
@@ -86,7 +86,7 @@ def combine_filter(**kwargs):
             raise AttributeError(f'{i} not a valid filter key')
 
     if filters1:
-        filtered1 = filter_questions(**filters1)
+        filtered1 = filter_question_properties(**filters1)
         if not filters2:
             return filtered1
         
@@ -96,12 +96,13 @@ def combine_filter(**kwargs):
             return filtered2
 
     filtered = {}
+    # get filtered twice
     for i in filtered1:
         if i in filtered2:
-            ...
+            filtered[i] = filtered1[i]
     return filtered
 
 
 if __name__ == '__main__':
-    qs = get_questions()
+    print(len(filter_questions(**{'ease': 0})))
     
