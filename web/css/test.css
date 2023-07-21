@@ -16,8 +16,6 @@ body {
     display: flex;
     background-color: #389149;
     color: #fff; /* Choose your desired text color */
-    padding-top: 10px;
-    padding-bottom: 10px;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -69,13 +67,13 @@ body {
     background-color: #f5ab00;
   }  
   
-  button[onclick="correctQuestion()"]{
+  button[onclick="submitQuestion()"]{
     background-color: #008000;
   }
 
   .bar-button{
     float: right;
-    width: 50px;
+    width: 30px;
     font-size: 16px;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -88,10 +86,11 @@ body {
     border-style: solid;
   }
 
-  button[onclick="popInfos()"]{
+  .top-bar a:nth-child(2){
     background-image: url("/img/info.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
   }
 
   #text{
@@ -108,4 +107,139 @@ body {
     left: 20px;
   }
 
+  .asw-container {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-left: 30%;
+  }
   
+  .asw {
+  padding: 5px 0;
+    display: flex;
+    align-items: center; /* Center the elements vertically */
+    white-space: nowrap;
+    margin-top: 15%;
+  }
+  
+
+/* Style the custom checkbox */
+.asw input[type="checkbox"] {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px; /* Add spacing between checkbox and text */
+  appearance: none;
+  outline: none;
+  border: 2px solid #777; /* Border color for the checkbox */
+  border-radius: 4px; /* Optional: Add rounded corners to the checkbox */
+  background-color: white; /* Background color for the checkbox */
+  cursor: pointer;
+}
+
+/* Style the checked state of the custom checkbox */
+.asw input[type="checkbox"]:checked {
+  background-color: #000000; /* Color for the checked checkbox */
+  
+}
+
+.asw input[type="checkbox"]::before {
+  content: "\2714"; /* Checkmark symbol */
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 40px; /* Increase the font size to make the checkmark bigger */
+  color: white; /* Checkmark color */
+}
+
+
+/* Optional: Add hover styles for the checkbox */
+.asw input[type="checkbox"]:hover {
+  border: 2px solid #555; /* Border color on hover */
+}
+
+.nq-button{
+  width: 50px;
+  height: 80px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  background: transparent;
+  cursor: pointer;
+  margin-right: 15px;
+  margin-left: 15px;
+  border: none;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  transition: all 200ms;
+  font-size: 60px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .popup{
+    width: 70%;
+  }
+}
+
+table {
+  width: 100%;
+  text-align: left;
+}
+
+tr {
+  display: table-row;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}

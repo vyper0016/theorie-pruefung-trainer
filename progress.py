@@ -1,5 +1,5 @@
 
-from filters import get_all_questions
+from filters import get_questions
 from scrape import dump_dict, get_json
 from datetime import datetime
 
@@ -8,7 +8,7 @@ DATE_FORMAT = '%d-%m-%Y %H:%M'
 def init_progress():
     init_progress_sets()
     progress = {}
-    for questions in get_all_questions():
+    for questions in get_questions():
         for q in questions:
             progress[q] = {
                 'times_seen': 0,

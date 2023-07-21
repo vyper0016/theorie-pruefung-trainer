@@ -6,6 +6,8 @@ import codecs
 import scrape
 import os
 import zipfile
+from copy import deepcopy
+from progress import init_progress, init_progress_sets
 
 
 IMG_PATH = "./web/assets/img"
@@ -300,6 +302,7 @@ def number_qs(data, output_filename=None):
     for i in data:
         if i['asw_type_1'] == '2':
             i['asw_corr1'] = float(i.pop('asw_1').replace(',', '.'))
+            i['type'] = 'number'
 
     if output_filename:
         with open(output_filename, 'w') as f:
@@ -313,7 +316,7 @@ def sort_videos(data, output_filename='data/vids.json'):
     
     vids = {}
     for i in data:
-        if (i['basic'] == 1 or ',6,' in i['classes']) and i['picture'].endswith('.m4v'):
+        if i['type'] == 'video':
             vids[i['picture']] = {
                 'downloaded': False,
                 'url': scrape.get_video_link_qid(i['number'])
@@ -323,6 +326,27 @@ def sort_videos(data, output_filename='data/vids.json'):
         json.dump(vids, f, indent=3)
     
     return vids
+
+
+def add_question_types(data):
+    for i in data:
+        try:
+            i['type']
+            continue
+        except KeyError:
+            pass
+        
+        if i['picture'] and i['picture'].endswith('.m4v'):
+            type_ = 'video'
+        
+        elif not i['picture']:
+            type_ = 'text_only'
+        
+        else:
+            type_ = 'text_image'
+        
+        i['type'] = type_
+    return data
 
 
 #makes a dict with the 'number' as the key
@@ -350,15 +374,19 @@ def exec_and_filter(dump=False):
     qs = remove_unn(qs)
     qs = replace_categories(qs)
     qs = number_qs(qs)
+    qs = add_question_types(qs)
     print('getting video links...')
     v = sort_videos(qs)
     print('done')
     print('final sort...')
     qs_basic = filter_qs_basic(qs, dump*'js/dbs/questions_basic.json')
     qs_class6 = filter_qs_class6(qs, dump*'js/dbs/questions_class6.json')
+    
+    qs1 = deepcopy(qs)
     sets_class6 = filter_sets_class6(sets, 'data/sets.json')
     final_qs(qs_basic, 'data/questions_b.json')
     final_qs(qs_class6, 'data/questions_6.json')
+    final_qs(qs1, 'data/questions.json')
     
 
     for i, s in zip([qs_basic, qs_class6, sets_class6, v], ['Grundstoff questions', 'class B questions', 'class B sets', 'videos']):
@@ -366,7 +394,10 @@ def exec_and_filter(dump=False):
 
 
 if __name__ == '__main__':
-    scrape.get_categories()
-    get_files_from_apk()
+
+    # scrape.get_categories()
+    # get_files_from_apk()
     exec_and_filter(dump=False)
+    # init_progress()
+    # init_progress_sets()
     

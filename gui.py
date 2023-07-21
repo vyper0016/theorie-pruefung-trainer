@@ -1,5 +1,5 @@
 import eel
-from filters import AVAILABLE_FILTERS
+from filters import AVAILABLE_FILTERS, filter_questions
 import json
 
 eel.init('web')  # Set the web folder path (containing index.html, style.css, and script.js)
@@ -14,6 +14,12 @@ def on_close(page, sockets):
 @eel.expose
 def called_page(page):
     print('called', page)
+    if page.startswith('training_'):
+        filters = eel.getCurrentFilters()()
+        filtered_auesitons = 
+        if page == 'training_30random':
+            ...
+            
 
 @eel.expose
 def get_filter_keys_json():
@@ -26,4 +32,4 @@ def get_filters():
     print(filters)
     
 
- eel.start('index.html', size=(1280, 720))  # Open the GUI window
+eel.start('index.html', size=(1280, 720))  # Open the GUI window
