@@ -1,5 +1,5 @@
 
-from filters import get_questions
+from filters import get_questions, FILTERS2
 from scrape import dump_dict, get_json
 from datetime import datetime
 
@@ -34,6 +34,15 @@ def init_progress_sets():
     
     dump_dict(progress, 'progress_sets.json')
 
+
+def update_progress(qdata):
+    progress = get_json('progress.json')
+    for i in qdata:
+        if i in FILTERS2:
+            progress[qdata['number']][i] = qdata[i]
+            
+    dump_dict(progress, 'progress.json')
+    
 
 if __name__ == '__main__':
     init_progress()

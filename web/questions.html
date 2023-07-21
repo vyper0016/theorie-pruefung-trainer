@@ -18,14 +18,15 @@
     <span id="text">Questions text</span>
 
     <div class="image-holder">
+    <div class="video-container"></div>
     <img id="image" src="assets/img/1.1.02-024-B.jpg">
     <div class="asw-container">
       <span id="asw_pretext">asw pretext</span>
       <div class="asw">
-      <input type="checkbox" name="asw1"><span class="checkmark"></span><span id="asw1">asw1 text</span></div>
-      <div class="asw">
+      <input type="checkbox" name="asw1"><span class="checkmark hideable"></span><span id="asw1" class="hideable">asw1 text</span><span id="asw_hint">asw1 hint</span></div>
+      <div class="asw hideable">hint
       <input type="checkbox" name="asw2"><span class="checkmark"></span><span id="asw2">asw2 text</span></div>
-      <div class="asw">
+      <div class="asw hideable">
       <input type="checkbox" name="asw3"><span class="checkmark"></span><span id="asw3">asw3 text</span></div>
     </div>
   </div>
@@ -61,7 +62,7 @@
         </tr>
         <tr>
           <td>ease:</td>
-          <td><input type="number" min="0" max="2" value="0"></td>
+          <td><input type="number" min="0" max="2" value="0" id="ease"></td>
         </tr>
         <tr>
           <td>Marked:</td>

@@ -27,7 +27,6 @@ def get_files_from_apk():
     os.makedirs(VID_PATH, exist_ok=True)
     os.makedirs('js/en', exist_ok=True)
     os.makedirs('js/dbs', exist_ok=True)
-    extract_imgs(apk)
 
     print('extracting javascript...')
     js_path = f'assets/www/data/{DB_1_OR_2}/'
@@ -39,6 +38,7 @@ def get_files_from_apk():
 
     extract_from_zip(apk, 'js/en', js_path+'ext/GB/tblQuestions.js')
     print('done extracting')
+    return apk
 
 
 def extract_from_zip(apk, output_folder, file_to_extract):
@@ -62,22 +62,21 @@ def extract_files_from_zip_folder(apk, output_folder, folder_to_extract):
                     output_file.write(file_contents)
 
 
-def extract_imgs(apk):
+def extract_imgs(questions):
     print('extracting images...')
-    with open('data/questions_6.json') as f:
-        questions1 = json.load(f)    
-    
-    with open('data/questions_b.json') as f:
-        questions2 = json.load(f)
+    apks = [file for file in os.listdir(APK_PATH) if file.endswith('.apk')]
+    if not apks:
+        print('no apks found in', APK_PATH)
+        quit()
+    apk = APK_PATH + apks[0]
 
     imgs_used = []
 
-    for questions in [questions1, questions2]:
-        for i in questions:
-            if not questions[i]['picture']:
-                continue
-            if questions[i]['picture'].endswith('.jpg') or questions[i]['picture'].endswith('.png'):
-                imgs_used.append(questions[i]['picture'])
+    for i in questions:
+        if not questions[i]['picture']:
+            continue
+        if questions[i]['picture'].endswith('.jpg') or questions[i]['picture'].endswith('.png'):
+            imgs_used.append(questions[i]['picture'])
     imgs_in_apk = 'assets/www/assets/img/images/'
 
     for i in imgs_used:
@@ -361,6 +360,8 @@ def final_qs(data, output_filename):
     
     with open(output_filename, 'w') as f:
         json.dump(questions, f, indent=3)   
+    
+    return questions
 
 
 def exec_and_filter(dump=False):
@@ -389,7 +390,8 @@ def exec_and_filter(dump=False):
     sets_class6 = filter_sets_class6(sets, 'data/sets.json')
     final_qs(qs_basic, 'data/questions_b.json')
     final_qs(qs_class6, 'data/questions_6.json')
-    final_qs(qs1, 'data/questions.json')
+    f = final_qs(qs1, 'data/questions.json')
+    extract_imgs()
     
 
     for i, s in zip([qs_basic, qs_class6, sets_class6, v], ['Grundstoff questions', 'class B questions', 'class B sets', 'videos']):
@@ -397,10 +399,11 @@ def exec_and_filter(dump=False):
 
 
 if __name__ == '__main__':
+    from filters import get_questions
 
     # scrape.get_categories()
     # get_files_from_apk()
-    exec_and_filter(dump=False)
+    #exec_and_filter(dump=False)
     # init_progress()
     # init_progress_sets()
     

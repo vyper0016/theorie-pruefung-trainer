@@ -2,7 +2,10 @@ import eel
 import filters
 import json
 import random
-from scrape import get_json
+from scrape import get_json, dump_dict
+import requests
+from setup_db import VID_PATH
+from progress import update_progress
 
 eel.init('web')  # Set the web folder path (containing index.html, style.css, and script.js)
 
@@ -86,5 +89,33 @@ def get_filters():
     filters = eel.getCurrentFilters()()
     print(filters)
     
+
+def download_video(url, filename):
+    print('downloading', filename, '...')
+    response = requests.get(url)
+    if response.status_code == 200:
+        with open(VID_PATH + '/' + filename, 'wb') as f:
+            f.write(response.content)
+        print(f"{filename} downloaded successfully.")
+    else:
+        print(f"Failed to download {filename} Status code: {response.status_code}")
+
+
+
+@eel.expose
+def get_video(video):
+    vids = get_json('vids.json')
+    if vids[video]['downloaded']:
+        return
+
+    download_video(vids[video]['url'], video)
+    vids[video]['downloaded'] = True
+    dump_dict(vids, 'vids.json')
+
+
+@eel.expose
+def update_question(qdata):
+    update_progress(qdata)
+
 
 eel.start('index.html', size=(1280, 720))  # Open the GUI window

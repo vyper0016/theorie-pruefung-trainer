@@ -120,6 +120,14 @@ body {
     object-fit: contain;
   }
   
+.image-holder video{
+  width: 500px;
+  height: 300px;
+  margin-top: 10px;
+  object-fit: contain;
+  float: left;
+}
+
 #asw_pretext{
   width: 100%;
   text-align: left;
@@ -128,6 +136,16 @@ body {
     margin-left: 10px;
     overflow-wrap: break-word;
     font-size: large;
+  }
+
+  input[type="number"]{
+    height: 25px;
+    width: 60px;
+    font-size: 18px;
+  }
+
+  #asw_hint{
+    margin-left: 11px;
   }
   
   .asw {

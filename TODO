@@ -7,10 +7,10 @@ Todo:
   ✔ delete unnecessary questions in scraped sub_categories.json @done(23-07-19 17:58)
   ✔ add categories to each question @done(23-07-19 17:58)
   ☐ start gui @started(22-07-21 05:42)
-  ☐ fix missing images
-  ☐ handle videos
-  ☐ handle number type
-  ☐ handle the other keys
+  ✔ fix missing images @done(23-07-21 15:05)
+  ✔ handle videos @done(23-07-21 15:56)
+  ✔ handle number type @done(23-07-21 17:15)
+  ✔ handle the other keys @done(23-07-21 17:15)
   ☐ make all the buttons work
   ☐ add the correction
   ☐ fix the answers with the divs in them

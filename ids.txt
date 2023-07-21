@@ -1,20 +1,4 @@
 
-total: qct
-current: qc
-asw_1: asw1
-asw_2: asw2
-asw_3: asw3
-text: text
-asw_pretext: asw_pretext
-points: points
-category: category
-times_seen: ts
-times_right: tr
-last_seen: ls
-info: info
-number: qid (two items have this id)
-stvo: stvo (two items have this id)
-
 ease:
 marked:
 
