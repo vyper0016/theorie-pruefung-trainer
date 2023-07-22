@@ -42,7 +42,21 @@ def update_progress(qdata):
             progress[qdata['number']][i] = qdata[i]
             
     dump_dict(progress, 'progress.json')
-    
+
+
+def submitted_question(qdata, correct:bool):
+    qdata['times_seen'] += 1
+    qdata['last_seen'] = datetime.strftime(datetime.now(), DATE_FORMAT)
+    if correct:
+        qdata['times_right'] += 1
+        if qdata['last_was_right']:
+            qdata['times_right_iar'] += 1
+        qdata['last_was_right'] = True
+    else:
+        qdata['last_was_right'] = False
+        qdata['times_wrong'] += 1
+        
+    update_progress(qdata)
 
 if __name__ == '__main__':
-    init_progress()
+    print()

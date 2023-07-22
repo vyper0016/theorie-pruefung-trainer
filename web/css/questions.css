@@ -73,7 +73,7 @@ body {
     background-color: #f5ab00;
   }  
   
-  button[onclick="submitQuestion()"]{
+  #submitButton{
     background-color: #008000;
   }
 
@@ -92,7 +92,7 @@ body {
     border-style: solid;
   }
 
-  .top-bar a:nth-child(2){
+  a[href="#popup1"]{
     background-image: url("/img/info.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -156,41 +156,30 @@ body {
   }
   
 
-/* Style the custom checkbox */
-.asw input[type="checkbox"] {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px; /* Add spacing between checkbox and text */
-  appearance: none;
-  outline: none;
-  border: 2px solid #777; /* Border color for the checkbox */
-  border-radius: 4px; /* Optional: Add rounded corners to the checkbox */
-  background-color: white; /* Background color for the checkbox */
-  cursor: pointer;
-}
+  .asw input[type="checkbox"] {
+    width: 40px;
+    height: 40px;
+    appearance: none;
+    outline: none;
+    background-image: url('/img/unchecked.png'); /* Default unchecked image */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+    cursor: pointer;
+    margin-right: 12px;
+  }
 
-/* Style the checked state of the custom checkbox */
-.asw input[type="checkbox"]:checked {
-  background-color: #000000; /* Color for the checked checkbox */
+  .left-checkbar{
+    height: 40px;
+    width: 0;
+    margin-right: 5px;
+    border-left: none;
+  }
   
-}
+  .asw input[type="checkbox"]:checked {
+    background-image: url('/img/checked.png'); /* Custom checked image */
+  }
 
-.asw input[type="checkbox"]::before {
-  content: "\2714"; /* Checkmark symbol */
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  text-align: center;
-  line-height: 40px;
-  font-size: 40px; /* Increase the font size to make the checkmark bigger */
-  color: white; /* Checkmark color */
-}
-
-
-/* Optional: Add hover styles for the checkbox */
-.asw input[type="checkbox"]:hover {
-  border: 2px solid #555; /* Border color on hover */
-}
 
 .nq-button{
   width: 50px;

@@ -21,31 +21,41 @@
     <div class="video-container"></div>
     <img id="image" src="assets/img/1.1.02-024-B.jpg">
     <div class="asw-container">
-      <span id="asw_pretext">asw pretext</span>
+      <span id="asw_pretext"></span>
       <div class="asw">
-      <input type="checkbox" name="asw1"><span class="checkmark hideable"></span><span id="asw1" class="hideable">asw1 text</span><span id="asw_hint">asw1 hint</span></div>
-      <div class="asw hideable">hint
-      <input type="checkbox" name="asw2"><span class="checkmark"></span><span id="asw2">asw2 text</span></div>
+        <span class="left-checkbar" id="checkbar1"></span>
+        <input type="checkbox" id="iasw1">
+        <label id="asw1" class="hideable" for="iasw1"></label>
+        <span id="asw_hint"></span>
+      </div>
       <div class="asw hideable">
-      <input type="checkbox" name="asw3"><span class="checkmark"></span><span id="asw3">asw3 text</span></div>
+        <span class="left-checkbar" id="checkbar2"></span>
+        <input type="checkbox" id="iasw2">
+        <label id="asw2" for="iasw2"></label>
+      </div>
+      <div class="asw hideable" id="asw3h">
+        <span class="left-checkbar" id="checkbar3"></span>
+        <input type="checkbox" id="iasw3">
+        <label id="asw3" for="iasw3"></label>
+      </div>
     </div>
   </div>
   </div>
 
   <div class="buttons">
     <button class="q-button" onclick="markQuestion()">Mark</button>
-    <button class="q-button" onclick="submitQuestion()">Submit</button>
+    <button id="submitButton" class="q-button" onclick="submitQuestion()">Submit</button>
   </div>
   <div class="bottom-bar">
     <!-- Content for the bottom bar goes here -->
-      <button class="nq-button" onclick="nextQuestion()"><</button>
+      <button class="nq-button" onclick="previousQuestion()"><</button>
       Question  <span id="qc">1</span>  /  <span id="qct">30</span>
       <button class="nq-button" onclick="nextQuestion()">></button>
   </div>
 
   <div id="popup1" class="overlay">
     <div class="popup">
-      <h2>Question Info</h2>
+      <h2>Question Info <p style="font-size: 13px; color:gray;"> (before this session)</p></h2>
       <a class="close" href="#">&times;</a>
       <div class="content"><table>
         <tr>

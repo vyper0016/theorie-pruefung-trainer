@@ -16730,12 +16730,12 @@
       "marked": false
    },
    "1.2.05-004": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "22-07-2023 20:45",
       "ease": 0,
       "marked": false
    },

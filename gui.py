@@ -6,10 +6,11 @@ from scrape import get_json, dump_dict
 import requests
 from setup_db import VID_PATH
 from progress import update_progress
+import progress
 
 eel.init('web')  # Set the web folder path (containing index.html, style.css, and script.js)
 
-progress = get_json('progress.json')
+current_progress = get_json('progress.json')
 
 def on_close(page, sockets):
     # Perform any cleanup or termination tasks here
@@ -18,7 +19,7 @@ def on_close(page, sockets):
 
 
 def questions_generator_yielder(questions):
-    global progress
+    global current_progress
     for c, q in enumerate(questions):
         dic = {'number': q,
                'total': len(questions),
@@ -27,8 +28,8 @@ def questions_generator_yielder(questions):
         for i in questions[q]:
             dic[i] = questions[q][i]
         
-        for i in progress[q]:
-            dic[i] = progress[q][i]
+        for i in current_progress[q]:
+            dic[i] = current_progress[q][i]
             
         yield dic
 
@@ -117,5 +118,10 @@ def get_video(video):
 def update_question(qdata):
     update_progress(qdata)
 
+
+@eel.expose
+def submitted_question(qdata, correct: bool):
+    return
+    progress.submitted_question(qdata, correct)
 
 eel.start('index.html', size=(1280, 720))  # Open the GUI window
