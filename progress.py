@@ -42,6 +42,7 @@ def update_progress(qdata):
             progress[qdata['number']][i] = qdata[i]
             
     dump_dict(progress, 'progress.json')
+    return progress
 
 
 def submitted_question(qdata, correct:bool):
@@ -56,7 +57,7 @@ def submitted_question(qdata, correct:bool):
         qdata['last_was_right'] = False
         qdata['times_wrong'] += 1
         
-    update_progress(qdata)
+    return update_progress(qdata)
 
 if __name__ == '__main__':
     print()

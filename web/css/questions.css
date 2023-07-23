@@ -50,6 +50,11 @@ body {
     right: 6%; /* Adjust the right position to move the buttons left or right */
   }
 
+  label img{
+    width: fit-content;
+    height: fit-content;
+  }
+
   .q-button {
     margin-bottom: 1%;
     display: flex;

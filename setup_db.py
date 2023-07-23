@@ -229,6 +229,7 @@ def filter_sets_class6(data, output_filename=None):
     filtered = []
     for i in data:
         if i['class_id'] == 6:
+            i.pop('class_id')
             filtered.append(i)
     
     if output_filename:
@@ -347,7 +348,10 @@ def add_question_types(data):
         i['type'] = type_
         i.pop('asw_type_1')
         i.pop('asw_type_2')
-        i.pop('asw_type_3')
+        try:
+            i.pop('asw_type_3')
+        except KeyError:
+            pass
     return data
 
 
@@ -362,6 +366,19 @@ def final_qs(data, output_filename):
         json.dump(questions, f, indent=3)   
     
     return questions
+
+
+#makes a dict with the 'rank' as the key
+def final_sets(sets, output_filename):
+    sets_out = []
+    for i in sets:
+        sets_out.append(i['question_ids'])
+    
+    
+    with open(output_filename, 'w') as f:
+        json.dump(sets_out, f, indent=3)   
+    
+    return sets_out
 
 
 def exec_and_filter(dump=False):
@@ -387,23 +404,22 @@ def exec_and_filter(dump=False):
     qs_class6 = filter_qs_class6(qs, dump*'js/dbs/questions_class6.json')
     
     qs1 = deepcopy(qs)
-    sets_class6 = filter_sets_class6(sets, 'data/sets.json')
+    sets_class6 = filter_sets_class6(sets)
+    sets = final_sets(sets_class6, 'data/sets.json')
     final_qs(qs_basic, 'data/questions_b.json')
     final_qs(qs_class6, 'data/questions_6.json')
     f = final_qs(qs1, 'data/questions.json')
-    extract_imgs()
+    extract_imgs(f)
     
 
-    for i, s in zip([qs_basic, qs_class6, sets_class6, v], ['Grundstoff questions', 'class B questions', 'class B sets', 'videos']):
+    for i, s in zip([qs_basic, qs_class6, sets_class6, f, v], ['Grundstoff questions', 'class B questions', 'class B sets', 'total questions', 'videos']):
         print(len(i), s)
 
 
 if __name__ == '__main__':
-    from filters import get_questions
-
     # scrape.get_categories()
-    # get_files_from_apk()
-    #exec_and_filter(dump=False)
+    #get_files_from_apk()
+    exec_and_filter(dump=False)
     # init_progress()
     # init_progress_sets()
     

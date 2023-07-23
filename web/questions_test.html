@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Page</title>
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <link rel="stylesheet" type="text/css" href="./css/questions.css">
+  <link rel="stylesheet" type="text/css" href="./css/questions_test.css">
+</head>
+<body>
+  <div class="top-bar">
+    <a class="bar-button" href = '/index.html' style="font-weight: bold;">X</a>
+    <a class="bar-button" href="#popup2" style="display: none;"><span style="visibility: hidden;">.</span></a>
+    <!-- Content for the top bar goes here -->
+    <p id="qid" style="float: left; margin-left:15px;"></p>
+    <p style="float: right; margin-right:15px;">Points: <span id="points">2</span></p>
+  </div>
+
+  <div class="content">
+    <span id="text">Questions text</span>
+
+    <div class="image-holder">
+    <div class="video-container"></div>
+    <img id="image" src="assets/img/1.1.02-024-B.jpg">
+    <div class="asw-container">
+      <span id="asw_pretext"></span>
+      <div class="asw">
+        <span class="left-checkbar" id="checkbar1"></span>
+        <input type="checkbox" id="iasw1">
+        <label id="asw1" class="hideable" for="iasw1"></label>
+        <span id="asw_hint"></span>
+      </div>
+      <div class="asw hideable">
+        <span class="left-checkbar" id="checkbar2"></span>
+        <input type="checkbox" id="iasw2">
+        <label id="asw2" for="iasw2"></label>
+      </div>
+      <div class="asw hideable" id="asw3h">
+        <span class="left-checkbar" id="checkbar3"></span>
+        <input type="checkbox" id="iasw3">
+        <label id="asw3" for="iasw3"></label>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="buttons">
+    <button class="q-button" onclick="markQuestion()">Mark</button>
+    <button id="submitButton" class="q-button" onclick="nextQuestion()">Next</button>
+  </div>
+  <div class="bottom-bar">
+    <div class="wrapper">
+        <input class="radio" id="one" name="group" type="radio" checked>
+        <input class="radio" id="two" name="group" type="radio">
+        <div class="tabs">
+          <label class="tab" id="one-tab" for="one">Basic Knowledge</label>
+          <label class="tab" id="two-tab" for="two">B</label>
+        </div>
+
+        <div class="panels">
+          <div class="panel" id="one-panel">
+            <div class="panel-content" id="panel1">
+            </div>
+      
+          </div>
+
+          <div class="panel" id="two-panel">
+            <div class="panel-content" id="panel2"></div>
+          </div>
+        </div>
+     </div>
+  </div>
+
+  <div id="popup2" class="overlay">
+    <div class="popup">
+      <h2>Question Info</h2>
+      <a class="close" href="#">&times;</a>
+      <div class="content">
+        <p id="qinfo">this is the question info</p>
+        <b>stvo: </b><span id="stvo"></span>
+      </div>
+    </div>
+  </div>
+  
+  <script type="text/javascript" src="/eel.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>  
+  <script type="text/javascript" src="./js/questions_test.js"></script>
+</body>
+</html>

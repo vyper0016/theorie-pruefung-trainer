@@ -1,5 +1,5 @@
 function handlePage(page) {
-    eel.called_page(page)
+    eel.called_page(page);
   }
 
   eel.expose(redirect);

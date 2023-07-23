@@ -1,0 +1,25 @@
+
+.box {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 2px;
+  }
+  
+  .set {
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+  }
+
+  .set p{
+    margin-bottom: 1px;
+  }
+
+  .sets-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }

@@ -1,0 +1,89 @@
+
+.bottom-bar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    background: transparent;
+    height: 16vh;
+    width: 100%;
+}
+
+.buttons {
+    top: 80vh; /* Adjust the top position to move the buttons up or down */
+    right: 6%; /* Adjust the right position to move the buttons left or right */
+  }
+
+.index-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 55px;
+    background-color: white;
+    border: solid 1px black;
+    color: black;
+    margin: 1.5px;
+}
+
+.tab{
+    cursor: pointer;
+    padding:10px;
+    margin:0px 1px;
+    background:#ffffff;
+    display:inline-block;
+    color:#000000;
+    border-radius:3px 3px 0px 0px;
+  }
+
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    align-items: first baseline;
+    width: 100%;
+    height: 100%;
+  }
+
+.panel-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.panels{
+    background:#008000;
+    height:100%;
+    width:100%;
+    border-radius:3px;
+    overflow:hidden;
+    padding:10px; 
+    padding-left: 25px;
+  }
+
+.panel{
+display:none;
+animation: fadein .2s;
+}
+
+@keyframes fadein {
+from {
+    opacity:0;
+}
+to {
+    opacity:1;
+}
+}
+
+.radio{
+    display: none;
+}
+#one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel,
+#three:checked ~ .panels #three-panel{
+  display:block
+}
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab{
+  background:#008000;
+  color:#ffffff;
+}

@@ -103,6 +103,21 @@ def filter_questions(**kwargs):
     return filtered
 
 
+def filter_undone_sets():
+    sets = get_json('progress_sets.json')
+    sets_out = []
+    for c, s in enumerate(sets):
+        add = True
+        for i in sets[s]['last_sessions']:
+            if i != 0:
+                add = False
+                break
+        if add:
+            sets_out.append(c)
+    return sets_out
+    
+
+
 if __name__ == '__main__':
-    print(len(filter_questions(**{'ease': 0})))
+    print(filter_undone_sets())
     

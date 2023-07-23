@@ -11,6 +11,9 @@ import progress
 eel.init('web')  # Set the web folder path (containing index.html, style.css, and script.js)
 
 current_progress = get_json('progress.json')
+all_questions = get_json('questions.json')
+sets = get_json('sets.json')
+vids = get_json('vids.json')
 
 def on_close(page, sockets):
     # Perform any cleanup or termination tasks here
@@ -35,8 +38,8 @@ def questions_generator_yielder(questions):
 
 
 @eel.expose
-def called_page(page):
-    global generator
+def called_page(page:str):
+    global generator, current_sid
     print('called', page)
     if page.startswith('training_'):
         current_filters = eel.getCurrentFilters()()
@@ -72,6 +75,19 @@ def called_page(page):
         eel.redirect('/questions.html')
         
         generator = questions_generator_yielder(questions)
+    
+    elif page.startswith('set'):
+        if page == 'set_random':
+            filtered_sets = filters.filter_undone_sets()
+            if not filtered_sets:
+                current_sid = random.randrange(0, 99, 1)
+            else:
+                current_sid = random.choice(filtered_sets)
+        else:
+            current_sid = int(page.replace('set', '')) - 1
+        
+        eel.redirect('/questions_test.html')
+        
         
 
 @eel.expose
@@ -102,11 +118,20 @@ def download_video(url, filename):
         print(f"Failed to download {filename} Status code: {response.status_code}")
 
 
+def get_all_videos_set():
+    global vids, current_sid, sets, all_questions
+    print('here')
+    for q in sets[current_sid]:
+        qdata = all_questions[q]
+        if qdata['type'] == 'video':
+            get_video(qdata['picture'])
+            
 
 @eel.expose
 def get_video(video):
-    vids = get_json('vids.json')
+    global vids
     if vids[video]['downloaded']:
+        print(video, 'already downloaded')
         return
 
     download_video(vids[video]['url'], video)
@@ -116,12 +141,36 @@ def get_video(video):
 
 @eel.expose
 def update_question(qdata):
-    update_progress(qdata)
+    current_progress = update_progress(qdata)
 
 
 @eel.expose
 def submitted_question(qdata, correct: bool):
     return
-    progress.submitted_question(qdata, correct)
+    current_progress = progress.submitted_question(qdata, correct)
+    
+@eel.expose
+def get_sets():
+    sets_progress = get_json('progress_sets.json')
+    return sets_progress
+
+
+@eel.expose
+def get_set_questions():
+    global current_sid, sets, all_questions
+    questions = []
+    
+    for q in sets[current_sid]:
+        question_dic = all_questions[q]
+        
+        for i in current_progress[q]:
+            question_dic[i] = current_progress[q][i]
+        
+        question_dic['state_asw1'] = False
+        question_dic['state_asw2'] = False
+        question_dic['state_asw3'] = False
+        questions.append(question_dic)
+    
+    return questions
 
 eel.start('index.html', size=(1280, 720))  # Open the GUI window

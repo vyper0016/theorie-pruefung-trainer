@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tests Page</title>
+  <link rel="stylesheet" type="text/css" href="./css/index.css">
+  <link rel="stylesheet" type="text/css" href="./css/training.css">
+  <link rel="stylesheet" type="text/css" href="./css/test.css">
+</head>
+<body>
+  <button onclick="history.back()" class="back-button">Go Back</button>
+  <div class="button-container2">
+    <button onclick="handlePage('set_random')">
+      <span>Start random set</span>
+    </button>
+  </div>
+
+  <details>
+    <summary>
+      Sets
+      <span class="icon">👇</span>
+    </summary>
+    <div class="content-foldable sets-container">
+    </div>
+  </details>
+  
+  <script type="text/javascript" src="/eel.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+  <script type="text/javascript" src="./js/test.js"></script>
+  <script type="text/javascript">
+    handlePage('test');
+  </script>
+</body>
+</html>

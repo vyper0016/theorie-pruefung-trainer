@@ -11,6 +11,11 @@ Todo:
   ✔ handle videos @done(23-07-21 15:56)
   ✔ handle number type @done(23-07-21 17:15)
   ✔ handle the other keys @done(23-07-21 17:15)
-  ☐ make all the buttons work
-  ☐ add the correction
-  ☐ fix the answers with the divs in them
+  ✔ make all the buttons work @done(23-07-23 04:09)
+  ✔ add the correction @done(23-07-23 04:09)
+  ✔ fix the answers with the divs in them @done(23-07-23 04:09)
+  ☐ add question remembering for test
+  ☐ update index icons when question is worked on
+  ☐ add Submit button in red on the left
+  ☐ add warning icon with how many left
+  ☐ add submittion function
