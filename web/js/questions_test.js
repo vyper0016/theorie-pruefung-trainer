@@ -161,6 +161,8 @@ function markQuestion(){
 }
 
 function updateIndexIcon(){
+    const qid = document.getElementById('qid');
+    qid.innerHTML = 'Question ' + (current_index + 1);
     const indexIcons = document.querySelectorAll('.index-icon');
     indexIcons.forEach(function(icon, i) {
         if(i === current_index){

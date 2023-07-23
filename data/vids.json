@@ -404,7 +404,7 @@
       "url": "https://storage.googleapis.com/theory-svc-production-2/media/de/2021-04-01/2.2.34-001-M.mp4?GoogleAccessId=ssl-stuff%40drive-free-wp.iam.gserviceaccount.com&Expires=1721241483&Signature=dn2vThPGvBjxJ2vrqHmKwbPniX0ofEKyq9yG8sZY2R7o3VwD8kpXq6vir531kyT1%2FHFRDG5GuDWeEJ4qTO5vL0JE31tvMnCpqbcd1jyCdsTBiDNRAt6gTO3a3UeVLp5zJPIOHWXSj4YyHF3I3CI4vB%2Frjrvc%2F6AaNFnAyRsupf42Tnzrc9ASJjdozeFqd3PUzm3WMJyYr78oiWgiBDXQ73mJ5VupPIPrcZExkhxppLpMrnw95%2BhyTi5c87Yw5Gsh%2FlTapR%2FTXpKMBzSAOR7PpB%2FwLLzC5fwl2GiIi4PIKzw7JUhBlTTwqp%2FXDNLJu7cDrAQ%2F6Htzb7f%2Fa8IVqx4Skg%3D%3D"
    },
    "1.1.07-156-M.m4v": {
-      "downloaded": false,
+      "downloaded": true,
       "url": "https://storage.googleapis.com/theory-svc-production-2/media/de/2021-04-01/1.1.07-156-M.mp4?GoogleAccessId=ssl-stuff%40drive-free-wp.iam.gserviceaccount.com&Expires=1721382348&Signature=Fw%2Ff7bYllHXaO2FKoLQ6EEPMT8wxQOpo7GiAlzHOkPrigNf9GNgQcJ48cFL3tWaAp%2Fkrd7PKVNfFaed6Z5v40wM5xZYBsiA5o13la5CZ9qXP2dQPLLIar6Fcp9dJ2paRnhqqMzw%2B0ivPMTb0ejaIVZQURDnjO3XjL9AssoQGzrTCg1emES%2BNJyw25Z2f0RAdbzGwS7bsuaFKLqarB9jNYjJ2qHBPSIV587zWpB9jZ7UsvasTsaXJUtIHVW%2FGbn2P6a2EIgLrwmAJEd3drzpQEhLp2qgRaDt9gPALSGkLafPU2x5YWFKSIlAxjfwlOJtaqlmhTQ6yJir%2FNle7VC3rsQ%3D%3D"
    },
    "1.1.07-201-M.m4v": {
@@ -552,7 +552,7 @@
       "url": "https://storage.googleapis.com/theory-svc-production-2/media/de/2021-04-01/2.2.34-003-M.mp4?GoogleAccessId=ssl-stuff%40drive-free-wp.iam.gserviceaccount.com&Expires=1721403057&Signature=saX7FE6S8LT3h3l8wv%2FL3%2BG7%2Bg%2FRaQcJI4fnf6nxJ0VYHq%2FVHSXQ8uT9t4Ehh1e%2FTTreKQrpXDHrVWrn2qM1SJN0P1FCNGCV39AV3vMjYopaMRYjupVxmB%2BgupQ6P8BPeMnEpQGGxwxCs11PH%2FBPwwbFhuR4bPhHPM%2Bzl4uaN91cYUzTRE7lv8BanGjWefhJHAoAV00lUHP5UwsV8TTziRs5RcB0YZiXIvZJbWcX3mevbBqH7UaFw9a6IKpiMpqpX9zrzr%2FNag3xXA2GVNfI%2B%2ByiYYbctAL2FQU%2BAdPjR1IRvearBTdBRC3RI5rPuRHwm38zpr6u87a9FQ6zhKoX9w%3D%3D"
    },
    "1.1.07-161-M.m4v": {
-      "downloaded": false,
+      "downloaded": true,
       "url": "https://storage.googleapis.com/theory-svc-production-2/media/de/2021-10-01/1.1.07-161-M.mp4?GoogleAccessId=ssl-stuff%40drive-free-wp.iam.gserviceaccount.com&Expires=1721403060&Signature=rITRkyDyJ1P4uNiQn7fMbjdJXOJ0pVfhrEBmKvnfnZluwvboEjUnXKoq8KGCnk43VcU45HvQGgyj9qcfzuvRYiDsvqnz6MRUO8qO7H10fYHZSQdEwbMdcCkBkAs5yfpSHJIbanjgIeSd%2BocliuVNWh3sXBzPONAyA7Kh%2B1GGh99E6qu8SebGRyRrM3w7GWjk4Gdjl%2BRnnXHF0wbSaXJ244w2CG6WfwexxmCvwrRMqz5As9n0TzWeKXmUhy6NaIN63oiaWPWC6quKCwNtS3fUdDffXYDPzgFkDwNLUuQDWuwIZKhpFmkQRARNUXRlZEqKOYcISOdUPOka01RRR5izyA%3D%3D"
    },
    "1.1.07-205-M.m4v": {
@@ -668,7 +668,7 @@
       "url": "https://storage.googleapis.com/theory-svc-production-2/media/de/2022-10-01/2.1.03-121.mp4?GoogleAccessId=ssl-stuff%40drive-free-wp.iam.gserviceaccount.com&Expires=1721190372&Signature=TunvO7kfRk4K9LKM00F1vxBjmhkn0sKgrRQkrviA8TjaHvuj62wa213aYn5QAf9x2EvR1gOD0JKTJd7a7iP1kNshmF%2FdM5ya8hYXi0Hsc5MRUXxw8QRLwLcrk%2BZ9VLvDfkv1Wni3aRat5499Ry4XHQKeyl4OypHYt614VPfSix%2B1Xt%2BkcsCvACrO4vZ0dE343Xa1Jhuq6GWvyCIDkUFbRs9995OrkNwdVzQdu2PhBVfs%2Buog75DsWDhO0E9Bcnk6h40mV8mBxvGxTW02yEUR9zeuj3RQlFZGASATmimXWiSiNEZkfW31VhHx6Bbrp8IId1pDmDaF8ZQzVJHyAZ9yAw%3D%3D"
    },
    "2.1.06-104-M.m4v": {
-      "downloaded": false,
+      "downloaded": true,
       "url": "https://storage.googleapis.com/theory-svc-production-2/media/de/2022-10-01/2.1.06-104-M.mp4?GoogleAccessId=ssl-stuff%40drive-free-wp.iam.gserviceaccount.com&Expires=1721291098&Signature=jJtZH4hPD9vGLxtTTlUF89V6fnWtk1GX5BWGOXrmR2LkwRUVzRMiylDZWxOgev0fuTHfJbrSMPIKGLDhbX5iiUr%2BL5DrVLUa0A4DYJoMWRMXSB5kgkJAoOtdD4mTq71UzHJjsy4XrxEKxG5Z7N5XHPN0FbVZQlfG4BFaDvp94cQNEgLz11KMBFa%2FMyjo4MCX1481XECcCp%2FO0xCCkupg1g33WFZLokHed74uyKoq4yyEziqTCrhFn%2Fjr0Hw5vLCcFfZxh4eySYqQqBc40GJMOHRnc60QUOJjbqqCioBePCfvibd0ddjUhJ35vAL6joVZB%2FgxqfIabRm8Uau2B86hSg%3D%3D"
    },
    "2.1.06-105.m4v": {
