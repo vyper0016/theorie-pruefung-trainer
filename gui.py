@@ -162,13 +162,19 @@ def get_set_questions():
     
     for q in sets[current_sid]:
         question_dic = all_questions[q]
+        question_dic['number'] = q
         
         for i in current_progress[q]:
             question_dic[i] = current_progress[q][i]
         
-        question_dic['state_asw1'] = False
-        question_dic['state_asw2'] = False
-        question_dic['state_asw3'] = False
+        if question_dic['type'] != 'number':
+            question_dic['state_asw1'] = False
+            question_dic['state_asw2'] = False
+            question_dic['state_asw3'] = False
+        else:
+            question_dic['state_asw1'] = ''
+        
+        question_dic['done'] = False
         questions.append(question_dic)
     
     return questions

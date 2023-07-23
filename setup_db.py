@@ -14,6 +14,7 @@ IMG_PATH = "./web/assets/img"
 VID_PATH = './web/assets/vid'
 APK_PATH = './apk/'
 DB_1_OR_2 = '1'
+VID_URL = 'https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/'
 
 
 def get_files_from_apk():
@@ -319,7 +320,7 @@ def sort_videos(data, output_filename='data/vids.json'):
         if i['type'] == 'video':
             vids[i['picture']] = {
                 'downloaded': False,
-                'url': scrape.get_video_link_qid(i['number'])
+                'url': VID_URL + i['picture']
             }
     
     with open(output_filename, 'w') as f:
@@ -419,7 +420,7 @@ def exec_and_filter(dump=False):
 if __name__ == '__main__':
     # scrape.get_categories()
     #get_files_from_apk()
-    exec_and_filter(dump=False)
+    #exec_and_filter(dump=False)
     # init_progress()
     # init_progress_sets()
     

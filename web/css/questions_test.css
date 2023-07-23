@@ -9,10 +9,34 @@
     width: 100%;
 }
 
+#warning{
+  color: black;
+  display: flex;
+  margin-right: 8vw;
+  white-space: nowrap;
+  font-size: 95%;
+  align-items: center;
+}
+
+#warning img{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
 .buttons {
     top: 80vh; /* Adjust the top position to move the buttons up or down */
-    right: 6%; /* Adjust the right position to move the buttons left or right */
+    right: 2%; /* Adjust the right position to move the buttons left or right */
   }
+
+.q-button{
+  height: 35px;
+  padding: 10px;
+  width: 160px;
+  margin: 1%;
+  border-radius: 1px;
+  border: solid black 1px;
+}
 
 .index-icon{
     display: flex;
@@ -23,7 +47,7 @@
     background-color: white;
     border: solid 1px black;
     color: black;
-    margin: 1.5px;
+    margin: 2.5px;
 }
 
 .tab{

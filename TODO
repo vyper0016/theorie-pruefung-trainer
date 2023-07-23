@@ -14,10 +14,10 @@ Todo:
   ✔ make all the buttons work @done(23-07-23 04:09)
   ✔ add the correction @done(23-07-23 04:09)
   ✔ fix the answers with the divs in them @done(23-07-23 04:09)
-  ☐ add question remembering for test
-  ☐ update index icons when question is worked on
-  ☐ add Submit button in red on the left
-  ☐ add warning icon with how many left
+  ✔ add question remembering for test @done(23-07-23 17:13)
+  ✔ update index icons when question is worked on @done(23-07-23 17:13)
+  ✔ add Submit button in red on the left @done(23-07-23 18:52)
+  ✔ add warning icon with how many left @done(23-07-23 18:52)
   ☐ add submittion function
   ☐ change videos source
   ☐ bypass scraping by getting from apk (low importance)

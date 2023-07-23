@@ -1,6 +1,8 @@
 let current_question;
 let questionsArray = [];
 let current_index = -1;
+let left = 30;
+let submitted = false;
 
 const dataIds = {
     asw1: 'asw_1',
@@ -34,24 +36,15 @@ async function load(){
 
 
 async function nextQuestion(){
-    goToQuestion(current_index + 1);
-    await fillQuestion();
+  if(current_index === 19){
+    const radio2 = document.getElementById('two');
+    radio2.checked = true;
+  }
+  goToQuestion(current_index + 1);
 }
 
 
 async function fillQuestion(){
-  const inputs = document.querySelectorAll('.asw input');
-  inputs.forEach(i => {
-    i.disabled = false;
-    i.value = '';
-    i.checked = false;
-  }); 
-    const checkbars = document.querySelectorAll('.left-checkbar');
-  checkbars.forEach(i => {
-    i.style.border = 'none';
-  }); 
-  const input1 = document.getElementById('iasw1');
-  input1.style.color = 'black';
 
     for (const key in dataIds) {
         const elements = document.querySelectorAll(`#${key}`);
@@ -89,7 +82,10 @@ async function addVideo(video) {
 async function fillMedia(){
     const image = document.getElementById("image");
     image.style.width = '0px';
-    image.style.height = '0px';    
+    image.style.height = '0px';   
+    const acontainer = document.querySelector('.asw-container'); 
+    acontainer.style.marginLeft = '510px';
+
 
     if(current_question['type'] != 'number'){
       const toHide = document.querySelectorAll('.hideable')
@@ -111,34 +107,52 @@ async function fillMedia(){
     container.removeChild(videoElement);
   }
 
-    if(current_question['type'] != 'video'){
-        if(current_question['type'] === 'number'){
-            const toHide = document.querySelectorAll('.hideable')
-            toHide.forEach(element => {
-                element.style.display = 'none';
-              });
+  if(current_question['type'] === 'number'){
+    const toHide = document.querySelectorAll('.hideable')
+    toHide.forEach(element => {
+        element.style.display = 'none';
+      });
 
-            const input = document.getElementById('iasw1');
-            input.setAttribute('type', 'number');
-            input.setAttribute('min', '0');
-            input.setAttribute('max', '1000');
-            input.setAttribute('step', '1');
+    const input = document.getElementById('iasw1');
+    input.setAttribute('type', 'number');
+    input.setAttribute('min', '0');
+    input.setAttribute('max', '1000');
+    input.setAttribute('step', '1');
 
+}
 
-        }
-
-        if(current_question['picture'] != ''){
-            image.style.width = '500px';
-            image.style.height = '300px';     
-            image.src = './assets/img/' + current_question['picture']; // Replace "new_image.jpg" with the desired image source
-
-            
-        }
-    }else{
+    if(current_question['type'] != 'video' && current_question['picture'] != ''){
+      acontainer.style.marginLeft = '10px';
+      image.style.width = '500px';
+      image.style.height = '300px';     
+      image.src = './assets/img/' + current_question['picture']; // Replace "new_image.jpg" with the desired image source
+  
+    }
+    
+    if(current_question['type'] === 'video'){
         video = current_question['picture']
+        acontainer.style.marginLeft = '10px';
+
         await eel.get_video(video);
         await addVideo(video);
     }
+}
+
+
+function updateLeft(){
+  left = 30;
+  questionsArray.forEach(function(q) {
+    if(q['done'])
+      left--;
+  });
+
+  if(left > 0){
+    const n = document.getElementById('qleft');
+    n.innerHTML = left;
+  }else{
+    const warning = document.getElementById('qleft');
+    warning.style.display = 'none';
+  }
 }
 
 
@@ -177,12 +191,40 @@ function updateIndexIcon(){
       });
 }
 
+
+function fillAnswers(){
+  for(let i=1; i<=3; i++){
+    
+    const asw = submitted ? current_question['asw_corr'+i] : current_question['state_asw'+i]
+    var input = document.getElementById('iasw'+i);
+    if(current_question['type'] === 'number'){
+       input.value = asw;
+       break;
+    }else{
+      input.checked = asw;
+      
+    }
+
+    if(submitted){
+      const checkbar = document.getElementById('checkbar'+i)
+      if(current_question['asw_corr'+i] == current_question['state_asw'+i]){
+        checkbar.style.border = 'solid green 4px';
+      }else{
+        checkbar.style.border = 'solid red 4px';
+      }
+    }
+
+  }
+}
+
+
 async function goToQuestion(index){
     current_index = index;
     current_question = questionsArray[current_index];
     updateIndexIcon();
     console.log(current_question);
     await fillQuestion();
+    fillAnswers();
 }
 
 
@@ -220,7 +262,123 @@ function createIndexIcons() {
   }
 
 
+function checkDone(){
+  var done = false;
+  if(current_question['type'] === 'number'){
+    done = current_question['state_asw1'] != '';
+
+  }else{    
+    for(let i = 1; i<=3; i++){
+      if(current_question['state_asw'+i]){
+        done = true;
+        break;
+      }
+    }
+  }
+  current_question['done'] = done;
+  return done;
+}
+
+
+function updateDoneIcons(){
+  const icon = document.getElementById('icon'+current_index);
+  if(checkDone()){
+    icon.style.color = 'white';
+    icon.style.background = '#008000';
+    icon.style.borderColor = 'white';
+  }else{
+    icon.style.color = 'black';
+    icon.style.background = 'white';
+    icon.style.borderColor = 'black';    
+  }
+}
+
+
+function updateAnswers(){
+  for(let i=1; i<=3; i++){
+    var input = document.getElementById('iasw'+i);
+    if(current_question['type'] === 'number'){
+      current_question['state_asw1'] = input.value;
+    }else{
+      current_question['state_asw'+i] = input.checked;
+    }
+  }
+}
+
+
+function addChangeListeners(){
+  const inputs = document.querySelectorAll('.asw');
+
+inputs.forEach(function(input) {
+  input.addEventListener('change', function() {
+    updateAnswers();
+    updateDoneIcons();
+    updateLeft();
+  });
+});
+
+  const radios = document.querySelectorAll('input[type="radio"]');
+  radios.forEach(function(radio, i) {
+    console.log('here')
+    radio.addEventListener('change', function() {
+      // go to question 0 or 19
+      goToQuestion(i*20);   
+    });
+  });
+}
+
+
+function submitTest(){
+  if(left > 0){
+    const response = confirm("There are still " + left + " questions left!\n Are you sure you want to submit?");
+      if (! response) 
+        return;
+  }
+
+  submitted = true;
+
+  for(let i=1;i<=3;i++){
+    const input = document.getElementById('iasw'+i);
+    input.disabled = true;
+  }
+
+  for(let i=0; i<=29; i++){
+    var correct = true;
+    var question = questionsArray[i];
+    if(question['type'] === 'number'){
+      correct = (question['state_asw1'] == question['asw_corr1']);
+    }else{
+    for(let j=1;j<=3;j++){
+      if(question['state_asw'+j] != question['asw_corr'+j]){
+        correct = false;
+        break;
+      }
+    }
+  }
+    question['correct'] = correct;
+    const icon = document.getElementById('icon'+i);
+    if(correct){
+      icon.style.background = 'green';
+    }else{
+      icon.style.background = 'red';
+    }
+  }
+}
+
+
 window.onload = () => {
     createIndexIcons();
+    addChangeListeners();
     load();
   };
+
+
+/*
+window.addEventListener('beforeunload', function (e) {
+    // Cancel the event and show alert that
+    // the unsaved changes would be lost
+    e.preventDefault();
+    e.returnValue = '';
+
+});
+*/

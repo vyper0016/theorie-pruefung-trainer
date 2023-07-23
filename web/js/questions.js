@@ -97,59 +97,57 @@ async function addVideo(video) {
 
 
 async function fillMedia(){
-    const image = document.getElementById("image");
-    image.style.width = '0px';
-    image.style.height = '0px';    
-
-    if(current_question['type'] != 'number'){
+      const image = document.getElementById("image");
+      image.style.width = '0px';
+      image.style.height = '0px';    
+  
+      if(current_question['type'] != 'number'){
+        const toHide = document.querySelectorAll('.hideable')
+        toHide.forEach(element => {
+            element.style.display = 'flex';
+          });
+        
+        const input = document.getElementById('iasw1');
+        input.setAttribute('type', 'checkbox');
+        input.removeAttribute('min');
+        input.removeAttribute('max');
+        input.removeAttribute('step');
+    }        
+    
+    const videoElement = document.querySelector('.video-container video');
+    if (videoElement) {
+      // Remove the video element from the container if present
+      const container = document.querySelector('.video-container');
+      container.removeChild(videoElement);
+    }
+  
+    if(current_question['type'] === 'number'){
       const toHide = document.querySelectorAll('.hideable')
       toHide.forEach(element => {
-          element.style.display = 'flex';
+          element.style.display = 'none';
         });
-      
-      const input = document.getElementById('iasw1');
-      input.setAttribute('type', 'checkbox');
-      input.removeAttribute('min');
-      input.removeAttribute('max');
-      input.removeAttribute('step');
-  }        
   
-  const videoElement = document.querySelector('.video-container video');
-  if (videoElement) {
-    // Remove the video element from the container if present
-    const container = document.querySelector('.video-container');
-    container.removeChild(videoElement);
+      const input = document.getElementById('iasw1');
+      input.setAttribute('type', 'number');
+      input.setAttribute('min', '0');
+      input.setAttribute('max', '1000');
+      input.setAttribute('step', '1');
+  
   }
-
-    if(current_question['type'] != 'video'){
-        if(current_question['type'] === 'number'){
-            const toHide = document.querySelectorAll('.hideable')
-            toHide.forEach(element => {
-                element.style.display = 'none';
-              });
-
-            const input = document.getElementById('iasw1');
-            input.setAttribute('type', 'number');
-            input.setAttribute('min', '0');
-            input.setAttribute('max', '1000');
-            input.setAttribute('step', '1');
-
-
-        }
-
-        if(current_question['picture'] != ''){
-            image.style.width = '500px';
-            image.style.height = '300px';     
-            image.src = './assets/img/' + current_question['picture']; // Replace "new_image.jpg" with the desired image source
-
-            
-        }
-    }else{
-        video = current_question['picture']
-        await eel.get_video(video);
-        await addVideo(video);
-    }
-}
+  
+      if(current_question['type'] != 'video' && current_question['picture'] != ''){
+        image.style.width = '500px';
+        image.style.height = '300px';     
+        image.src = './assets/img/' + current_question['picture']; // Replace "new_image.jpg" with the desired image source
+    
+      }
+      
+      if(current_question['type'] === 'video'){
+          video = current_question['picture']
+          await eel.get_video(video);
+          await addVideo(video);
+      }
+  }
 
 
 function updateMarkButton(){

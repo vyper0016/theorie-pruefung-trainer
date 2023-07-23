@@ -43,10 +43,8 @@
   </div>
   </div>
 
-  <div class="buttons">
-    <button class="q-button" onclick="markQuestion()">Mark</button>
-    <button id="submitButton" class="q-button" onclick="nextQuestion()">Next</button>
-  </div>
+
+
   <div class="bottom-bar">
     <div class="wrapper">
         <input class="radio" id="one" name="group" type="radio" checked>
@@ -68,6 +66,17 @@
           </div>
         </div>
      </div>
+  </div>
+
+  <div class="buttons">
+    <div id="warning">
+      <img src="./img/warning.png">
+      <span id="qleft">30</span>
+      &nbsp;Questions left
+    </div>
+    <button class="q-button" style="background: red;" onclick="submitTest()">Submit</button>
+    <button class="q-button" style="color: black;" onclick="markQuestion()">Mark</button>
+    <button class="q-button" style="background: #008000;"  onclick="nextQuestion()">Next</button>
   </div>
 
   <div id="popup2" class="overlay">

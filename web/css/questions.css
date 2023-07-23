@@ -61,7 +61,7 @@ body {
     flex-direction: row; /* Change to row to align image and text horizontally */
     align-items: center;
     height: 30px;
-    width: 120px;
+    width: 150px;
     padding: 7%;
     font-size: 16px;
     justify-content: center;
