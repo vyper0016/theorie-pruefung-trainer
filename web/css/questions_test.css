@@ -1,4 +1,115 @@
 
+.category-title{
+  width: 30%;
+}
+
+.category-m{
+  width: 5%;
+  
+}
+
+table{
+  padding: 1%;
+}
+
+td{
+  padding: 0;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+}
+
+
+tr .correction-block{
+  height: 30px;
+}
+
+#popup2 .content {
+  height: 100%;
+  overflow: auto;
+  transition: all 50ms;
+  padding: 0;
+  margin: 0;
+}
+
+
+#popup2 {
+  margin: 20px auto;
+  padding: 5px;
+  padding-top: 20px;
+  background: #fff;
+  border-radius: 3px;
+  width: 95%;
+  transition: all 1s ease-in-out;
+}
+
+.overlay{
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.pop-header{
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  align-items: center;
+  padding: 2%;
+}
+
+.correction-block{
+  background: green;
+  height: 30px;
+}
+
+#resultb{
+  width: 200px;
+}
+
+#popup2{
+  color: black;
+  padding: 5px;
+
+}
+
+#resultdiv{
+  position: absolute;
+  right: 15%;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+}
+
+#resultdiv span{
+  font-size: 20px;
+  padding-left: 6%;
+  font-weight: 500;
+}
+
+
+.content h2{
+  width: 100%;
+  display: flex;
+  background: #004080;
+  color: white;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+#popup2 .close {
+  top: 20px;
+  right: 3%;
+  font-size: 60px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #000000;
+}
+
+#popup2 .close:hover {
+  color: #004080;
+}
+
 .bottom-bar{
     display: flex;
     flex-direction: row;

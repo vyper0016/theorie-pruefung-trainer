@@ -9,7 +9,7 @@
 <body>
   <div class="top-bar">
     <a class="bar-button" href = '/index.html' style="font-weight: bold;">X</a>
-    <a class="bar-button" href="#popup2" style="display: none;"><span style="visibility: hidden;">.</span></a>
+    <a class="bar-button" href="#popup1" style="display: none;"><span style="visibility: hidden;">.</span></a>
     <!-- Content for the top bar goes here -->
     <p id="qid" style="float: left; margin-left:15px;">Question 1</p>
     <p style="float: right; margin-right:15px;">Points: <span id="points">2</span></p>
@@ -79,7 +79,7 @@
     <button class="q-button" style="background: #008000;"  onclick="nextQuestion()">Next</button>
   </div>
 
-  <div id="popup2" class="overlay">
+  <div id="popup1" class="overlay">
     <div class="popup">
       <h2>Question Info</h2>
       <a class="close" href="#">&times;</a>
@@ -90,6 +90,48 @@
     </div>
   </div>
   
+
+  <div id="popup2" class="overlay">
+    <div class="popup">
+      <div class="pop-header">
+      <h2>Class B - <span id="mistakes">1</span> Mistake points</h2>
+      <div id="resultdiv">
+        <div class="correction-block" id="resultb"></div>
+        <span id="result_text">passed</span>
+      </div>
+      </div>
+      <a class="close" href="#">&times;</a>
+      <div class="content">
+        <h2>Basic Knowledge -&nbsp;<span id="mistakesb">1</span>&nbsp;Mistake points</h2>
+        <table id="categories1">
+          <tr>
+            <td class="category-title">Danger theory</td>
+            <td class="category-m">7/8</td>
+            <td><div class="correction-block"></div></td>
+            <td><div class="correction-block"></div></td>
+            <td><div class="correction-block"></div></td>
+            <td><div class="correction-block"></div></td>
+            <td><div class="correction-block"></div></td>
+          </tr>          
+          <tr>
+            <td class="category-title">Environment Protection</td>
+            <td class="category-m">1/1</td>
+            <td><div class="correction-block"></div></td>
+            <td><div class="correction-block"></div></td>
+            <td><div class="correction-block"></div></td>
+            <td><div class="correction-block"></div></td>
+            <td><div class="correction-block"></div></td>
+          </tr>
+        </table>
+        <h2>Additive Class B -&nbsp;<span id="mistakes6">1</span>&nbsp;Mistake points</h2>
+        <table id="categories2">
+
+
+        </table>
+      </div>
+    </div>
+  </div>
+
   <script type="text/javascript" src="/eel.js"></script>
   <script type="text/javascript" src="./js/index.js"></script>  
   <script type="text/javascript" src="./js/questions_test.js"></script>

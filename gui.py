@@ -14,6 +14,7 @@ current_progress = get_json('progress.json')
 all_questions = get_json('questions.json')
 sets = get_json('sets.json')
 vids = get_json('vids.json')
+sub_cats = get_json('sub_categories.json')
 
 def on_close(page, sockets):
     # Perform any cleanup or termination tasks here
@@ -163,6 +164,7 @@ def get_set_questions():
     for q in sets[current_sid]:
         question_dic = all_questions[q]
         question_dic['number'] = q
+        question_dic['category_name'] = sub_cats[question_dic['category']]['name']
         
         for i in current_progress[q]:
             question_dic[i] = current_progress[q][i]
@@ -179,4 +181,4 @@ def get_set_questions():
     
     return questions
 
-eel.start('index.html', size=(1280, 720))  # Open the GUI window
+eel.start('index.html', mode='default')  # Open the GUI window

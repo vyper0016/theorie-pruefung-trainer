@@ -3,6 +3,7 @@ let questionsArray = [];
 let current_index = -1;
 let left = 30;
 let submitted = false;
+const categorizedQuestions = {'0':[], '1':[]};
 
 const dataIds = {
     asw1: 'asw_1',
@@ -140,6 +141,7 @@ async function fillMedia(){
 
 
 function updateLeft(){
+
   left = 30;
   questionsArray.forEach(function(q) {
     if(q['done'])
@@ -150,7 +152,7 @@ function updateLeft(){
     const n = document.getElementById('qleft');
     n.innerHTML = left;
   }else{
-    const warning = document.getElementById('qleft');
+    const warning = document.getElementById('warning');
     warning.style.display = 'none';
   }
 }
@@ -319,12 +321,29 @@ inputs.forEach(function(input) {
 
   const radios = document.querySelectorAll('input[type="radio"]');
   radios.forEach(function(radio, i) {
-    console.log('here')
     radio.addEventListener('change', function() {
       // go to question 0 or 19
       goToQuestion(i*20);   
     });
   });
+}
+
+
+function categorizeQuestions(){
+  questionsArray.forEach((question) => {
+    const { category_name, basic } = question;
+    const pushin = categorizedQuestions[String(basic)];
+
+    if (!pushin[category_name]) {
+      // If the category does not exist as a key in the categorizedQuestions object, create a new array for it
+      pushin[category_name] = [question];
+    } else {
+      // If the category already exists as a key, push the question into the corresponding array
+      pushin[category_name].push(question);
+    }
+  });
+  console.log('here')
+
 }
 
 
@@ -337,10 +356,18 @@ function submitTest(){
 
   submitted = true;
 
+  categorizeQuestions();
+
   for(let i=1;i<=3;i++){
     const input = document.getElementById('iasw'+i);
     input.disabled = true;
   }
+
+  const bdiv = document.querySelector('.buttons');
+  bdiv.style.display = 'none'
+
+  const infoa = document.querySelector('a[href="#popup1"]');
+  infoa.style.display = 'block';
 
   for(let i=0; i<=29; i++){
     var correct = true;
@@ -363,6 +390,9 @@ function submitTest(){
       icon.style.background = 'red';
     }
   }
+
+
+
 }
 
 
