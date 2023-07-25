@@ -142,6 +142,7 @@ def get_video(video):
 
 @eel.expose
 def update_question(qdata):
+    return
     current_progress = update_progress(qdata)
 
 
@@ -172,6 +173,7 @@ def get_set_questions():
         if question_dic['type'] != 'number':
             question_dic['state_asw1'] = False
             question_dic['state_asw2'] = False
+        if 'asw_3' in question_dic:
             question_dic['state_asw3'] = False
         else:
             question_dic['state_asw1'] = ''

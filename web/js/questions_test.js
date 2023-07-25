@@ -4,6 +4,7 @@ let current_index = -1;
 let left = 30;
 let submitted = false;
 const categorizedQuestions = {'0':[], '1':[]};
+const categoriesCorrection = {'0':[], '1':[]};
 
 const dataIds = {
     asw1: 'asw_1',
@@ -33,6 +34,8 @@ async function load(){
     await getQuestions();
     console.log(questionsArray);
     await nextQuestion();
+    addVideoIcons();
+    addMarkedChamfers();
 }
 
 
@@ -53,15 +56,6 @@ async function fillQuestion(){
             element.innerHTML = current_question[dataIds[key]];
           });
       }
-      const asw3_div = document.getElementById('asw3h');
-      if('asw_3' in current_question){
-        
-        asw3_div.style.display = 'flex';
-      }else{
-        asw3_div.style.display = 'none';
-      }
-    
-    updateMarkButton();
     await fillMedia();
 }
 
@@ -158,22 +152,23 @@ function updateLeft(){
 }
 
 
-function updateMarkButton(){
+function updateMark(){
   const button = document.querySelector('button[onclick="markQuestion()"]');
+  const chamfer = document.getElementById('chamfer'+current_index);
   if(current_question['marked']){
-    button.innerHTML = 'Unmark'
+    button.innerHTML = 'Unmark';
+    chamfer.style.display = 'block';
   }else{
-    button.innerHTML = 'Mark'
+    button.innerHTML = 'Mark';
+    chamfer.style.display = 'none';
   }
 }
 
 
 function markQuestion(){
   current_question['marked'] = !current_question['marked'];
-  updateMarkButton();
+  updateMark();
   updateProgress();
-  
-
 }
 
 function updateIndexIcon(){
@@ -196,6 +191,8 @@ function updateIndexIcon(){
 
 function fillAnswers(){
   for(let i=1; i<=3; i++){
+    if(! 'state_asw'+i in current_question)
+      break;
     
     const asw = submitted ? current_question['asw_corr'+i] : current_question['state_asw'+i]
     var input = document.getElementById('iasw'+i);
@@ -208,7 +205,7 @@ function fillAnswers(){
     }
 
     if(submitted){
-      const checkbar = document.getElementById('checkbar'+i)
+      const checkbar = document.getElementById('checkbar'+i);
       if(current_question['asw_corr'+i] == current_question['state_asw'+i]){
         checkbar.style.border = 'solid green 4px';
       }else{
@@ -220,13 +217,21 @@ function fillAnswers(){
 }
 
 
+const asw3_div = document.getElementById('asw3h');
 async function goToQuestion(index){
     current_index = index;
     current_question = questionsArray[current_index];
     updateIndexIcon();
     console.log(current_question);
     await fillQuestion();
+    updateMark();
     fillAnswers();
+    if('asw_3' in current_question){
+      asw3_div.style.display = 'flex';
+    }else{
+      asw3_div.style.display = 'none';
+    }
+  
 }
 
 
@@ -242,7 +247,8 @@ function createIndexIcons() {
       const indexIcon = document.createElement("div");
       indexIcon.classList.add("index-icon");
       indexIcon.innerHTML = i+1;
-      indexIcon.id = 'icon' + i
+      indexIcon.id = 'icon' + i;
+      indexIcon.style.position = 'relative';
       indexIcon.onclick = function() {
         goToQuestion(i);
       };
@@ -255,11 +261,13 @@ function createIndexIcons() {
       const indexIcon = document.createElement("div");
       indexIcon.classList.add("index-icon");
       indexIcon.innerHTML = i+1;
+      indexIcon.style.position = 'relative';
       indexIcon.id = 'icon' + i
       indexIcon.onclick = function() {
         goToQuestion(i);
       };
       container.appendChild(indexIcon);
+      
     }
   }
 
@@ -271,6 +279,9 @@ function checkDone(){
 
   }else{    
     for(let i = 1; i<=3; i++){
+      if(! 'state_asw'+i in current_question)
+      break;
+    
       if(current_question['state_asw'+i]){
         done = true;
         break;
@@ -334,15 +345,15 @@ function categorizeQuestions(){
     const { category_name, basic } = question;
     const pushin = categorizedQuestions[String(basic)];
 
-    if (!pushin[category_name]) {
+    if (!categorizedQuestions[String(basic)][category_name]) {
       // If the category does not exist as a key in the categorizedQuestions object, create a new array for it
-      pushin[category_name] = [question];
+      categorizedQuestions[String(basic)][category_name] = [question];
+      categoriesCorrection[String(basic)][category_name] = {'total_points':0, 'correct_points':0, 'questions':[]};
     } else {
       // If the category already exists as a key, push the question into the corresponding array
-      pushin[category_name].push(question);
+      categorizedQuestions[String(basic)][category_name].push(question);
     }
   });
-  console.log('here')
 
 }
 
@@ -372,6 +383,7 @@ function submitTest(){
   for(let i=0; i<=29; i++){
     var correct = true;
     var question = questionsArray[i];
+    const { category_name, basic, points } = question;
     if(question['type'] === 'number'){
       correct = (question['state_asw1'] == question['asw_corr1']);
     }else{
@@ -384,15 +396,44 @@ function submitTest(){
   }
     question['correct'] = correct;
     const icon = document.getElementById('icon'+i);
+    categoriesCorrection[String(basic)][category_name]['total_points'] += points;
+    categoriesCorrection[String(basic)][category_name]['questions'].push(correct);
     if(correct){
+      categoriesCorrection[String(basic)][category_name]['correct_points'] += points;
       icon.style.background = 'green';
     }else{
       icon.style.background = 'red';
     }
   }
 
+  console.log(categoriesCorrection);
+
+}
 
 
+function addVideoIcons(){
+  for(let i=0;i<=29;i++){
+    if(questionsArray[i]['type'] === 'video'){
+      const indexIcon = document.getElementById('icon'+i)
+      const videoIcon = document.createElement('img');
+      videoIcon.src = './img/video.png';
+      videoIcon.classList.add('video-icon');
+      indexIcon.appendChild(videoIcon);}
+  }
+}
+
+
+function addMarkedChamfers(){
+  for(let i=0;i<=29;i++){
+      const indexIcon = document.getElementById('icon'+i)
+      const cham = document.createElement('div');
+      cham.classList.add('chamfer');
+      cham.id = 'chamfer'+i;
+      cham.style.display = 'none';
+      indexIcon.appendChild(cham);
+      if(questionsArray[i]['marked'])
+      cham.style.display = 'block';
+  }
 }
 
 

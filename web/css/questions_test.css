@@ -1,4 +1,42 @@
 
+.chamfer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f5ab00;
+  padding: 7px;
+  width: 20px;
+  transform: translateX(50%) rotate(45deg);
+  /* Your other styles for the chamfer */
+}
+
+.index-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  width: 55px;
+  background-color: white;
+  border: solid 1px black;
+  color: black;
+  margin: 2.5px;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.video-icon{
+  position: absolute;
+  bottom: 10%;
+  right: 2%;
+  width: 30%;
+  height: 30%;
+  padding: 0;
+  margin: 0;
+  object-fit: contain;
+}
+
+
 .category-title{
   width: 30%;
 }
@@ -147,18 +185,6 @@ tr .correction-block{
   margin: 1%;
   border-radius: 1px;
   border: solid black 1px;
-}
-
-.index-icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 32px;
-    width: 55px;
-    background-color: white;
-    border: solid 1px black;
-    color: black;
-    margin: 2.5px;
 }
 
 .tab{
