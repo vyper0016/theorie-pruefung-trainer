@@ -59,5 +59,23 @@ def submitted_question(qdata, correct:bool):
         
     return update_progress(qdata)
 
+
+def update_set(success:bool, set_index: int):
+    sets_progress = get_json('progress_sets.json')
+    progress = sets_progress[str(set_index)]
+    new_session = 1 if success else 2
+    slist = progress['last_sesstions']
+    
+    if 0 in slist:
+        slist[slist.index(0)] = new_session
+        
+    else:
+        slist[0] = slist[1]
+        slist[1] = slist[2]
+        slist[2] = new_session          
+
+    dump_dict(sets_progress, 'progress_sets.json')
+
+
 if __name__ == '__main__':
     print()

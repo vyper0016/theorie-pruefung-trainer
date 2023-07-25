@@ -1,5 +1,5 @@
 
-a = {"e": 1, 'b': 3}
-
-if 'a' in a:
-    print('f')
+a = [1, 2, 3]
+a[a.index(2)] = 55
+        
+print(a)

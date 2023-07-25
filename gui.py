@@ -89,7 +89,6 @@ def called_page(page:str):
         
         eel.redirect('/questions_test.html')
         
-        
 
 @eel.expose
 def get_next_question():
@@ -151,6 +150,7 @@ def submitted_question(qdata, correct: bool):
     return
     current_progress = progress.submitted_question(qdata, correct)
     
+    
 @eel.expose
 def get_sets():
     sets_progress = get_json('progress_sets.json')
@@ -165,7 +165,7 @@ def get_set_questions():
     for q in sets[current_sid]:
         question_dic = all_questions[q]
         question_dic['number'] = q
-        question_dic['category_name'] = sub_cats[question_dic['category']]['name']
+        question_dic['category_name'] = sub_cats[question_dic['category']]['parent']
         
         for i in current_progress[q]:
             question_dic[i] = current_progress[q][i]
@@ -182,5 +182,12 @@ def get_set_questions():
         questions.append(question_dic)
     
     return questions
+
+
+@eel.expose
+def update_set_progress(success:bool):
+    return
+    progress.update_set(success, current_sid)
+
 
 eel.start('index.html', mode='default')  # Open the GUI window

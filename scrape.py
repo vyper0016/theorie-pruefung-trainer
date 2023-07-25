@@ -105,7 +105,7 @@ def get_categories():
         link = d.find('a')['href']
         count = d.find('span', class_='info').text.strip().split(' ')[0]
         count = int(count)
-        subs = scrape_category(link)
+        subs = scrape_category(link, name)
         assert len(subs) == count
         
         categories[cid] = {'name': name, 'link': link, 'count': count, 'subs': subs}
@@ -113,7 +113,7 @@ def get_categories():
     dump_dict(categories, db_name)
 
 
-def scrape_category(url):
+def scrape_category(url, parent):
     db_name = 'sub_categories.json'
     soup = get_soup(url)
     cat_divs = soup.find_all('div', class_='theoryLevel')
@@ -128,7 +128,7 @@ def scrape_category(url):
         count = int(count)
         questions = scrape_sub(link)
         assert count == len(questions)
-        subs[cid] = {'name': name, 'link': link, 'count': count, 'questions': questions}
+        subs[cid] = {'name': name, "parent": parent, 'link': link, 'count': count, 'questions': questions}
 
     dump_dict(subs, db_name)
     return cids
@@ -176,4 +176,4 @@ def get_video_link_qid(qid):
 
 
 if __name__ == '__main__':
-    get_video_link_qid()
+    get_categories()

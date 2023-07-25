@@ -24,7 +24,6 @@
   overflow: hidden;
 }
 
-
 .video-icon{
   position: absolute;
   bottom: 10%;
@@ -48,6 +47,7 @@
 
 table{
   padding: 1%;
+  width: 95%;
 }
 
 td{
@@ -63,6 +63,7 @@ tr .correction-block{
 
 #popup2 .content {
   height: 100%;
+  width: 100%;
   overflow: auto;
   transition: all 50ms;
   padding: 0;
@@ -70,15 +71,17 @@ tr .correction-block{
 }
 
 
-#popup2 {
-  margin: 20px auto;
-  padding: 5px;
-  padding-top: 20px;
-  background: #fff;
-  border-radius: 3px;
-  width: 95%;
-  transition: all 1s ease-in-out;
+#popup2 h2{
+  margin: 0;
 }
+
+#popup2 .popup{
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  padding-top: 20px;
+}
+
 
 .overlay{
   background: rgba(0, 0, 0, 0.9);

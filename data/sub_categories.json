@@ -1,6 +1,7 @@
 {
    "1.1.01": {
       "name": "Basic forms of traffic behavior",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.1.-danger-teaching/1.1.01-basic-forms-of-traffic-behavior",
       "count": 15,
       "questions": [
@@ -23,6 +24,7 @@
    },
    "1.1.02": {
       "name": "Behavior towards pedestrians",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.1.-danger-teaching/1.1.02-behavior-towards-pedestrians",
       "count": 55,
       "questions": [
@@ -85,6 +87,7 @@
    },
    "1.1.03": {
       "name": "Road and weather conditions",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.1.-danger-teaching/1.1.03-road-and-weather-conditions",
       "count": 21,
       "questions": [
@@ -113,6 +116,7 @@
    },
    "1.1.04": {
       "name": "Darkness and poor visibility",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.1.-danger-teaching/1.1.04-darkness-and-poor-visibility",
       "count": 7,
       "questions": [
@@ -127,6 +131,7 @@
    },
    "1.1.05": {
       "name": "Speed",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.1.-danger-teaching/1.1.05-speed",
       "count": 6,
       "questions": [
@@ -140,6 +145,7 @@
    },
    "1.1.06": {
       "name": "Overtaking",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.1.-danger-teaching/1.1.06-overtaking",
       "count": 20,
       "questions": [
@@ -167,6 +173,7 @@
    },
    "1.1.07": {
       "name": "Special traffic situations",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.1.-danger-teaching/1.1.07-special-traffic-situations",
       "count": 78,
       "questions": [
@@ -252,6 +259,7 @@
    },
    "1.1.09": {
       "name": "Alcohol, drugs, medication",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.1.-danger-teaching/1.1.09-alcohol-drugs-medication",
       "count": 23,
       "questions": [
@@ -282,6 +290,7 @@
    },
    "1.1.10": {
       "name": "Health risks",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.1.-danger-teaching/1.1.10-health-risks",
       "count": 1,
       "questions": [
@@ -290,6 +299,7 @@
    },
    "1.2.01": {
       "name": "Basic rules about behaviour in road traffic",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.01-basic-rules-about-behaviour-in-road-traffic",
       "count": 2,
       "questions": [
@@ -299,6 +309,7 @@
    },
    "1.2.02": {
       "name": "Road use",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.02-road-use",
       "count": 9,
       "questions": [
@@ -315,6 +326,7 @@
    },
    "1.2.03": {
       "name": "Speed",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.03-speed",
       "count": 8,
       "questions": [
@@ -330,6 +342,7 @@
    },
    "1.2.04": {
       "name": "Distance",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.04-distance",
       "count": 4,
       "questions": [
@@ -341,6 +354,7 @@
    },
    "1.2.05": {
       "name": "Overtaking",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.05-overtaking",
       "count": 23,
       "questions": [
@@ -371,6 +385,7 @@
    },
    "1.2.06": {
       "name": "Passing",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.06-passing",
       "count": 6,
       "questions": [
@@ -384,6 +399,7 @@
    },
    "1.2.07": {
       "name": "Use of lanes by motor vehicles",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.07-use-of-lanes-by-motor-vehicles",
       "count": 8,
       "questions": [
@@ -399,6 +415,7 @@
    },
    "1.2.09": {
       "name": "Turning, turning and reversing",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.09-turning-turning-and-reversing",
       "count": 45,
       "questions": [
@@ -451,6 +468,7 @@
    },
    "1.2.10": {
       "name": "Entering and starting",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.10-entering-and-starting",
       "count": 8,
       "questions": [
@@ -466,6 +484,7 @@
    },
    "1.2.11": {
       "name": "Special traffic situations",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.11-special-traffic-situations",
       "count": 17,
       "questions": [
@@ -490,6 +509,7 @@
    },
    "1.2.12": {
       "name": "Stopping and parking",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.12-stopping-and-parking",
       "count": 27,
       "questions": [
@@ -524,6 +544,7 @@
    },
    "1.2.16": {
       "name": "Warning signs",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.16-warning-signs",
       "count": 6,
       "questions": [
@@ -537,6 +558,7 @@
    },
    "1.2.17": {
       "name": "Lighting",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.17-lighting",
       "count": 3,
       "questions": [
@@ -547,6 +569,7 @@
    },
    "1.2.19": {
       "name": "Level crossings",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.19-level-crossings",
       "count": 20,
       "questions": [
@@ -574,6 +597,7 @@
    },
    "1.2.20": {
       "name": "Public transport and school buses",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.20-public-transport-and-school-buses",
       "count": 13,
       "questions": [
@@ -594,6 +618,7 @@
    },
    "1.2.22": {
       "name": "Load",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.22-load",
       "count": 7,
       "questions": [
@@ -608,6 +633,7 @@
    },
    "1.2.23": {
       "name": "Other duties of the driver",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.23-other-duties-of-the-driver",
       "count": 6,
       "questions": [
@@ -621,6 +647,7 @@
    },
    "1.2.26": {
       "name": "Behaviour at pedestrian crossings and towards pedestrians",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.26-behaviour-at-pedestrian-crossings-and-towards-pedestrians",
       "count": 17,
       "questions": [
@@ -645,6 +672,7 @@
    },
    "1.2.34": {
       "name": "Accident",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.34-accident",
       "count": 16,
       "questions": [
@@ -668,6 +696,7 @@
    },
    "1.2.36": {
       "name": "Signs and instructions from police officers",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.36-signs-and-instructions-from-police-officers",
       "count": 14,
       "questions": [
@@ -689,6 +718,7 @@
    },
    "1.2.37": {
       "name": "Variable and steady light signals",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.37-variable-and-steady-light-signals",
       "count": 17,
       "questions": [
@@ -713,6 +743,7 @@
    },
    "1.2.38": {
       "name": "Blue flashing light and yellow flashing light",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.2.-behaviour-in-traffic/1.2.38-blue-flashing-light-and-yellow-flashing-light",
       "count": 6,
       "questions": [
@@ -726,6 +757,7 @@
    },
    "1.3.01": {
       "name": "Priority",
+      "parent": "Priority",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.3.-priority/1.3.01-priority",
       "count": 50,
       "questions": [
@@ -783,6 +815,7 @@
    },
    "1.4.40": {
       "name": "Danger sign",
+      "parent": "Road sign",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.4.-road-sign/1.4.40-danger-sign",
       "count": 51,
       "questions": [
@@ -841,6 +874,7 @@
    },
    "1.4.41": {
       "name": "Regulatory sign",
+      "parent": "Road sign",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.4.-road-sign/1.4.41-regulatory-sign",
       "count": 76,
       "questions": [
@@ -924,6 +958,7 @@
    },
    "1.4.42": {
       "name": "Directional sign",
+      "parent": "Road sign",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.4.-road-sign/1.4.42-directional-sign",
       "count": 36,
       "questions": [
@@ -967,6 +1002,7 @@
    },
    "1.4.43": {
       "name": "Traffic facilities",
+      "parent": "Road sign",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.4.-road-sign/1.4.43-traffic-facilities",
       "count": 1,
       "questions": [
@@ -975,6 +1011,7 @@
    },
    "1.5.01": {
       "name": "Environmental protection",
+      "parent": "Environmental protection",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.5.-environmental-protection/1.5.01-environmental-protection",
       "count": 44,
       "questions": [
@@ -1026,12 +1063,14 @@
    },
    "1.6.": {
       "name": "Rules on the operation of the vehicles",
+      "parent": "Rules on the operation of the vehicles",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.6.-rules-on-the-operation-of-the-vehicles/1.6.-rules-on-the-operation-of-the-vehicles",
       "count": 0,
       "questions": []
    },
    "1.7.01": {
       "name": "Driving operation, driving physics, driving technique",
+      "parent": "Technology",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.7.-technology/1.7.01-driving-operation-driving-physics-driving-technique",
       "count": 2,
       "questions": [
@@ -1041,6 +1080,7 @@
    },
    "1.8.01": {
       "name": "Qualification and ability of drivers",
+      "parent": "Qualification and ability of drivers",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.8.-qualification-and-ability-of-drivers/1.8.01-qualification-and-ability-of-drivers",
       "count": 1,
       "questions": [
@@ -1049,6 +1089,7 @@
    },
    "2.1.01": {
       "name": "Basic forms of traffic behaviour",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.1.-danger-teaching/2.1.01-basic-forms-of-traffic-behaviour",
       "count": 9,
       "questions": [
@@ -1065,6 +1106,7 @@
    },
    "2.1.02": {
       "name": "Behaviour towards pedestrians",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.1.-danger-teaching/2.1.02-behaviour-towards-pedestrians",
       "count": 4,
       "questions": [
@@ -1076,6 +1118,7 @@
    },
    "2.1.03": {
       "name": "Road and weather conditions",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.1.-danger-teaching/2.1.03-road-and-weather-conditions",
       "count": 54,
       "questions": [
@@ -1137,6 +1180,7 @@
    },
    "2.1.04": {
       "name": "Darkness and poor visibility",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.1.-danger-teaching/2.1.04-darkness-and-poor-visibility",
       "count": 7,
       "questions": [
@@ -1151,6 +1195,7 @@
    },
    "2.1.05": {
       "name": "Speed",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.1.-danger-teaching/2.1.05-speed",
       "count": 14,
       "questions": [
@@ -1172,6 +1217,7 @@
    },
    "2.1.06": {
       "name": "Overtaking",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.1.-danger-teaching/2.1.06-overtaking",
       "count": 34,
       "questions": [
@@ -1213,6 +1259,7 @@
    },
    "2.1.07": {
       "name": "Special traffic situations",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.1.-danger-teaching/2.1.07-special-traffic-situations",
       "count": 46,
       "questions": [
@@ -1266,6 +1313,7 @@
    },
    "2.1.08": {
       "name": "Motorway",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.1.-danger-teaching/2.1.08-motorway",
       "count": 24,
       "questions": [
@@ -1297,6 +1345,7 @@
    },
    "2.1.09": {
       "name": "Alcohol, drugs, medication",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.1.-danger-teaching/2.1.09-alcohol-drugs-medication",
       "count": 2,
       "questions": [
@@ -1306,6 +1355,7 @@
    },
    "2.1.10": {
       "name": "Fatigue, distraction",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.1.-danger-teaching/2.1.10-fatigue-distraction",
       "count": 8,
       "questions": [
@@ -1321,6 +1371,7 @@
    },
    "2.1.11": {
       "name": "Affective-emotional behaviour in road traffic",
+      "parent": "Danger teaching",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.1.-danger-teaching/2.1.11-affective-emotional-behaviour-in-road-traffic",
       "count": 37,
       "questions": [
@@ -1365,6 +1416,7 @@
    },
    "2.2.02": {
       "name": "Road use",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.02-road-use",
       "count": 14,
       "questions": [
@@ -1386,6 +1438,7 @@
    },
    "2.2.03": {
       "name": "Speed",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.03-speed",
       "count": 37,
       "questions": [
@@ -1430,6 +1483,7 @@
    },
    "2.2.04": {
       "name": "Distance",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.04-distance",
       "count": 19,
       "questions": [
@@ -1456,6 +1510,7 @@
    },
    "2.2.05": {
       "name": "Overtaking",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.05-overtaking",
       "count": 19,
       "questions": [
@@ -1482,6 +1537,7 @@
    },
    "2.2.06": {
       "name": "Use of lanes by motor vehicles",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.06-use-of-lanes-by-motor-vehicles",
       "count": 2,
       "questions": [
@@ -1491,6 +1547,7 @@
    },
    "2.2.07": {
       "name": "Use of lanes by motor vehicles",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.07-use-of-lanes-by-motor-vehicles",
       "count": 11,
       "questions": [
@@ -1509,6 +1566,7 @@
    },
    "2.2.09": {
       "name": "Turning, turning and reversing",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.09-turning-turning-and-reversing",
       "count": 16,
       "questions": [
@@ -1532,6 +1590,7 @@
    },
    "2.2.12": {
       "name": "Stopping and parking",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.12-stopping-and-parking",
       "count": 16,
       "questions": [
@@ -1555,6 +1614,7 @@
    },
    "2.2.13": {
       "name": "Parking time monitoring devices",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.13-parking-time-monitoring-devices",
       "count": 5,
       "questions": [
@@ -1567,6 +1627,7 @@
    },
    "2.2.14": {
       "name": "Duty of care",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.14-duty-of-care",
       "count": 16,
       "questions": [
@@ -1590,6 +1651,7 @@
    },
    "2.2.15": {
       "name": "Immobilisation and towing of vehicles",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.15-immobilisation-and-towing-of-vehicles",
       "count": 15,
       "questions": [
@@ -1612,6 +1674,7 @@
    },
    "2.2.16": {
       "name": "Warning signs",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.16-warning-signs",
       "count": 2,
       "questions": [
@@ -1621,6 +1684,7 @@
    },
    "2.2.17": {
       "name": "Lighting",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.17-lighting",
       "count": 27,
       "questions": [
@@ -1655,6 +1719,7 @@
    },
    "2.2.18": {
       "name": "Motorways and motorways",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.18-motorways-and-motorways",
       "count": 35,
       "questions": [
@@ -1697,6 +1762,7 @@
    },
    "2.2.21": {
       "name": "Passenger transport",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.21-passenger-transport",
       "count": 33,
       "questions": [
@@ -1737,6 +1803,7 @@
    },
    "2.2.22": {
       "name": "Load",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.22-load",
       "count": 53,
       "questions": [
@@ -1797,6 +1864,7 @@
    },
    "2.2.23": {
       "name": "Other duties of the driver",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.23-other-duties-of-the-driver",
       "count": 83,
       "questions": [
@@ -1887,6 +1955,7 @@
    },
    "2.2.26": {
       "name": "Behaviour at pedestrian crossings and towards pedestrians",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.26-behaviour-at-pedestrian-crossings-and-towards-pedestrians",
       "count": 1,
       "questions": [
@@ -1895,6 +1964,7 @@
    },
    "2.2.29": {
       "name": "Excessive road use",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.29-excessive-road-use",
       "count": 4,
       "questions": [
@@ -1906,6 +1976,7 @@
    },
    "2.2.30": {
       "name": "Sunday driving ban",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.30-sunday-driving-ban",
       "count": 6,
       "questions": [
@@ -1919,6 +1990,7 @@
    },
    "2.2.32": {
       "name": "Traffic obstructions",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.32-traffic-obstructions",
       "count": 7,
       "questions": [
@@ -1933,6 +2005,7 @@
    },
    "2.2.34": {
       "name": "Accident",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.34-accident",
       "count": 12,
       "questions": [
@@ -1952,6 +2025,7 @@
    },
    "2.2.37": {
       "name": "Variable and steady light signals",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.37-variable-and-steady-light-signals",
       "count": 7,
       "questions": [
@@ -1966,6 +2040,7 @@
    },
    "2.2.38": {
       "name": "Vehicles with right of way",
+      "parent": "Behaviour in traffic",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.2.-behaviour-in-traffic/2.2.38-vehicles-with-right-of-way",
       "count": 1,
       "questions": [
@@ -1974,6 +2049,7 @@
    },
    "2.4.40": {
       "name": "Danger sign",
+      "parent": "Traffic sign",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.4.-traffic-sign/2.4.40-danger-sign",
       "count": 7,
       "questions": [
@@ -1988,6 +2064,7 @@
    },
    "2.4.41": {
       "name": "Regulatory sign",
+      "parent": "Traffic sign",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.4.-traffic-sign/2.4.41-regulatory-sign",
       "count": 21,
       "questions": [
@@ -2016,6 +2093,7 @@
    },
    "2.4.42": {
       "name": "Directional sign",
+      "parent": "Traffic sign",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.4.-traffic-sign/2.4.42-directional-sign",
       "count": 14,
       "questions": [
@@ -2037,6 +2115,7 @@
    },
    "2.4.43": {
       "name": "Traffic facilities",
+      "parent": "Traffic sign",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.4.-traffic-sign/2.4.43-traffic-facilities",
       "count": 1,
       "questions": [
@@ -2045,6 +2124,7 @@
    },
    "2.5.01": {
       "name": "Environmental protection",
+      "parent": "Environmental protection",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.5.-environmental-protection/2.5.01-environmental-protection",
       "count": 52,
       "questions": [
@@ -2104,6 +2184,7 @@
    },
    "2.6.01": {
       "name": "Examination of the vehicles",
+      "parent": "Rules on the operation of the vehicles",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.6.-rules-on-the-operation-of-the-vehicles/2.6.01-examination-of-the-vehicles",
       "count": 13,
       "questions": [
@@ -2124,6 +2205,7 @@
    },
    "2.6.02": {
       "name": "Admission to road traffic, vehicle documents, driving licence",
+      "parent": "Rules on the operation of the vehicles",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.6.-rules-on-the-operation-of-the-vehicles/2.6.02-admission-to-road-traffic-vehicle-documents-driving-licence",
       "count": 60,
       "questions": [
@@ -2191,6 +2273,7 @@
    },
    "2.6.03": {
       "name": "Trailer operation",
+      "parent": "Rules on the operation of the vehicles",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.6.-rules-on-the-operation-of-the-vehicles/2.6.03-trailer-operation",
       "count": 27,
       "questions": [
@@ -2225,6 +2308,7 @@
    },
    "2.6.04": {
       "name": "Driving and rest periods",
+      "parent": "Rules on the operation of the vehicles",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.6.-rules-on-the-operation-of-the-vehicles/2.6.04-driving-and-rest-periods",
       "count": 28,
       "questions": [
@@ -2260,6 +2344,7 @@
    },
    "2.6.05": {
       "name": "EC monitoring device",
+      "parent": "Rules on the operation of the vehicles",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.6.-rules-on-the-operation-of-the-vehicles/2.6.05-ec-monitoring-device",
       "count": 8,
       "questions": [
@@ -2275,6 +2360,7 @@
    },
    "2.6.06": {
       "name": "Dimensions, weights and speed limiters",
+      "parent": "Rules on the operation of the vehicles",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.6.-rules-on-the-operation-of-the-vehicles/2.6.06-dimensions-weights-and-speed-limiters",
       "count": 27,
       "questions": [
@@ -2309,6 +2395,7 @@
    },
    "2.6.07": {
       "name": "Reading a road map and route planning",
+      "parent": "Rules on the operation of the vehicles",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.6.-rules-on-the-operation-of-the-vehicles/2.6.07-reading-a-road-map-and-route-planning",
       "count": 24,
       "questions": [
@@ -2340,6 +2427,7 @@
    },
    "2.7.01": {
       "name": "Driving operation, driving physics, driving technique",
+      "parent": "Technology",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.7.-technology/2.7.01-driving-operation-driving-physics-driving-technique",
       "count": 150,
       "questions": [
@@ -2497,6 +2585,7 @@
    },
    "2.7.02": {
       "name": "Fault detection, localisation of faults",
+      "parent": "Technology",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.7.-technology/2.7.02-fault-detection-localisation-of-faults",
       "count": 79,
       "questions": [
@@ -2583,6 +2672,7 @@
    },
    "2.7.03": {
       "name": "Combustion engine, fluids, fuel system, electrical system, ignition, power transmission",
+      "parent": "Technology",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.7.-technology/2.7.03-combustion-engine-fluids-fuel-system-electrical-system-ignition-power-transmission",
       "count": 15,
       "questions": [
@@ -2605,6 +2695,7 @@
    },
    "2.7.04": {
       "name": "Lubricants and antifreeze",
+      "parent": "Technology",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.7.-technology/2.7.04-lubricants-and-antifreeze",
       "count": 8,
       "questions": [
@@ -2620,6 +2711,7 @@
    },
    "2.7.05": {
       "name": "Use and maintenance of tyres",
+      "parent": "Technology",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.7.-technology/2.7.05-use-and-maintenance-of-tyres",
       "count": 32,
       "questions": [
@@ -2659,6 +2751,7 @@
    },
    "2.7.06": {
       "name": "Brake systems and cruise control",
+      "parent": "Technology",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.7.-technology/2.7.06-brake-systems-and-cruise-control",
       "count": 69,
       "questions": [
@@ -2735,6 +2828,7 @@
    },
    "2.7.07": {
       "name": "Trailer coupling systems",
+      "parent": "Technology",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.7.-technology/2.7.07-trailer-coupling-systems",
       "count": 31,
       "questions": [
@@ -2773,6 +2867,7 @@
    },
    "2.7.08": {
       "name": "Maintenance of motor vehicles and timely arrangement of repairs",
+      "parent": "Technology",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.7.-technology/2.7.08-maintenance-of-motor-vehicles-and-timely-arrangement-of-repairs",
       "count": 11,
       "questions": [
@@ -2791,6 +2886,7 @@
    },
    "2.7.09": {
       "name": "Receipt, transport and delivery of goods",
+      "parent": "Technology",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.7.-technology/2.7.09-receipt-transport-and-delivery-of-goods",
       "count": 19,
       "questions": [
@@ -2817,6 +2913,7 @@
    },
    "2.7.10": {
       "name": "Equipment of vehicles",
+      "parent": "Technology",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.7.-technology/2.7.10-equipment-of-vehicles",
       "count": 15,
       "questions": [
@@ -2839,6 +2936,7 @@
    },
    "2.8.01": {
       "name": "Qualification and ability of truck drivers",
+      "parent": "Qualification and ability of truck drivers",
       "link": "https://www.clickclickdrive.de/fragenkatalog/en/2.8.-qualification-and-ability-of-truck-drivers/2.8.01-qualification-and-ability-of-truck-drivers",
       "count": 15,
       "questions": [

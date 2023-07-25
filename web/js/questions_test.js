@@ -4,7 +4,7 @@ let current_index = -1;
 let left = 30;
 let submitted = false;
 const categorizedQuestions = {'0':[], '1':[]};
-const categoriesCorrection = {'0':[], '1':[]};
+const categoriesCorrection = {'0':{}, '1':{}};
 
 const dataIds = {
     asw1: 'asw_1',
@@ -297,7 +297,7 @@ function updateDoneIcons(){
   const icon = document.getElementById('icon'+current_index);
   if(checkDone()){
     icon.style.color = 'white';
-    icon.style.background = '#008000';
+    icon.style.background = 'green';
     icon.style.borderColor = 'white';
   }else{
     icon.style.color = 'black';
@@ -348,13 +348,70 @@ function categorizeQuestions(){
     if (!categorizedQuestions[String(basic)][category_name]) {
       // If the category does not exist as a key in the categorizedQuestions object, create a new array for it
       categorizedQuestions[String(basic)][category_name] = [question];
-      categoriesCorrection[String(basic)][category_name] = {'total_points':0, 'correct_points':0, 'questions':[]};
+      categoriesCorrection[String(basic)][category_name] =  {'total_points':0, 'correct_points':0, 'questions':[]};
     } else {
       // If the category already exists as a key, push the question into the corresponding array
       categorizedQuestions[String(basic)][category_name].push(question);
     }
   });
 
+}
+
+
+function fillTable(){
+  const total_mistakes_span = document.getElementById('mistakes');
+  var total_mistakes = 0;
+  var five_point_mistakes = 0;
+
+  for(let t=0;t<=1;t++){
+    var mistakes = 0;
+    const table = document.getElementById('table'+t);
+    const mistakes_span = document.getElementById('mistakes'+t);
+
+    const d =categoriesCorrection[String(t)];
+    for (const category in d) {
+      if (d.hasOwnProperty(category)) {
+        const cdata = d[category];
+        const {total_points, correct_points, questions} = cdata;
+        const row = table.insertRow();
+        const name_cell = row.insertCell(0);
+        name_cell.textContent = category;
+        name_cell.classList.add('category-title');
+        const points_cell = row.insertCell(1);
+        points_cell.classList.add('category-m');
+        points_cell.textContent = `${correct_points}/${total_points}`;
+        mistakes += (total_points - correct_points);
+
+        questions.forEach((q, index) => {
+          const q_points = q[0]
+          const cell = row.insertCell(index+2);
+          const div_block = document.createElement('div');
+          div_block.classList.add('correction-block');
+          div_block.setAttribute('title', q_points + ' Points');
+          cell.appendChild(div_block);
+          if(q[1])
+            div_block.style.background = 'green';
+          else{
+            div_block.style.background = 'red';
+            if(q_points === 5)
+              five_point_mistakes ++;
+          }
+
+        });
+      }
+    }
+
+    mistakes_span.innerHTML = mistakes;
+    total_mistakes += mistakes;
+  }
+
+
+  total_mistakes_span.innerHTML = total_mistakes;
+  // success test
+  if(total_mistakes > 10 || five_point_mistakes >= 2)
+    return false;
+  else
+    return true;
 }
 
 
@@ -368,6 +425,7 @@ function submitTest(){
   submitted = true;
 
   categorizeQuestions();
+  fillAnswers();
 
   for(let i=1;i<=3;i++){
     const input = document.getElementById('iasw'+i);
@@ -377,7 +435,11 @@ function submitTest(){
   const bdiv = document.querySelector('.buttons');
   bdiv.style.display = 'none'
 
-  const infoa = document.querySelector('a[href="#popup1"]');
+  var infoa = document.querySelector('a[href="#popup1"]');
+  infoa.style.display = 'block';
+
+  
+  var infoa = document.querySelector('a[href="#popup2"]');
   infoa.style.display = 'block';
 
   for(let i=0; i<=29; i++){
@@ -397,7 +459,7 @@ function submitTest(){
     question['correct'] = correct;
     const icon = document.getElementById('icon'+i);
     categoriesCorrection[String(basic)][category_name]['total_points'] += points;
-    categoriesCorrection[String(basic)][category_name]['questions'].push(correct);
+    categoriesCorrection[String(basic)][category_name]['questions'].push([points, correct]);
     if(correct){
       categoriesCorrection[String(basic)][category_name]['correct_points'] += points;
       icon.style.background = 'green';
@@ -406,8 +468,20 @@ function submitTest(){
     }
   }
 
-  console.log(categoriesCorrection);
+  var success = fillTable();
+  const success_block = document.getElementById('resultb');
+  const success_text = document.getElementById('result_text');
 
+  if(success){
+    success_block.style.background = 'green';
+    success_text.innerHTML = 'Success';
+  }else{
+    success_block.style.background = 'red';
+    success_text.innerHTML = 'Failed';
+  }
+
+  eel.update_set_progress(success);
+  redirect('#popup2');
 }
 
 
