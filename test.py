@@ -1,5 +1,5 @@
 
 a = [1, 2, 3]
-a[a.index(2)] = 55
+a.remove(1)
         
 print(a)

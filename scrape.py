@@ -111,6 +111,7 @@ def get_categories():
         categories[cid] = {'name': name, 'link': link, 'count': count, 'subs': subs}
     
     dump_dict(categories, db_name)
+    remove_unused_questions()
 
 
 def scrape_category(url, parent):
@@ -175,5 +176,39 @@ def get_video_link_qid(qid):
     print('could not find', qid)
 
 
+def add_lacking_questions():
+    subs = get_json('sub_categories.json')
+    questions = get_json('questions.json')
+    a = 0
+    t = 0
+    for q in questions:
+        t+=1
+        qs = subs[questions[q]['category']]['questions']
+        if q not in qs:
+            qs.append(q)
+            a += 1
+    dump_dict(subs, 'sub_categories.json')
+    print('added', a, 'questions')
+    print(t, 'total')
+    
+
+
+def remove_unused_questions():
+    subs = get_json('sub_categories.json')
+    questions = get_json('questions.json')
+    r = 0
+    t = 0
+    for s in subs:
+        for q in subs[s]['questions']:
+            if q not in questions:
+                r += 1
+                subs[s]['questions'].remove(q)
+            else:
+                t += 1
+    dump_dict(subs, 'sub_categories.json')
+    print('removed', r, 'unused questions from scrape data')
+    print(t, 'Scraped questions total left')
+    
 if __name__ == '__main__':
-    get_categories()
+    add_lacking_questions()
+    remove_unused_questions()

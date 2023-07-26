@@ -147,7 +147,6 @@ def update_question(qdata):
 
 @eel.expose
 def submitted_question(qdata, correct: bool):
-    return
     current_progress = progress.submitted_question(qdata, correct)
     
     
@@ -160,6 +159,8 @@ def get_sets():
 @eel.expose
 def get_set_questions():
     global current_sid, sets, all_questions
+    print('set', current_sid)
+    print(sets[current_sid])
     questions = []
     
     for q in sets[current_sid]:
@@ -186,8 +187,15 @@ def get_set_questions():
 
 @eel.expose
 def update_set_progress(success:bool):
-    return
     progress.update_set(success, current_sid)
 
+
+@eel.expose
+def get_unseen():
+    s = 0
+    for i in current_progress:
+        if current_progress[i]['times_seen'] == 0:
+            s += 1
+    return s
 
 eel.start('index.html', mode='default')  # Open the GUI window

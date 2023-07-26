@@ -64,7 +64,7 @@ def update_set(success:bool, set_index: int):
     sets_progress = get_json('progress_sets.json')
     progress = sets_progress[str(set_index)]
     new_session = 1 if success else 2
-    slist = progress['last_sesstions']
+    slist = progress['last_sessions']
     
     if 0 in slist:
         slist[slist.index(0)] = new_session
@@ -77,5 +77,37 @@ def update_set(success:bool, set_index: int):
     dump_dict(sets_progress, 'progress_sets.json')
 
 
+def get_stats():
+    stats = []
+    total_stats = {'mastered': 0, 'wrong': 0, 'not_seen': 0, 'practiced': 0,'total': 0}
+    cats = get_json('categories.json')
+    subs = get_json('sub_categories.json')
+    progress = get_json('progress.json')
+    for c in cats:
+        stats_c = {'category_name': cats[c]['name'], 'cid': c, 
+                    'mastered': 0, 'not_seen':0, 'wrong': 0, 'practiced': 0, 'total': 0}
+        for s in cats[c]['subs']:
+            sub = subs[s]
+            for q in sub['questions']:
+                stats_c['total'] += 1
+                total_stats['total'] += 1
+                if progress[q]['times_seen'] == 0:
+                    stats_c['not_seen'] += 1
+                    total_stats['not_seen'] += 1
+                elif progress[q]['times_wrong'] > 0 and not progress[q]['last_was_right']:
+                    stats_c['wrong'] += 1
+                    total_stats['wrong'] += 1
+                elif progress[q]['times_right_iar'] > 1:
+                    stats_c['mastered'] += 1
+                    total_stats['mastered'] += 1
+                else:
+                    stats_c['practiced'] += 1
+                    total_stats['practiced'] += 1
+        stats.append(stats_c)
+    
+    return (total_stats, stats)
+                
+
+
 if __name__ == '__main__':
-    print()
+    get_stats()

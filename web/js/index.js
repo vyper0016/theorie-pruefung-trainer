@@ -11,3 +11,8 @@ eel.expose(alertMsg)
 function alertMsg(msg){
   alert(msg);
 }
+
+async function load_unseen(){
+  const qu = document.getElementById('qs_unseen');
+  qu.innerHTML = await eel.get_unseen()();
+}

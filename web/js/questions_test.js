@@ -480,8 +480,15 @@ function submitTest(){
     success_text.innerHTML = 'Failed';
   }
 
-  eel.update_set_progress(success);
+  
   redirect('#popup2');
+
+  eel.update_set_progress(success);
+  questionsArray.forEach(q => {
+    eel.submitted_question(q, q['correct']);
+  });
+
+
 }
 
 
@@ -518,7 +525,7 @@ window.onload = () => {
   };
 
 
-/*
+
 window.addEventListener('beforeunload', function (e) {
     // Cancel the event and show alert that
     // the unsaved changes would be lost
@@ -526,4 +533,3 @@ window.addEventListener('beforeunload', function (e) {
     e.returnValue = '';
 
 });
-*/
