@@ -77,6 +77,23 @@ def update_set(success:bool, set_index: int):
     dump_dict(sets_progress, 'progress_sets.json')
 
 
+def get_total_stats():
+    total_stats = {'mastered': 0, 'wrong': 0, 'not_seen': 0, 'practiced': 0,'total': 0}
+    progress = get_json('progress.json')
+    for q in progress:
+        total_stats['total'] += 1
+        if progress[q]['times_seen'] == 0:
+            total_stats['not_seen'] += 1
+        elif progress[q]['times_wrong'] > 0 and not progress[q]['last_was_right']:
+            total_stats['wrong'] += 1
+        elif progress[q]['times_right_iar'] > 1:
+            total_stats['mastered'] += 1
+        else:
+            total_stats['practiced'] += 1
+    
+    return total_stats
+
+
 def get_stats():
     stats = []
     total_stats = {'mastered': 0, 'wrong': 0, 'not_seen': 0, 'practiced': 0,'total': 0}
@@ -108,6 +125,5 @@ def get_stats():
     return (total_stats, stats)
                 
 
-
 if __name__ == '__main__':
-    get_stats()
+    print(get_total_stats())

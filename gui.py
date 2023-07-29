@@ -198,4 +198,10 @@ def get_unseen():
             s += 1
     return s
 
+
+@eel.expose
+def get_category_stats():
+    return progress.get_stats()
+
+
 eel.start('index.html', mode='default')  # Open the GUI window

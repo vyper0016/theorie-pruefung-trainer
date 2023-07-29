@@ -105,6 +105,8 @@ def get_categories():
         link = d.find('a')['href']
         count = d.find('span', class_='info').text.strip().split(' ')[0]
         count = int(count)
+        if count == 0:
+            continue
         subs = scrape_category(link, name)
         assert len(subs) == count
         
@@ -127,6 +129,8 @@ def scrape_category(url, parent):
         link = d.find('a')['href']    
         count = d.find('span', class_='info').text.strip().split(' ')[0]
         count = int(count)
+        if count == 0:
+            continue
         questions = scrape_sub(link)
         assert count == len(questions)
         subs[cid] = {'name': name, "parent": parent, 'link': link, 'count': count, 'questions': questions}

@@ -938,13 +938,6 @@
          "1.5.01-134"
       ]
    },
-   "1.6.": {
-      "name": "Rules on the operation of the vehicles",
-      "parent": "Rules on the operation of the vehicles",
-      "link": "https://www.clickclickdrive.de/fragenkatalog/en/1.6.-rules-on-the-operation-of-the-vehicles/1.6.-rules-on-the-operation-of-the-vehicles",
-      "count": 0,
-      "questions": []
-   },
    "1.7.01": {
       "name": "Driving operation, driving physics, driving technique",
       "parent": "Technology",
