@@ -120,8 +120,11 @@ async function fillMedia(){
       acontainer.style.marginLeft = '10px';
       image.style.width = '500px';
       image.style.height = '300px';     
-      image.src = './assets/img/' + current_question['picture']; // Replace "new_image.jpg" with the desired image source
-  
+      image.src = './assets/img/' + current_question['picture'];
+      image.addEventListener('click', function() {
+        const url = './assets/img/' + current_question['picture'];
+        window.open(url, '_blank');
+      });
     }
     
     if(current_question['type'] === 'video'){
@@ -167,9 +170,10 @@ function updateMark(){
 
 function markQuestion(){
   current_question['marked'] = !current_question['marked'];
-  updateMark();
-  updateProgress();
+  updateMarkButton();
+  eel.mark_question(current_question['number'], current_question['marked']);
 }
+
 
 function updateIndexIcon(){
     const qid = document.getElementById('qid');
@@ -232,11 +236,6 @@ async function goToQuestion(index){
       asw3_div.style.display = 'none';
     }
   
-}
-
-
-function updateProgress(){
-  eel.update_question(current_question);
 }
 
 

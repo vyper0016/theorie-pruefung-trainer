@@ -3,18 +3,14 @@ from scrape import get_json
 
 FILTERS1 = ['type', 'points', 'category', 'mq_flag']
 
+all_questions = get_json('questions.json')
 progress = get_json('progress.json')
 q1 = progress[list(progress)[0]]
 FILTERS2 = list(q1.keys())
+FILTERS2.append('mastered')
 AVAILABLE_FILTERS = FILTERS1 + FILTERS2
 del progress
 del q1
-
-
-def get_questions():
-    with open('data/questions.json', 'r') as f:
-        return json.load(f)
-
 
 def find_qs(term:str):
 
@@ -38,13 +34,13 @@ def filter_question_properties(**kwargs):
     for i in list(kwargs):
         assert i in FILTERS1
     
-    questions = get_questions()
+    questions = all_questions
     filtered = {}
     for q in questions:
         qdata = questions[q]
         
         filter_ok = True
-        for key, value in kwargs.items():
+        for key, value in kwargs.items():           
             if qdata[key] != value:
                 filter_ok = False
                 break
@@ -65,11 +61,20 @@ def filter_questions_proggress(**kwargs):
         
         filter_ok = True
         for key, value in kwargs.items():
+            
+            if key == 'mastered':
+                filter_ok = (value == (qdata['times_right_iar'] > 1 and qdata['last_was_right']))
+                if not filter_ok:
+                    break
+                continue
+            
             if qdata[key] != value:
                 filter_ok = False
                 break
         if filter_ok:
             filtered[q] = qdata
+            for i in all_questions[q]:
+                progress[q][i] = all_questions[q][i]
 
     return filtered
 
@@ -117,7 +122,6 @@ def filter_undone_sets():
     return sets_out
     
 
-
 if __name__ == '__main__':
-    print(filter_undone_sets())
+    print(filter_questions(mastered=False))
     

@@ -1,15 +1,20 @@
 
-from filters import get_questions, FILTERS2
+from filters import FILTERS2
 from scrape import dump_dict, get_json
-from datetime import datetime
+from datetime import datetime, timedelta
 
 DATE_FORMAT = '%d-%m-%Y %H:%M'
+
+all_questions = get_json('questions.json')
+TOTAL = len(all_questions)
+
+STAT_DAYS = 10  #number of days to get stats for
 
 def init_progress():
     init_progress_sets()
     progress = {}
     
-    for q in get_questions():
+    for q in all_questions:
         progress[q] = {
             'times_seen': 0,
             'times_wrong': 0,
@@ -22,42 +27,55 @@ def init_progress():
         }
     
     dump_dict(progress, 'progress.json')
+    log = {
+            "04-08-2000 16:41": {
+                "mastered": 0,
+                "wrong": 0,
+                "practiced": 0,
+                'not_seen': TOTAL
+            }
+                }
+    dump_dict(log, 'progress_log.json')
 
 
 def init_progress_sets():
     progress = {}
-    sets = get_json('sets.json')
-    for s in sets:
-        progress[str(s['rank'])] = {
+    t = len(get_json('sets.json'))
+    for c in range(t):
+        progress[c] = {
             'last_sessions': [0, 0, 0]      # 0 not seen, 1 success, 2 fail
         }
     
     dump_dict(progress, 'progress_sets.json')
 
 
-def update_progress(qdata):
+def log_progress():
+    progress = get_json('progress_log.json')
+    progress[datetime.strftime(datetime.now(), DATE_FORMAT)] = get_total_stats()
+    dump_dict(progress, 'progress_log.json')
+    
+
+def mark_question(qid, mark: bool):
     progress = get_json('progress.json')
-    for i in qdata:
-        if i in FILTERS2:
-            progress[qdata['number']][i] = qdata[i]
-            
+    progress[qid]['marked'] = mark
     dump_dict(progress, 'progress.json')
-    return progress
+    
 
-
-def submitted_question(qdata, correct:bool):
-    qdata['times_seen'] += 1
-    qdata['last_seen'] = datetime.strftime(datetime.now(), DATE_FORMAT)
+def submitted_question(qid, correct:bool):
+    progress = get_json('progress.json')
+    progress[qid]['times_seen'] += 1
+    progress[qid]['last_seen'] = datetime.strftime(datetime.now(), DATE_FORMAT)
     if correct:
-        qdata['times_right'] += 1
-        if qdata['last_was_right']:
-            qdata['times_right_iar'] += 1
-        qdata['last_was_right'] = True
+        progress[qid]['times_right'] += 1
+        progress[qid]['times_right_iar'] += 1
+        progress[qid]['last_was_right'] = True
     else:
-        qdata['last_was_right'] = False
-        qdata['times_wrong'] += 1
-        
-    return update_progress(qdata)
+        progress[qid]['last_was_right'] = False
+        progress[qid]['times_right_iar'] = 0
+        progress[qid]['times_wrong'] += 1
+    
+    dump_dict(progress, 'progress.json')
+    log_progress()
 
 
 def update_set(success:bool, set_index: int):
@@ -78,10 +96,9 @@ def update_set(success:bool, set_index: int):
 
 
 def get_total_stats():
-    total_stats = {'mastered': 0, 'wrong': 0, 'not_seen': 0, 'practiced': 0,'total': 0}
+    total_stats = {'mastered': 0, 'wrong': 0, 'not_seen': 0, 'practiced': 0}
     progress = get_json('progress.json')
     for q in progress:
-        total_stats['total'] += 1
         if progress[q]['times_seen'] == 0:
             total_stats['not_seen'] += 1
         elif progress[q]['times_wrong'] > 0 and not progress[q]['last_was_right']:
@@ -122,8 +139,68 @@ def get_stats():
                     total_stats['practiced'] += 1
         stats.append(stats_c)
     
-    return (total_stats, stats)
-                
+    return {'total': total_stats, 'category_stats': stats, 
+            'last_hour': last_hour_progress(), 'days': last_days_progress()}
+   
 
+# return how many questions seen during the last hour
+def last_hour_progress():
+    now = datetime.now()
+    logs = get_json('progress_log.json')
+    keys = logs.keys()
+    last_key = list(keys)[-1]
+    date_last = datetime.strptime(last_key, DATE_FORMAT)
+    if (now - date_last).total_seconds() > 3600:
+        return 0
+    not_seen1 = logs[last_key]['not_seen']
+    reversed_keys = reversed(keys)
+    for i in reversed_keys:
+        date = datetime.strptime(i, DATE_FORMAT)
+        delta = now - date
+        if delta.total_seconds() > 3600:
+            return logs[i]['not_seen'] - not_seen1
+
+
+def compare_days(date1: datetime, date2: datetime):
+    return [date1.day, date1.month, date1.year] == [date2.day, date2.month, date2.year]
+
+
+def format_date(date_string):
+    parsed_date = datetime.strptime(date_string, '%d/%m/%Y')
+    return parsed_date.strftime('%d/%m')
+
+def last_days_progress():
+    # Get today's date
+    today = datetime.today().date()
+    
+    logs = get_json('progress_log.json')
+    keys = list(logs.keys()) 
+    days = {}
+
+    # Generate the last days (including the current day)
+    for _ in range(STAT_DAYS):
+        day = today
+        day_s = day.strftime('%d/%m/%Y')
+        today -= timedelta(days=1)
+        days[day_s] = {}
+    days_list = list(days.keys())
+       
+    cl = len(keys) - 1  # counter logs
+    for day in range(STAT_DAYS):
+        current_day = datetime.strptime(days_list[day], '%d/%m/%Y')
+        log_date = keys[cl]
+        log_datetime = datetime.strptime(log_date, DATE_FORMAT)
+        if compare_days(log_datetime, current_day):
+            days[days_list[day]] = logs[log_date]
+            while compare_days(log_datetime, current_day):
+                cl -= 1
+                log_date = keys[cl]
+                log_datetime = datetime.strptime(log_date, DATE_FORMAT)
+        else:
+            days[days_list[day]] = logs[log_date]
+    
+    return {format_date(key): value for key, value in reversed(days.items())}
+        
+        
 if __name__ == '__main__':
-    print(get_total_stats())
+    init_progress()

@@ -5,12 +5,10 @@ import random
 from scrape import get_json, dump_dict
 import requests
 from setup_db import VID_PATH
-from progress import update_progress
 import progress
 
 eel.init('web')  # Set the web folder path (containing index.html, style.css, and script.js)
 
-current_progress = get_json('progress.json')
 all_questions = get_json('questions.json')
 sets = get_json('sets.json')
 vids = get_json('vids.json')
@@ -23,7 +21,7 @@ def on_close(page, sockets):
 
 
 def questions_generator_yielder(questions):
-    global current_progress
+    current_progress = get_json('progress.json')
     for c, q in enumerate(questions):
         dic = {'number': q,
                'total': len(questions),
@@ -44,12 +42,8 @@ def called_page(page:str):
     print('called', page)
     if page.startswith('training_'):
         current_filters = eel.getCurrentFilters()()
-        
-        if current_filters:
-            filtered_quesitons = filters.filter_questions(**current_filters)
-        else:
-            filtered_quesitons = filters.get_questions()
-        
+        current_filters = current_filters or {'mastered': False}        
+        filtered_quesitons = filters.filter_questions(**current_filters)        
             
         if not filtered_quesitons:
             eel.alertMsg('could not find any questions with the current filters')
@@ -85,7 +79,7 @@ def called_page(page:str):
             else:
                 current_sid = random.choice(filtered_sets)
         else:
-            current_sid = int(page.replace('set', '')) - 1
+            current_sid = int(page.replace('set', ''))
         
         eel.redirect('/questions_test.html')
         
@@ -120,7 +114,6 @@ def download_video(url, filename):
 
 def get_all_videos_set():
     global vids, current_sid, sets, all_questions
-    print('here')
     for q in sets[current_sid]:
         qdata = all_questions[q]
         if qdata['type'] == 'video':
@@ -140,14 +133,13 @@ def get_video(video):
 
 
 @eel.expose
-def update_question(qdata):
-    return
-    current_progress = update_progress(qdata)
+def mark_question(qid, mark:bool):
+    progress.mark_question(qid, mark)
 
 
 @eel.expose
 def submitted_question(qdata, correct: bool):
-    current_progress = progress.submitted_question(qdata, correct)
+    progress.submitted_question(qdata['number'], correct)
     
     
 @eel.expose
@@ -159,8 +151,8 @@ def get_sets():
 @eel.expose
 def get_set_questions():
     global current_sid, sets, all_questions
+    current_progress = get_json('progress.json')
     print('set', current_sid)
-    print(sets[current_sid])
     questions = []
     
     for q in sets[current_sid]:
@@ -192,6 +184,7 @@ def update_set_progress(success:bool):
 
 @eel.expose
 def get_unseen():
+    current_progress = get_json('progress.json')
     s = 0
     for i in current_progress:
         if current_progress[i]['times_seen'] == 0:

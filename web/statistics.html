@@ -4,8 +4,50 @@
   <title>Statistics Page</title>
   <link rel="stylesheet" type="text/css" href="./css/index.css">
   <link rel="stylesheet" type="text/css" href="./css/stats.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 </head>
 <body>
+  <button onclick="history.back()" class="back-button">Go Back</button>
+  <div class="charts">
+    <div class="chart-container">
+    <div id="mastered" class="chart" data-percent="73"><span class="percentage"></span></div>
+    <span>Mastered</span>
+  </div>
+  
+  <div class="chart-container">
+    <div id="wrong" class="chart" data-percent="73"><span class="percentage"></span></div>
+    <span>Wrong</span>
+  </div>
+  
+  <div class="chart-container">
+    <div id="practiced" class="chart" data-percent="73"><span class="percentage"></span></div>
+    <span>Practiced</span>
+  </div>
+  
+  <div class="chart-container">
+    <div id="not_seen" class="chart" data-percent="73"><span class="percentage"></span></div>
+    <span>Not Seen</span>
+  </div>
+  </div> 
+
+
+
+  <div class="last-progress">
+    <div class="last">
+      <span id="last_hour" class="big-number">00</span>
+      <span>Questions/hour</span>
+    </div>    
+
+    <div class="last">
+      <span id="min_average" class="big-number">00</span>
+      <span>Questions/min</span>
+    </div>
+  </div>
+
+  <div class="graph-container">
+    <canvas id="myChart"></canvas>
+  </div>
+
   <div id="categories1">
     <h2>Basic Knowledge</h2>
 
@@ -17,6 +59,9 @@
   </div>
   
   <script type="text/javascript" src="/eel.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
   <script type="text/javascript" src="./js/index.js"></script>
   <script type="text/javascript" src="./js/stats.js"></script>
   <script type="text/javascript">

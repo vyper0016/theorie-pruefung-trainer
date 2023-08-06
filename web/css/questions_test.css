@@ -1,4 +1,9 @@
 
+body {
+  font-family: Arial, sans-serif;
+}
+
+
 .chamfer {
   position: absolute;
   top: 0;

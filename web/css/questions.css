@@ -1,3 +1,8 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
 /* Basic CSS Reset */
 body {
     margin: 0;
@@ -25,6 +30,7 @@ body {
     width: 100%;
     font-weight: 600;
     font-size: 16px;
+    height: 12%;
   }
   
   /* Styling for the middle content section */
@@ -46,7 +52,7 @@ body {
     position: absolute;
     display: flex;
     flex-direction: row;
-    top: 81vh; /* Adjust the top position to move the buttons up or down */
+    bottom: 12%; /* Adjust the top position to move the buttons up or down */
     right: 6%; /* Adjust the right position to move the buttons left or right */
   }
 
@@ -97,7 +103,7 @@ body {
     border-style: solid;
   }
 
-  a[href="#popup1"]{
+  a[href="#popup2"]{
     background-image: url("/img/info.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -188,7 +194,7 @@ body {
 
 .nq-button{
   width: 50px;
-  height: 80px;
+  height: 100%;
   font-size: 20px;
   font-weight: bold;
   color: rgb(255, 255, 255);
@@ -196,8 +202,7 @@ body {
   text-decoration: none;
   background: transparent;
   cursor: pointer;
-  margin-right: 15px;
-  margin-left: 15px;
+  margin: 0;
   border: none;
 }
 

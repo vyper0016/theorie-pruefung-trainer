@@ -1,22 +1,5 @@
 /* Secondary buttons (Search Question, Statistics, STVO, Settings) */
-button {
-    width: 100%;
-    height: auto;
-    padding: 1.6%;
-    margin-bottom: 1%;
-    display: flex;
-    flex-direction: row; /* Change to row to align image and text horizontally */
-    align-items: center;
-    padding: 4vh 10%; /* Adjust the vertical padding using 'vh' unit */
-    color: #fff;
-    border: none;
-    border-radius: 6px;
-    font-size: 20px;
-    cursor: pointer;
-    outline: none;
-    background-color: #2068a4;
-    text-decoration: none;
-  }
+
 
 button:hover {
     background-color: #2581ccfd;

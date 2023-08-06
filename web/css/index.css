@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Poppins, Arial;
   text-align: center;
   margin: 20px;
   background-color: #242424;
@@ -39,6 +39,10 @@ h1 {
   outline: none;
   background-color: #2068a4;
   text-decoration: none;
+}
+
+img{
+  cursor: pointer;
 }
 
 /* Main buttons (Training and Test) */
@@ -90,4 +94,23 @@ img {
   font-size: 17px;
   padding: 5px;
   margin-bottom: 20px;
+}
+
+button {
+  width: 100%;
+  height: auto;
+  padding: 1.6%;
+  margin-bottom: 1%;
+  display: flex;
+  flex-direction: row; /* Change to row to align image and text horizontally */
+  align-items: center;
+  padding: 4vh 10%; /* Adjust the vertical padding using 'vh' unit */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  background-color: #2068a4;
+  text-decoration: none;
 }

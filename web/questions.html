@@ -8,7 +8,7 @@
 <body>
   <div class="top-bar">
     <a class="bar-button" href = '/index.html' style="font-weight: bold;">X</a>
-    <a class="bar-button" href="#popup2"><span style="visibility: hidden;">.</span></a>
+    <a class="bar-button" href="#popup2" style="display: none;"><span style="visibility: hidden;">.</span></a>
     <!-- Content for the top bar goes here -->
     <p id="qid" style="float: left; margin-left:15px;">1.1.10-001</p>
     <p style="float: right; margin-right:15px;">Points: <span id="points">2</span></p>
@@ -49,7 +49,7 @@
   <div class="bottom-bar">
     <!-- Content for the bottom bar goes here -->
       <button class="nq-button" onclick="previousQuestion()"><</button>
-      Question  <span id="qc">1</span>  /  <span id="qct">30</span>
+      Question&nbsp;<span id="qc">1</span>&nbsp;/&nbsp;<span id="qct">30</span>
       <button class="nq-button" onclick="nextQuestion()">></button>
   </div>
 
@@ -105,7 +105,10 @@
       <a class="close" href="#">&times;</a>
       <div class="content">
         <p id="qinfo">this is the question info</p>
-        <b>stvo: </b><span id="stvo"></span>
+        <a href="https://bmdv.bund.de/blaetterkatalog/catalogs/327056/pdf/complete.pdf" target="_blank" style="text-decoration: none;">
+          stvo:
+        </a>
+        <span id="stvo"></span>
       </div>
     </div>
   </div>

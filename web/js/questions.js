@@ -43,6 +43,8 @@ await fillQuestion();
 
 
 async function fillQuestion(){
+  document.querySelector('a[href="#popup2"]').style.display = 'none';
+  
   const inputs = document.querySelectorAll('.asw input');
   inputs.forEach(i => {
     i.disabled = false;
@@ -138,7 +140,11 @@ async function fillMedia(){
       if(current_question['type'] != 'video' && current_question['picture'] != ''){
         image.style.width = '500px';
         image.style.height = '300px';     
-        image.src = './assets/img/' + current_question['picture']; // Replace "new_image.jpg" with the desired image source
+        image.src = './assets/img/' + current_question['picture'];
+        image.addEventListener('click', function() {
+          const url = './assets/img/' + current_question['picture'];
+          window.open(url, '_blank');
+        });
     
       }
       
@@ -163,13 +169,7 @@ function updateMarkButton(){
 function markQuestion(){
   current_question['marked'] = !current_question['marked'];
   updateMarkButton();
-  updateProgress();
-  
-
-}
-
-function updateProgress(){
-  eel.update_question(current_question);
+  eel.mark_question(current_question['number'], current_question['marked']);
 }
 
 function nextQuestion(){
@@ -193,6 +193,8 @@ function submitQuestion(){
   alert('Please input an answer first');
   return;
 }
+
+  document.querySelector('a[href="#popup2"]').style.display = 'flex';
   
 var correct;
   const inputs = document.querySelectorAll('.asw input');

@@ -34,4 +34,64 @@
   .bar {
     height: 100%;
   }
-  
+
+.charts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content:center;
+}
+
+.chart-container{
+    font-size: 20px;
+}
+
+.chart{
+    position: relative;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.percentage {
+    position: absolute;
+    width: 100%; /* Occupy the full width of the container */
+    top: 42%;
+    text-align: center; /* Center the text horizontally */
+  }
+
+
+.big-number{
+    font-size: 70px;
+    margin-right: 100%;
+}
+
+.last-progress{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.last{
+    margin: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#myChart {
+    width: 100%; /* Take up the full width of the container */
+    max-width: 900px; /* Limit the maximum width of the chart */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.graph-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    
+}

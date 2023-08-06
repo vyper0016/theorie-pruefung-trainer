@@ -1,5 +1,2 @@
-
-a = [1, 2, 3]
-a.remove(1)
-        
-print(a)
+STAT_DAYS = 10
+print(list(range(STAT_DAYS-1, -1, -1)))
