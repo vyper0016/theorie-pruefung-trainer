@@ -6,7 +6,7 @@ Todo:
   ✔ scrape cliclickdrive for video links @done(23-07-19 17:58)
   ✔ delete unnecessary questions in scraped sub_categories.json @done(23-07-19 17:58)
   ✔ add categories to each question @done(23-07-19 17:58)
-  ☐ start gui @started(22-07-21 05:42)
+  ✔ start gui @started(23-07-21 05:42) @done(23-08-06 02:55) @lasted(2w1d21h13m38s)
   ✔ fix missing images @done(23-07-21 15:05)
   ✔ handle videos @done(23-07-21 15:56)
   ✔ handle number type @done(23-07-21 17:15)
@@ -23,5 +23,6 @@ Todo:
   ☐ bypass scraping by getting from apk (low importance)
   ✔ add marked yellow chamfer @done(23-07-26 01:44)
   ✔ add little video icons @done(23-07-26 01:44)
-  ☐ questions per hour
-  ☐ day stats
+  ✔ questions per hour @done(23-08-06 02:55)
+  ✔ day stats @done(23-08-06 02:55)
+  ☐ make both question systems use the same js file (low importance)

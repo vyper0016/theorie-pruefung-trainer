@@ -14,12 +14,6 @@ sets = get_json('sets.json')
 vids = get_json('vids.json')
 sub_cats = get_json('sub_categories.json')
 
-def on_close(page, sockets):
-    # Perform any cleanup or termination tasks here
-    print("Browser window is closed. Terminating Eel process.")
-    quit()
-
-
 def questions_generator_yielder(questions):
     current_progress = get_json('progress.json')
     for c, q in enumerate(questions):
