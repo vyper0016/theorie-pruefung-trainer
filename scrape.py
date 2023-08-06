@@ -197,7 +197,7 @@ def add_lacking_questions():
     
 
 
-def remove_unused_questions():
+def remove_unused_questions(again=True):
     subs = get_json('sub_categories.json')
     questions = get_json('questions.json')
     r = 0
@@ -212,6 +212,8 @@ def remove_unused_questions():
     dump_dict(subs, 'sub_categories.json')
     print('removed', r, 'unused questions from scrape data')
     print(t, 'Scraped questions total left')
+    if again:
+        remove_unused_questions(False)
     
 if __name__ == '__main__':
     add_lacking_questions()

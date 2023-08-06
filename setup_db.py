@@ -7,7 +7,7 @@ import scrape
 import os
 import zipfile
 from copy import deepcopy
-from progress import init_progress, init_progress_sets
+from progress import init_progress
 
 
 IMG_PATH = "./web/assets/img"
@@ -418,9 +418,9 @@ def exec_and_filter(dump=False):
 
 
 if __name__ == '__main__':
-    # scrape.get_categories()
-    #get_files_from_apk()
-    #exec_and_filter(dump=False)
-    # init_progress()
-    # init_progress_sets()
-    pass
+    scrape.get_categories()
+    get_files_from_apk()
+    exec_and_filter(dump=False)
+    init_progress()
+    scrape.add_lacking_questions()
+    scrape.remove_unused_questions()
