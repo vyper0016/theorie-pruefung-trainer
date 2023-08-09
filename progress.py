@@ -2,8 +2,11 @@
 from filters import FILTERS2
 from scrape import dump_dict, get_json
 from datetime import datetime, timedelta
+from math import ceil
 
 DATE_FORMAT = '%d-%m-%Y %H:%M'
+TEST_DATE = '21-08-2023'
+TEST_DATE = datetime.strptime(TEST_DATE, '%d-%m-%Y')
 
 all_questions = get_json('questions.json')
 TOTAL = len(all_questions)
@@ -139,8 +142,10 @@ def get_stats():
                     total_stats['practiced'] += 1
         stats.append(stats_c)
     
+    d = last_days_progress()
     return {'total': total_stats, 'category_stats': stats, 
-            'last_hour': last_hour_progress(), 'days': last_days_progress()}
+            'last_hour': last_hour_progress(), 'days': d,
+            'seen_today': seen_today(d), 'goal': daily_goal(d)}
    
 
 # return how many questions seen during the last hour
@@ -163,6 +168,18 @@ def last_hour_progress():
 
 def compare_days(date1: datetime, date2: datetime):
     return [date1.day, date1.month, date1.year] == [date2.day, date2.month, date2.year]
+
+
+def daily_goal(progress_days):
+    keys = list(progress_days.keys())
+    qleft = progress_days[keys[-2]]['not_seen']
+    days_left = (TEST_DATE - datetime.now()).days
+    return ceil(qleft / days_left)
+    
+
+def seen_today(progress_days:dict):
+    keys = list(progress_days.keys())
+    return progress_days[keys[-2]]['not_seen'] - progress_days[keys[-1]]['not_seen']
 
 
 def format_date(date_string):
@@ -203,4 +220,4 @@ def last_days_progress():
         
         
 if __name__ == '__main__':
-    last_days_progress()
+    t = get_stats()

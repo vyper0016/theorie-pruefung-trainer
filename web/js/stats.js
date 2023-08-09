@@ -5,7 +5,8 @@ async function fillStats(){
     const total_stats = response['total']
     const last_hour = response['last_hour']
     const last_days = response['days']
-    console.log(last_days);
+    const {seen_today, goal} = response;
+    console.log(seen_today);
     stats.forEach(element => {
         const {cid, mastered, not_seen, wrong, practiced, total} = element;
         const container = document.getElementById('categories'+cid[0]);
@@ -63,6 +64,8 @@ async function fillStats(){
     initializeCharts();
 
     document.getElementById('last_hour').textContent = last_hour;
+    document.getElementById('seen_today').textContent = seen_today;
+    document.getElementById('goal').textContent = goal;
     document.getElementById('min_average').textContent = (last_hour/60).toFixed(2);
 
     initializeGraph(last_days, total);
