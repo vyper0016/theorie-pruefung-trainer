@@ -2799,96 +2799,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.03-001": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.03-003": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.03-005": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.03-007": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.03-009": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.03-011": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.03-012": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.03-013": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.03-014": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.03-015": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -3169,26 +3079,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.09-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.09-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.10-002": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -3219,57 +3109,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.02-001": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.02-002": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.02-003": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.02-006": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.03-001": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.03-002": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -3409,46 +3249,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.03-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.03-205": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.03-210": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.03-301": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.04-001": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -3489,56 +3289,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.04-204": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.04-205": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.05-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.05-401": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.07-001": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.07-002": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -3550,26 +3300,6 @@
       "marked": false
    },
    "2.2.09-001": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.09-402": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.09-403": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -3639,26 +3369,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.12-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.12-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.13-001": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -3709,36 +3419,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.14-002": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.14-004": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.14-005": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.14-102": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -3760,16 +3440,6 @@
       "marked": false
    },
    "2.2.14-105": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.15-001": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -3899,46 +3569,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.17-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.17-301": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.17-401": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.18-002": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.18-003": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -4000,26 +3630,6 @@
       "marked": false
    },
    "2.2.18-102": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.21-004": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.21-006": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -4139,16 +3749,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.21-401": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.22-103": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -4220,146 +3820,6 @@
       "marked": false
    },
    "2.2.22-114": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-204": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-208": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-210": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-214": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-216": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-301": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-302": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-303": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-003": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-006": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-014": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-016": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -4469,67 +3929,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.23-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-212": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-401": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-402": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.26-102": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.29-203": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -4550,86 +3950,6 @@
       "marked": false
    },
    "2.2.32-102": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.32-401": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.34-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.34-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.34-204": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.34-205": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.34-206": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.34-207": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.34-208": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -4690,16 +4010,6 @@
       "marked": false
    },
    "2.4.40-004": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.4.41-001": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -4770,46 +4080,6 @@
       "marked": false
    },
    "2.4.41-107": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.4.41-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.4.41-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.4.41-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.4.41-204": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -4909,16 +4179,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.5.01-001": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.5.01-006": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -5009,46 +4269,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.5.01-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.5.01-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.5.01-205": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.01-001": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.6.01-106": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -5059,217 +4279,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.6.01-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-002": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-003": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-007": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-010": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-011": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-012": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-014": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-015": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-016": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-017": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-018": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.6.02-104": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-207": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-209": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-210": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-215": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-225": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-403": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -5290,756 +4300,6 @@
       "marked": false
    },
    "2.6.03-106": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.03-301": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.03-302": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.03-303": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.03-304": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.03-402": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.03-405": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-205": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-208": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-211": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-212": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-216": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-217": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-218": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-220": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-302": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-305": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.05-216": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.05-217": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.05-219": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.05-220": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.05-221": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-204": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-205": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-207": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-208": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-211": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-301": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-302": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-303": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-304": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-305": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-306": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-307": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-401": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-402": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-403": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-404": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-405": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-406": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-204": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-207": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-210": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-212": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-214": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-216": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-217": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-218": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-008": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-009": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-019": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-020": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-022": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-023": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-025": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-026": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-027": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-028": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-029": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-030": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-031": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-032": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-033": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-034": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-035": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-036": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-037": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-038": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-040": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-041": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-042": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -6080,66 +4340,6 @@
       "marked": false
    },
    "2.7.01-047": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-048": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-049": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-050": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-051": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-052": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-053": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -6339,406 +4539,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.01-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-206": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-207": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-208": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-209": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-211": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-212": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-216": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-217": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-218": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-219": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-220": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-221": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-222": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-223": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-225": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-226": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-227": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-228": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-229": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-231": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-232": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-236": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-238": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-242": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-247": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-250": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-251": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-253": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-254": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-001": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-002": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-003": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-004": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-005": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-006": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-007": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-008": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-010": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-012": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.7.02-015": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -6919,196 +4719,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.02-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-204": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-211": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-302": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-303": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.03-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.03-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.03-205": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.03-206": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.03-207": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.03-208": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.04-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.04-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.04-206": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.05-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.05-205": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.05-211": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.05-212": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.7.06-101": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -7149,587 +4759,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.06-206": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-208": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-209": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-210": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-213": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-214": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-215": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-216": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-217": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-220": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-223": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-306": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-310": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-208": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-209": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-302": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-303": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-304": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-305": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-306": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-309": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-312": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-315": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-317": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-319": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-320": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-321": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-322": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.08-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.08-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.08-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.08-204": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.08-207": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.08-208": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.08-209": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.08-301": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-204": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-208": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-209": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-210": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-211": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-216": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-220": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-221": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.10-001": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.10-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.10-204": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.10-206": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.10-207": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.10-210": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.10-211": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.10-212": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.10-213": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.10-214": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.8.01-001": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.03-017": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -7750,26 +4780,6 @@
       "marked": false
    },
    "2.2.03-019": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.03-020": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.03-022": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -8859,36 +5869,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.03-112": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.03-113": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.03-114": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.04-103": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -9089,16 +6069,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.02-007": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.05-005": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -9109,47 +6079,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.05-006": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.05-007": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.09-405": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.09-406": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.09-407": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -9249,186 +6179,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.22-005": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-006": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-305": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-038": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-039": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-042": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-043": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-044": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-045": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-046": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-047": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-403": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-404": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-407": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-408": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-409": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-410": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-411": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.4.40-005": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -9449,117 +6199,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.6.02-023": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-024": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-025": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-026": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.6.02-027": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-028": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-406": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-407": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-408": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-409": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-410": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-411": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -9579,106 +6219,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.6.04-310": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-311": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-312": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-313": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-314": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-407": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-219": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-054": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-055": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-056": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.7.01-058": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -9689,27 +6229,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.06-402": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.7.06-405": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-222": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -9769,26 +6289,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.02-302": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.02-303": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.15-112": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -9800,36 +6300,6 @@
       "marked": false
    },
    "2.6.02-030": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-224": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-315": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-316": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -9970,16 +6440,6 @@
       "marked": false
    },
    "2.1.03-116-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-412": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -10279,26 +6739,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.21-008": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-048": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.4.42-103": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -10370,16 +6810,6 @@
       "marked": false
    },
    "2.5.01-014": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.5.01-015": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -10499,46 +6929,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.23-049": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-050": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-051": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.5.01-206": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.5.01-207": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -10590,36 +6980,6 @@
       "marked": false
    },
    "2.5.01-212": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-031": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-034": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-413": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -10819,27 +7179,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.07-209": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.08-018": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.08-020": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -10859,277 +7199,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.04-302": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.04-303": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.04-306": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.04-307": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.05-102-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.17-406": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.18-208": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.18-209": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.18-210": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.18-212": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.18-214": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.4.41-003": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.4.41-205": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-414": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-416": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.03-002": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-060": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-061": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-062": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-305": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-307": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-308": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-309": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-304": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.04-304": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.04-305": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.18-211": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.03-108": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -11429,47 +7499,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.22-115": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-116": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.22-117": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-052": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-214": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -11499,107 +7529,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.4.42-108": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.5.01-016": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.5.01-213": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.03-306": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.06-408": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-221": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-223": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-128": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-255": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-031": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.05-216": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -11619,37 +7549,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.06-107": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-108": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.12-204": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-318": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -11799,37 +7699,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.04-103": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.04-104": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.05-103-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.05-104": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -11909,67 +7779,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.22-118": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-119": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-120": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-121": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.22-122": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-114": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-115": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -11999,57 +7809,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.29-204": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.6.03-111": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-317": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.05-226": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.05-227": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.05-228": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -12069,57 +7829,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.01-129": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.7.01-130": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-132": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-109": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.10-003": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.10-103": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -12319,16 +8029,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.06-016-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.06-017-M": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -12409,16 +8109,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.07-118-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.07-119": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -12439,37 +8129,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.08-023": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.11-009-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.02-008": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.05-015": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -12489,27 +8149,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.6.02-035": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.6.06-216": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-323": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -12619,46 +8259,6 @@
       "ease": 0,
       "marked": false
    },
-   "1.7.01-006": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.05-106-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.06-019-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.07-021-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.08-024-M": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -12719,16 +8319,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.11-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.03-023": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -12759,57 +8349,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.05-402-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.09-005-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.15-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.18-015-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.18-216": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.21-301": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -12839,16 +8379,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.29-205": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.6.01-003": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -12859,47 +8389,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.6.01-209": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.6.02-036": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-227": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-301": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-302": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -13009,26 +8499,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.05-218": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.05-219": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.7.06-110": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -13050,26 +8520,6 @@
       "marked": false
    },
    "2.7.06-112": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-225": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.10-215": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -13179,26 +8629,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.03-031-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.06-020-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.07-120-M": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -13210,36 +8640,6 @@
       "marked": false
    },
    "2.1.08-026-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.02-009-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.02-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.09-006-M": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -13319,86 +8719,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.23-055": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-056": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-215": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-216": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-217": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-302": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.32-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.32-204": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.34-001-M": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -13410,36 +8730,6 @@
       "marked": false
    },
    "2.5.01-119": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-228": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-229": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.03-307": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -13479,47 +8769,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.01-310": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.7.02-127": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-305": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.03-212": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.03-213": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -13569,146 +8819,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.05-220": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.05-221": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.05-222": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-228": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-229": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-313": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-314": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-315": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.08-212": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-226": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-227": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-228": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-229": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-230": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.8.01-012": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -13749,16 +8859,6 @@
       "ease": 0,
       "marked": false
    },
-   "1.1.07-201-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "1.1.09-029": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -13770,16 +8870,6 @@
       "marked": false
    },
    "1.2.19-111": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.03-032": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -13869,16 +8959,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.07-007-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.07-008-M": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -13939,47 +9019,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.6.02-230": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.6.07-001": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-224": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-225": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-064": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -14009,67 +9049,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.02-213": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-214": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-215": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-306": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.7.03-101": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.03-214": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.03-215": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -14139,207 +9119,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.05-223": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.05-224": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.05-225": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.05-226": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.7.06-114": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-230": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-231": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-232": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-233": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-234": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-235": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-317": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-318": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-319": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-320": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-406": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-324": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-325": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-326": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-327": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-328": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -14359,47 +9139,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.30-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.30-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.05-003": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "1.1.02-048-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.1.02-201-M": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -14420,26 +9160,6 @@
       "marked": false
    },
    "1.1.07-158": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.1.07-202-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.2.02-201": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -14470,26 +9190,6 @@
       "marked": false
    },
    "1.2.09-132-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.2.09-201-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.2.11-201-M": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -14659,16 +9359,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.07-211-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.08-010": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -14700,16 +9390,6 @@
       "marked": false
    },
    "2.1.10-005": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.02-010": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -14769,26 +9449,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.22-217": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-057": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.23-121": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -14809,67 +9469,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.30-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.4.40-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.6.06-101": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-226": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-227": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-236": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-401": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -14889,47 +9489,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.8.01-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.8.01-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.6.01-108": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.01-210": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.1.02-202-M": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -14990,26 +9550,6 @@
       "marked": false
    },
    "1.1.07-160-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.1.07-203-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.1.07-204-M": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -15109,56 +9649,6 @@
       "ease": 0,
       "marked": false
    },
-   "1.2.09-202-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.2.09-203-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.2.09-204-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.2.09-205-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.2.11-202-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "1.2.16-002": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -15179,16 +9669,6 @@
       "ease": 0,
       "marked": false
    },
-   "1.2.20-201-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "1.2.26-009-M": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -15200,16 +9680,6 @@
       "marked": false
    },
    "1.2.36-014-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.2.37-201-M": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -15449,16 +9919,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.01-006": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.01-007-M": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -15489,16 +9949,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.03-035": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.06-027-M": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -15510,36 +9960,6 @@
       "marked": false
    },
    "2.1.07-010-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.07-011-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.07-012-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.1.07-013": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -15589,46 +10009,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.09-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.12-006": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.14-008": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.14-009": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.15-114": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -15640,36 +10020,6 @@
       "marked": false
    },
    "2.2.17-012": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.18-020": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.21-009": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.21-010": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -15709,97 +10059,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.22-218": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-219": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-220": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-058": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-059": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-060": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-061": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.23-122": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-412": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.32-403": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -15859,16 +10119,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.6.02-037": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.6.03-114": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -15909,47 +10159,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.01-067": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-068": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.7.01-143": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-256": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-257": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -15969,27 +10179,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.02-035": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.7.02-128": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-216": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -16009,117 +10199,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.04-003": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.7.04-101": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.05-004": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-237": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-238": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-239": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-240": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-241": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.07-330": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.18-218": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-225": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-319": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -16170,16 +10250,6 @@
       "marked": false
    },
    "1.1.07-163": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.1.07-205-M": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -16369,66 +10439,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.21-011": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.21-012": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-007": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-008": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-221": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-062": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.23-123": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -16440,26 +10450,6 @@
       "marked": false
    },
    "2.4.41-004-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.4.41-206": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.5.01-017": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -16500,26 +10490,6 @@
       "marked": false
    },
    "2.5.01-126": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-231": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.03-308": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -16580,16 +10550,6 @@
       "marked": false
    },
    "2.7.01-149": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.02-036": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -16679,37 +10639,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.06-321": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.09-231": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.8.01-013": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.8.01-204": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -16740,16 +10670,6 @@
       "marked": false
    },
    "1.2.05-005": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.04-226": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -16889,16 +10809,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.06-201-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.07-015-M": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -16989,26 +10899,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.09-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.09-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.12-107-M": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -17049,16 +10939,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.22-009": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.23-124": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -17069,47 +10949,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.23-413": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.34-101": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-232": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-228": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.07-229": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -17149,67 +10989,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.05-227": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.05-228": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.7.06-115": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-242": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.8.01-205": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.8.01-206": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.8.01-207": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -17259,27 +11039,7 @@
       "ease": 0,
       "marked": false
    },
-   "1.1.06-201-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "1.1.07-168-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.1.07-206-M": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -17300,16 +11060,6 @@
       "marked": false
    },
    "1.2.09-137-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.2.09-206-M": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -17459,16 +11209,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.1.07-016-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.1.08-031": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -17499,46 +11239,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.09-204": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.12-007": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.22-010": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.23-414": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.4.41-108": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -17550,16 +11250,6 @@
       "marked": false
    },
    "2.4.41-109": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.4.41-401": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -17590,16 +11280,6 @@
       "marked": false
    },
    "2.6.02-038": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-233": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -17780,16 +11460,6 @@
       "marked": false
    },
    "2.6.03-116": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.03-409": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -18069,16 +11739,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.02-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.04-105-M": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -18100,16 +11760,6 @@
       "marked": false
    },
    "2.2.05-019": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.06-001": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -18159,26 +11809,6 @@
       "ease": 0,
       "marked": false
    },
-   "2.2.21-201": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.21-202": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.2.34-102": {
       "times_seen": 0,
       "times_wrong": 0,
@@ -18199,37 +11829,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.4.41-207": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.5.01-128": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.02-039": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.03-408": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,
@@ -18249,57 +11849,7 @@
       "ease": 0,
       "marked": false
    },
-   "2.7.01-258": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.01-259": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.03-216": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
    "2.7.05-005": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.8.01-208": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.8.01-209": {
       "times_seen": 0,
       "times_wrong": 0,
       "times_right": 0,

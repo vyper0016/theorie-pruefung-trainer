@@ -171,6 +171,7 @@ function updateMark(){
 function markQuestion(){
   current_question['marked'] = !current_question['marked'];
   updateMarkButton();
+  updateMark();
   eel.mark_question(current_question['number'], current_question['marked']);
 }
 
@@ -220,6 +221,14 @@ function fillAnswers(){
   }
 }
 
+function updateMarkButton(){
+  const button = document.querySelector('button[onclick="markQuestion()"]');
+  if(current_question['marked']){
+    button.innerHTML = 'Unmark'
+  }else{
+    button.innerHTML = 'Mark'
+  }
+}
 
 const asw3_div = document.getElementById('asw3h');
 async function goToQuestion(index){

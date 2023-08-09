@@ -214,7 +214,18 @@ def remove_unused_questions(again=True):
     print(t, 'Scraped questions total left')
     if again:
         remove_unused_questions(False)
+        add_lacking_questions()
     
+
+def remove_unused_cats():
+    subs = get_json('sub_categories.json')
+    cats = get_json('categories.json')    
+    for c in cats:
+        for s in cats[c]['subs']:
+            if s not in subs:
+                ...
+
+
 if __name__ == '__main__':
     add_lacking_questions()
     remove_unused_questions()

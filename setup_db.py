@@ -192,40 +192,6 @@ def decrypt_qs(data, output_filename=None):
     return data
 
 
-#also removes classes
-def filter_qs_class6(data, output_filename=None):
-    filtered = []
-    for i in data:
-        try:
-            i['classes']
-        except KeyError:
-            continue
-
-        if ',6,' in i['classes']:
-            i.pop('classes')
-            filtered.append(i)
-    
-    if output_filename:
-        with open(output_filename, 'w') as f:
-            json.dump(filtered, f, indent=3)
-    
-    return filtered
-    
-
-def filter_qs_basic(data, output_filename=None):
-    filtered = []
-    for i in data:
-        if i['basic'] == 1:
-            i.pop('classes')
-            filtered.append(i)
-    
-    if output_filename:
-        with open(output_filename, 'w') as f:
-            json.dump(filtered, f, indent=3)
-    
-    return filtered
-
-
 def filter_sets_class6(data, output_filename=None):
     filtered = []
     for i in data:
@@ -382,6 +348,16 @@ def final_sets(sets, output_filename):
     return sets_out
 
 
+def remove_unused(qs):
+    out = []
+    for q in qs:
+        if q['basic'] or ',6,' in q['classes']:
+            q.pop('classes')
+            out.append(q)
+                  
+    return out
+
+
 def exec_and_filter(dump=False):
     output_file = merge_files()
     print('merged files')
@@ -389,6 +365,7 @@ def exec_and_filter(dump=False):
     qs = execute_js(output_file, 'dbTblQ', dump*'js/dbs/questions_table1.json')
     sets = execute_js(output_file, 'dbTableSets', dump*'js/dbs/sets_table1.json')
     print('done')
+    qs = remove_unused(qs)
     print('decrypting...')
     qs = decrypt_qs(qs, dump*'js/dbs/questions_table2.json')
     print('sorting database')
@@ -401,19 +378,13 @@ def exec_and_filter(dump=False):
     v = sort_videos(qs)
     print('done')
     print('final sort...')
-    qs_basic = filter_qs_basic(qs, dump*'js/dbs/questions_basic.json')
-    qs_class6 = filter_qs_class6(qs, dump*'js/dbs/questions_class6.json')
     
-    qs1 = deepcopy(qs)
     sets_class6 = filter_sets_class6(sets)
     sets = final_sets(sets_class6, 'data/sets.json')
-    final_qs(qs_basic, 'data/questions_b.json')
-    final_qs(qs_class6, 'data/questions_6.json')
-    f = final_qs(qs1, 'data/questions.json')
+    f = final_qs(qs, 'data/questions.json')
     extract_imgs(f)
     
-
-    for i, s in zip([qs_basic, qs_class6, sets_class6, f, v], ['Grundstoff questions', 'class B questions', 'class B sets', 'total questions', 'videos']):
+    for i, s in zip([[j for j in qs if j['basic']==1], [j for j in qs if j['basic']==0], sets, f, v], ['Grundstoff questions', 'class B questions', 'class B sets', 'total questions', 'videos']):
         print(len(i), s)
 
 

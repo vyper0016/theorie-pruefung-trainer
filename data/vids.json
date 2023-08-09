@@ -4,7 +4,7 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.05-103.m4v"
    },
    "1.1.07-017.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-017.m4v"
    },
    "1.1.07-136.m4v": {
@@ -20,7 +20,7 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.11-104.m4v"
    },
    "1.2.11-105.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.11-105.m4v"
    },
    "1.2.37-013.m4v": {
@@ -48,7 +48,7 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.06-114.m4v"
    },
    "1.1.07-146.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-146.m4v"
    },
    "2.1.11-125.m4v": {
@@ -60,7 +60,7 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.05-105.m4v"
    },
    "1.1.07-147.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-147.m4v"
    },
    "1.2.02-107.m4v": {
@@ -80,7 +80,7 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.09-125.m4v"
    },
    "1.2.09-126.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.09-126.m4v"
    },
    "1.2.19-114.m4v": {
@@ -140,11 +140,11 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.09-127.m4v"
    },
    "1.1.06-127-M.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.06-127-M.m4v"
    },
    "1.1.07-148.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-148.m4v"
    },
    "1.1.07-149.m4v": {
@@ -164,7 +164,7 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.11-110-M.m4v"
    },
    "1.2.11-111.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.11-111.m4v"
    },
    "1.2.37-018.m4v": {
@@ -176,12 +176,8 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.05-104-M.m4v"
    },
    "2.1.06-012-M.m4v": {
-      "downloaded": true,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.06-012-M.m4v"
-   },
-   "2.1.08-020.m4v": {
       "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.08-020.m4v"
+      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.06-012-M.m4v"
    },
    "2.2.05-102-M.m4v": {
       "downloaded": false,
@@ -200,7 +196,7 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.06-013.m4v"
    },
    "2.1.06-014.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.06-014.m4v"
    },
    "2.1.06-015.m4v": {
@@ -275,12 +271,8 @@
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.06-006.m4v"
    },
-   "2.1.06-016-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.06-016-M.m4v"
-   },
    "2.1.06-017-M.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.06-017-M.m4v"
    },
    "2.1.06-018-M.m4v": {
@@ -311,18 +303,6 @@
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.07-117-M.m4v"
    },
-   "2.1.07-118-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.07-118-M.m4v"
-   },
-   "2.1.08-023.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.08-023.m4v"
-   },
-   "2.2.05-015.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.2.05-015.m4v"
-   },
    "2.2.09-004-M.m4v": {
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.2.09-004-M.m4v"
@@ -332,20 +312,8 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.07-116.m4v"
    },
    "1.2.20-107-M.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.20-107-M.m4v"
-   },
-   "2.1.05-106-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.05-106-M.m4v"
-   },
-   "2.1.06-019-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.06-019-M.m4v"
-   },
-   "2.1.07-021-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.07-021-M.m4v"
    },
    "2.1.08-024-M.m4v": {
       "downloaded": false,
@@ -359,21 +327,9 @@
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.2.05-017.m4v"
    },
-   "2.2.05-402-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.2.05-402-M.m4v"
-   },
-   "2.2.09-005-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.2.09-005-M.m4v"
-   },
    "1.1.07-155-M.m4v": {
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-155-M.m4v"
-   },
-   "2.1.06-020-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.06-020-M.m4v"
    },
    "2.1.07-120-M.m4v": {
       "downloaded": false,
@@ -382,14 +338,6 @@
    "2.1.08-026-M.m4v": {
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.08-026-M.m4v"
-   },
-   "2.2.02-009-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.2.02-009-M.m4v"
-   },
-   "2.2.09-006-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.2.09-006-M.m4v"
    },
    "2.2.18-016-M.m4v": {
       "downloaded": false,
@@ -404,12 +352,8 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.2.34-001-M.m4v"
    },
    "1.1.07-156-M.m4v": {
-      "downloaded": true,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-156-M.m4v"
-   },
-   "1.1.07-201-M.m4v": {
       "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-201-M.m4v"
+      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-156-M.m4v"
    },
    "2.1.06-007-M.m4v": {
       "downloaded": false,
@@ -431,33 +375,17 @@
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.06-023-M.m4v"
    },
-   "2.1.07-007-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.07-007-M.m4v"
-   },
    "2.1.07-121-M.m4v": {
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.07-121-M.m4v"
-   },
-   "1.1.02-201-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.02-201-M.m4v"
    },
    "1.1.07-157-M.m4v": {
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-157-M.m4v"
    },
-   "1.1.07-202-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-202-M.m4v"
-   },
    "1.2.09-132-M.m4v": {
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.09-132-M.m4v"
-   },
-   "1.2.09-201-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.09-201-M.m4v"
    },
    "2.1.03-033.m4v": {
       "downloaded": false,
@@ -475,57 +403,13 @@
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.07-009-M.m4v"
    },
-   "2.1.07-211-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.07-211-M.m4v"
-   },
    "2.1.08-027-M.m4v": {
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.08-027-M.m4v"
    },
-   "1.1.02-202-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.02-202-M.m4v"
-   },
    "1.1.07-160-M.m4v": {
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-160-M.m4v"
-   },
-   "1.1.07-203-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-203-M.m4v"
-   },
-   "1.1.07-204-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-204-M.m4v"
-   },
-   "1.2.09-202-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.09-202-M.m4v"
-   },
-   "1.2.09-203-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.09-203-M.m4v"
-   },
-   "1.2.09-204-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.09-204-M.m4v"
-   },
-   "1.2.09-205-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.09-205-M.m4v"
-   },
-   "1.2.11-202-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.11-202-M.m4v"
-   },
-   "1.2.20-201-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.20-201-M.m4v"
-   },
-   "1.2.37-201-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.37-201-M.m4v"
    },
    "2.1.01-007-M.m4v": {
       "downloaded": false,
@@ -534,14 +418,6 @@
    "2.1.06-027-M.m4v": {
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.06-027-M.m4v"
-   },
-   "2.1.07-011-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.07-011-M.m4v"
-   },
-   "2.1.07-012-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.07-012-M.m4v"
    },
    "2.1.07-014-M.m4v": {
       "downloaded": false,
@@ -554,10 +430,6 @@
    "1.1.07-161-M.m4v": {
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-161-M.m4v"
-   },
-   "1.1.07-205-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-205-M.m4v"
    },
    "1.2.11-114-M.m4v": {
       "downloaded": false,
@@ -584,7 +456,7 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.2.18-021-M.m4v"
    },
    "1.1.07-164-M.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-164-M.m4v"
    },
    "1.1.07-165-M.m4v": {
@@ -596,7 +468,7 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.09-134-M.m4v"
    },
    "1.2.09-135-M.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.09-135-M.m4v"
    },
    "1.3.01-130-M.m4v": {
@@ -606,10 +478,6 @@
    "2.1.02-004.m4v": {
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.02-004.m4v"
-   },
-   "2.1.06-201-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.06-201-M.m4v"
    },
    "2.1.07-015-M.m4v": {
       "downloaded": false,
@@ -636,20 +504,12 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.2.12-108-M.m4v"
    },
    "1.1.06-131-M.m4v": {
-      "downloaded": true,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.06-131-M.m4v"
-   },
-   "1.1.06-201-M.m4v": {
       "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.06-201-M.m4v"
+      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.06-131-M.m4v"
    },
    "1.1.07-168-M.m4v": {
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-168-M.m4v"
-   },
-   "1.1.07-206-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.07-206-M.m4v"
    },
    "1.2.09-136-M.m4v": {
       "downloaded": false,
@@ -659,12 +519,8 @@
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.09-137-M.m4v"
    },
-   "1.2.09-206-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.2.09-206-M.m4v"
-   },
    "2.1.03-121.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.03-121.m4v"
    },
    "2.1.06-104-M.m4v": {
@@ -675,16 +531,12 @@
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.06-105.m4v"
    },
-   "2.1.07-016-M.m4v": {
-      "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.07-016-M.m4v"
-   },
    "1.1.02-136-M.m4v": {
       "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.02-136-M.m4v"
    },
    "1.1.02-137-M.m4v": {
-      "downloaded": true,
+      "downloaded": false,
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/1.1.02-137-M.m4v"
    },
    "1.1.07-169-M.m4v": {
@@ -716,12 +568,8 @@
       "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.1.06-106-M.m4v"
    },
    "2.2.05-019.m4v": {
-      "downloaded": true,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.2.05-019.m4v"
-   },
-   "2.2.06-001.m4v": {
       "downloaded": false,
-      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.2.06-001.m4v"
+      "url": "https://www.theorie24.de/live_images/_current_ws_2023-04-01_2023-10-01/videos/2.2.05-019.m4v"
    },
    "2.2.06-101-M.m4v": {
       "downloaded": false,
