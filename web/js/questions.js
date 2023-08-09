@@ -109,6 +109,14 @@ async function fillMedia(){
             element.style.display = 'flex';
           });
         
+        const mutterSpan = document.querySelectorAll('.mutterfrage');
+        mutterSpan.forEach(element => {
+          element.innerHTML += '&nbsp';
+          element.innerHTML = '&nbsp' + element.innerHTML;
+        });
+              
+        if(! current_question.hasOwnProperty('asw_3'))
+          document.getElementById('asw3h').style.display = 'none';
         const input = document.getElementById('iasw1');
         input.setAttribute('type', 'checkbox');
         input.removeAttribute('min');

@@ -203,4 +203,4 @@ def last_days_progress():
         
         
 if __name__ == '__main__':
-    init_progress()
+    last_days_progress()
