@@ -215,15 +215,21 @@ def remove_unused_questions(again=True):
     if again:
         remove_unused_questions(False)
         add_lacking_questions()
+        remove_unused_cats()
     
 
 def remove_unused_cats():
     subs = get_json('sub_categories.json')
     cats = get_json('categories.json')    
+    cout = {}
     for c in cats:
         for s in cats[c]['subs']:
             if s not in subs:
-                ...
+                print('removed', c)
+                pass
+            else:
+                cout[c] = cats[c]
+    dump_dict(cout, 'categories.json')
 
 
 if __name__ == '__main__':
