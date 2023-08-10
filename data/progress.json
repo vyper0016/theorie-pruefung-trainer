@@ -10220,12 +10220,12 @@
       "marked": false
    },
    "1.1.06-130": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "10-08-2023 03:12",
       "ease": 0,
       "marked": false
    },

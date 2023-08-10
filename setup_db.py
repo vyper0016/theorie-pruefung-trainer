@@ -6,7 +6,6 @@ import codecs
 import scrape
 import os
 import zipfile
-from copy import deepcopy
 from progress import init_progress
 
 
