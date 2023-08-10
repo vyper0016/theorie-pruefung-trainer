@@ -66,6 +66,7 @@ async function fillStats(){
     document.getElementById('last_hour').textContent = last_hour;
     document.getElementById('seen_today').textContent = seen_today;
     document.getElementById('goal').textContent = goal;
+    document.getElementById('goal_percent').textContent = (100 * seen_today / goal).toFixed(2);
     document.getElementById('min_average').textContent = (last_hour/60).toFixed(2);
 
     initializeGraph(last_days, total);

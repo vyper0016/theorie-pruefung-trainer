@@ -95,3 +95,7 @@
     justify-content: center; /* Center horizontally */
     
 }
+
+#goal_percent{
+    font-weight: 600;
+}
