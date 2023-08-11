@@ -241,7 +241,4 @@ def download_all_videos():
 
 
 if __name__ == '__main__':
-    vids = get_json('vids.json')
-    for c, v in enumerate(vids):
-        vids[v]['downloaded'] = True
-    dump_dict(vids, 'vids.json')
+    download_all_videos()
