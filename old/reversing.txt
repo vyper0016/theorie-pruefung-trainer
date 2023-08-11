@@ -1,0 +1,59 @@
+data in folder "2" refers to the later version
+app.js is kinda main
+for other languages it looks in ext
+see line 15693 in app.js
+
+it appears the following companies get the same db: t24, adac, franzis, tplus (menu_adac_de.js)
+they get the db once a year, hence why there are 2 folders named 1 and 2
+the first is valid from 01/04 and the second from 01/10
+
+-- db for questions breakdown --
+class B: "6"
+
+zusatzstoff class B questions have ",6," in their ['classes'] (count: 561)
+
+total questions with an empty ['classes'] = 646 which is different than the 627 found on a website (https://www.fuehrerschein-bestehen.de/fuehrerscheintest/fragenkataloge.aspx)
+other numbers however seem to correspond to the website
+
+total questions(all classes): 1831 (checks out)
+
+all questions have category ids, some have more than 1 (537)
+
+mq_flag (1 or 0) (223, 1608): refers to mother questions which can slightly change in the main exam
+
+
+it is 1 with all the questions with -M at the end and they all seem to have an image or a video
+
+
+the basic key seems to correspond to the Grundstoff questions (625) which is still different than the 623 on the website
+
+
+questions with a non-empty asw_hint_1: 76
+                            2 and 3 however seem to be useless
+
+
+"asw_index_1": 1,
+"asw_index_2": 2,
+"asw_index_3": 3, all seem to be redundant
+
+-- Sets --
+it appears that each class has 99 sets of questions
+
+sets with class 6 all have 30 questions
+
+
+
+--- setting it up ---
+to automate :
+    unzip the apk then 
+
+1. get the following files (relative to \assets\www\data\1)
+    - tblQuestions.js
+    - tblQuestionsInfo.js for the infos (optional)
+    - ext/GB/tblQuestions.js (for english)
+
+2. drag them in './js'
+
+3. drag all the pics from \assets\www\assets\img\images into the img folder (yet to determine)
+4. drag all the pics from \assets\www\assets\img\etc\gb into the img folder (yet to determine)
+5. remove unneeded images

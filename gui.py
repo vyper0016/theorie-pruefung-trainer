@@ -95,15 +95,23 @@ def get_filters():
     print(filters)
     
 
-def download_video(url, filename):
-    print('downloading', filename, '...')
-    response = requests.get(url)
+def download_video(vid):
+    global vids    
+    
+    if vids[vid]['downloaded']:
+        print(vid, 'already downloaded')
+        return
+    
+    print('downloading', vid, '...')
+    response = requests.get(vids[vid]['url'])
     if response.status_code == 200:
-        with open(VID_PATH + '/' + filename, 'wb') as f:
+        with open(VID_PATH + '/' + vid, 'wb') as f:
             f.write(response.content)
-        print(f"{filename} downloaded successfully.")
+        vids[vid]['downloaded'] = True
+        dump_dict(vids, 'vids.json')
+        print(f"{vid} downloaded successfully.")
     else:
-        print(f"Failed to download {filename} Status code: {response.status_code}")
+        print(f"Failed to download {vid} Status code: {response.status_code}")
 
 
 def get_all_videos_set():
@@ -116,14 +124,7 @@ def get_all_videos_set():
 
 @eel.expose
 def get_video(video):
-    global vids
-    if vids[video]['downloaded']:
-        print(video, 'already downloaded')
-        return
-
-    download_video(vids[video]['url'], video)
-    vids[video]['downloaded'] = True
-    dump_dict(vids, 'vids.json')
+    download_video(video)
 
 
 @eel.expose
@@ -191,4 +192,5 @@ def get_category_stats():
     return progress.get_stats()
 
 
-eel.start('index.html', mode='default')  # Open the GUI window
+if __name__ == '__main__':
+    eel.start('index.html', mode='default')  # Open the GUI window

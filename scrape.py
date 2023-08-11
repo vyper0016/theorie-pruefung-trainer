@@ -232,6 +232,16 @@ def remove_unused_cats():
     dump_dict(cout, 'categories.json')
 
 
+def download_all_videos():
+    from gui import download_video
+    vids = get_json('vids.json')
+    for c, v in enumerate(vids):
+        download_video(v)
+        print(f'{c+1}/{len(vids)}')
+
+
 if __name__ == '__main__':
-    add_lacking_questions()
-    remove_unused_questions()
+    vids = get_json('vids.json')
+    for c, v in enumerate(vids):
+        vids[v]['downloaded'] = True
+    dump_dict(vids, 'vids.json')
