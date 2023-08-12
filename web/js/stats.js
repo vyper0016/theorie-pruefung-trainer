@@ -66,8 +66,18 @@ async function fillStats(){
     document.getElementById('last_hour').textContent = last_hour;
     document.getElementById('seen_today').textContent = seen_today;
     document.getElementById('goal').textContent = goal;
-    document.getElementById('goal_percent').textContent = (100 * seen_today / goal).toFixed(2);
     document.getElementById('min_average').textContent = (last_hour/60).toFixed(2);
+    const goal_percent = document.getElementById('goal_percent');
+    goal_percent.textContent = (100 * seen_today / goal).toFixed(2);
+    const goal_left = goal - seen_today;
+    if(goal_left > 0){
+      goal_percent.title = goal_left + ' left';
+    }else if(goal_left == 0){
+      goal_percent.title = 'All done!';
+    }else{
+      goal_percent.title = -goal_left + ' extra done';
+    }
+    document.getElementById('goal').title = goal_percent.title;
 
     initializeGraph(last_days, total);
 
