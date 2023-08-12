@@ -665,220 +665,28 @@
       "not_seen": 1006,
       "practiced": 143
    },
-   "11-08-2023 15:55": {
-      "mastered": 4,
-      "wrong": 33,
-      "not_seen": 1005,
-      "practiced": 144
-   },
-   "11-08-2023 15:56": {
-      "mastered": 4,
+   "12-08-2023 18:39": {
+      "mastered": 5,
       "wrong": 33,
       "not_seen": 1004,
+      "practiced": 144
+   },
+   "12-08-2023 18:40": {
+      "mastered": 5,
+      "wrong": 33,
+      "not_seen": 1003,
       "practiced": 145
    },
-   "11-08-2023 19:57": {
+   "12-08-2023 19:28": {
       "mastered": 5,
       "wrong": 33,
       "not_seen": 1002,
       "practiced": 146
    },
-   "11-08-2023 19:59": {
+   "12-08-2023 19:56": {
       "mastered": 5,
       "wrong": 33,
       "not_seen": 1001,
       "practiced": 147
-   },
-   "11-08-2023 20:07": {
-      "mastered": 6,
-      "wrong": 33,
-      "not_seen": 1000,
-      "practiced": 147
-   },
-   "11-08-2023 20:11": {
-      "mastered": 6,
-      "wrong": 33,
-      "not_seen": 999,
-      "practiced": 148
-   },
-   "11-08-2023 20:13": {
-      "mastered": 6,
-      "wrong": 33,
-      "not_seen": 997,
-      "practiced": 150
-   },
-   "12-08-2023 13:32": {
-      "mastered": 6,
-      "wrong": 32,
-      "not_seen": 996,
-      "practiced": 152
-   },
-   "12-08-2023 13:33": {
-      "mastered": 6,
-      "wrong": 32,
-      "not_seen": 992,
-      "practiced": 156
-   },
-   "12-08-2023 13:34": {
-      "mastered": 6,
-      "wrong": 33,
-      "not_seen": 989,
-      "practiced": 158
-   },
-   "12-08-2023 13:36": {
-      "mastered": 6,
-      "wrong": 33,
-      "not_seen": 985,
-      "practiced": 162
-   },
-   "12-08-2023 13:37": {
-      "mastered": 6,
-      "wrong": 33,
-      "not_seen": 983,
-      "practiced": 164
-   },
-   "12-08-2023 13:38": {
-      "mastered": 6,
-      "wrong": 33,
-      "not_seen": 982,
-      "practiced": 165
-   },
-   "12-08-2023 13:39": {
-      "mastered": 7,
-      "wrong": 33,
-      "not_seen": 982,
-      "practiced": 164
-   },
-   "12-08-2023 13:40": {
-      "mastered": 7,
-      "wrong": 33,
-      "not_seen": 981,
-      "practiced": 165
-   },
-   "12-08-2023 13:41": {
-      "mastered": 7,
-      "wrong": 33,
-      "not_seen": 977,
-      "practiced": 169
-   },
-   "12-08-2023 13:42": {
-      "mastered": 8,
-      "wrong": 33,
-      "not_seen": 977,
-      "practiced": 168
-   },
-   "12-08-2023 13:43": {
-      "mastered": 8,
-      "wrong": 33,
-      "not_seen": 976,
-      "practiced": 169
-   },
-   "12-08-2023 13:44": {
-      "mastered": 8,
-      "wrong": 33,
-      "not_seen": 975,
-      "practiced": 170
-   },
-   "12-08-2023 13:45": {
-      "mastered": 8,
-      "wrong": 33,
-      "not_seen": 974,
-      "practiced": 171
-   },
-   "12-08-2023 13:47": {
-      "mastered": 8,
-      "wrong": 33,
-      "not_seen": 973,
-      "practiced": 172
-   },
-   "12-08-2023 13:48": {
-      "mastered": 9,
-      "wrong": 34,
-      "not_seen": 972,
-      "practiced": 171
-   },
-   "12-08-2023 13:49": {
-      "mastered": 9,
-      "wrong": 34,
-      "not_seen": 970,
-      "practiced": 173
-   },
-   "12-08-2023 13:50": {
-      "mastered": 9,
-      "wrong": 34,
-      "not_seen": 968,
-      "practiced": 175
-   },
-   "12-08-2023 13:51": {
-      "mastered": 10,
-      "wrong": 34,
-      "not_seen": 967,
-      "practiced": 175
-   },
-   "12-08-2023 13:52": {
-      "mastered": 11,
-      "wrong": 34,
-      "not_seen": 966,
-      "practiced": 175
-   },
-   "12-08-2023 13:54": {
-      "mastered": 11,
-      "wrong": 35,
-      "not_seen": 965,
-      "practiced": 175
-   },
-   "12-08-2023 13:55": {
-      "mastered": 11,
-      "wrong": 35,
-      "not_seen": 962,
-      "practiced": 178
-   },
-   "12-08-2023 13:56": {
-      "mastered": 11,
-      "wrong": 35,
-      "not_seen": 961,
-      "practiced": 179
-   },
-   "12-08-2023 13:58": {
-      "mastered": 11,
-      "wrong": 36,
-      "not_seen": 960,
-      "practiced": 179
-   },
-   "12-08-2023 13:59": {
-      "mastered": 13,
-      "wrong": 36,
-      "not_seen": 960,
-      "practiced": 177
-   },
-   "12-08-2023 14:00": {
-      "mastered": 13,
-      "wrong": 36,
-      "not_seen": 959,
-      "practiced": 178
-   },
-   "12-08-2023 14:01": {
-      "mastered": 13,
-      "wrong": 37,
-      "not_seen": 958,
-      "practiced": 178
-   },
-   "12-08-2023 14:03": {
-      "mastered": 14,
-      "wrong": 38,
-      "not_seen": 955,
-      "practiced": 179
-   },
-   "12-08-2023 14:04": {
-      "mastered": 15,
-      "wrong": 38,
-      "not_seen": 953,
-      "practiced": 180
-   },
-   "12-08-2023 14:05": {
-      "mastered": 15,
-      "wrong": 39,
-      "not_seen": 951,
-      "practiced": 181
    }
 }

@@ -4,6 +4,7 @@ body {
   margin: 20px;
   background-color: #242424;
   color: #fff;
+  overflow-x: hidden;
 }
 
 h1 {

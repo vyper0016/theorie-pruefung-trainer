@@ -122,6 +122,8 @@ async function fillMedia(){
         input.removeAttribute('min');
         input.removeAttribute('max');
         input.removeAttribute('step');
+    }else{
+      document.getElementById('iasw1').focus();
     }        
     
     const videoElement = document.querySelector('.video-container video');
@@ -268,3 +270,46 @@ window.onload = () => {
     getNextPage();
 
   };
+
+  document.addEventListener("keydown", function(event) {
+    switch (event.key) {
+    
+      case "1":
+      case "2":
+      case "3":
+        if(current_question.type === 'number')
+          break;
+        const checkbox = document.getElementById('iasw'+event.key);
+        if(checkbox)
+          checkbox.click();
+        break;   
+      case "m":
+        markQuestion();
+        break;
+      case "ArrowRight":
+          nextQuestion();
+          break;
+      case "ArrowLeft":
+          previousQuestion();
+          break;
+      case "Enter":
+        document.getElementById('submitButton').click();
+        break;
+      case "*":
+        if(window.location.href.endsWith('#popup1'))
+          redirect('#');
+        else
+          redirect('#popup1');
+        break;
+      case "i":
+        if(document.querySelector('a[href="#popup2"]').style.display != 'flex')
+          break;
+        if(window.location.href.endsWith('#popup2'))
+          redirect('#');
+        else
+          redirect('#popup2');
+      break;
+      default:
+        break; // No action for other keys
+    }
+  });

@@ -134,7 +134,6 @@ def mark_question(qid, mark:bool):
 
 @eel.expose
 def submitted_question(qdata, correct: bool):
-    return
     progress.submitted_question(qdata['number'], correct)
     
     
@@ -175,7 +174,6 @@ def get_set_questions():
 
 @eel.expose
 def update_set_progress(success:bool):
-    return
     progress.update_set(success, current_sid)
 
 

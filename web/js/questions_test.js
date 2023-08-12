@@ -41,10 +41,18 @@ async function load(){
 
 async function nextQuestion(){
   if(current_index === 19){
-    const radio2 = document.getElementById('two');
-    radio2.checked = true;
+    const radio = document.getElementById('two');
+    radio.checked = true;
   }
   goToQuestion(current_index + 1);
+}
+
+async function previousQuestion(){
+  if(current_index === 20){
+    const radio = document.getElementById('one');
+    radio.checked = true;
+  }
+  goToQuestion(current_index - 1);
 }
 
 
@@ -102,7 +110,9 @@ async function fillMedia(){
       input.removeAttribute('min');
       input.removeAttribute('max');
       input.removeAttribute('step');
-  }        
+  }else{
+    document.getElementById('iasw1').focus();
+  }            
   
   const videoElement = document.querySelector('.video-container video');
   if (videoElement) {
@@ -241,6 +251,9 @@ function updateMarkButton(){
 
 const asw3_div = document.getElementById('asw3h');
 async function goToQuestion(index){
+    if(current_index === index || index > 29 || index < 0)
+      return;
+  
     current_index = index;
     current_question = questionsArray[current_index];
     updateIndexIcon();
@@ -550,3 +563,51 @@ window.addEventListener('beforeunload', function (e) {
     e.returnValue = '';
 
 });
+
+
+document.addEventListener("keydown", function(event) {
+  switch (event.key) {
+  
+    case "1":
+    case "2":
+    case "3":
+      if(current_question.type === 'number')
+        break;
+      const checkbox = document.getElementById('iasw'+event.key);
+      if(checkbox)
+        checkbox.click();
+      break;   
+    case "m":
+      markQuestion();
+      break;
+    case "s":
+      submitTest();
+      break;
+    case "ArrowRight":
+        nextQuestion();
+        break;
+    case "ArrowLeft":
+        previousQuestion();
+        break;
+    case "Enter":
+      nextQuestion();
+      break;    
+    case "*":
+        if(window.location.href.endsWith('#popup3'))
+          redirect('#');
+        else
+          redirect('#popup3');
+      break;
+    case "i":
+      if(!submitted)
+        break;
+      if(window.location.href.endsWith('#popup1'))
+        redirect('#');
+      else
+        redirect('#popup1');
+    break;
+    default:
+      break; // No action for other keys
+  }
+});
+

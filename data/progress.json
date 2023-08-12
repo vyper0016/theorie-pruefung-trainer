@@ -2030,12 +2030,12 @@
       "marked": false
    },
    "1.4.40-116": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "12-08-2023 19:56",
       "ease": 0,
       "marked": false
    },
@@ -5770,12 +5770,12 @@
       "marked": false
    },
    "1.4.41-152": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "12-08-2023 19:28",
       "ease": 0,
       "marked": false
    },
@@ -7920,12 +7920,12 @@
       "marked": false
    },
    "1.2.09-130-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "12-08-2023 18:40",
       "ease": 0,
       "marked": false
    },
@@ -8240,14 +8240,14 @@
       "marked": false
    },
    "1.2.34-006": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "12-08-2023 18:39",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.5.01-124": {
       "times_seen": 0,
@@ -8940,12 +8940,12 @@
       "marked": false
    },
    "2.1.06-024-M": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "11-08-2023 12:54",
+      "last_seen": "12-08-2023 18:39",
       "ease": 0,
       "marked": false
    },
@@ -8990,12 +8990,12 @@
       "marked": false
    },
    "2.2.23-120": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "12-08-2023 18:39",
       "ease": 0,
       "marked": false
    },
