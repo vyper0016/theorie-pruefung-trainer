@@ -202,6 +202,22 @@ function submitQuestion(){
   if(current_question['type'] === 'number' && document.getElementById('iasw1').value === ''){
   alert('Please input an answer first');
   return;
+}else if(current_question['type'] != 'number'){
+  const checkboxes = document.querySelectorAll("#iasw1, #iasw2, #iasw3");
+
+  let allUnchecked = true;
+
+  checkboxes.forEach((checkbox) => {
+    if (checkbox.checked) {
+      allUnchecked = false;
+      return; // Exit the loop early if any checkbox is checked
+    }
+  });
+
+  if (allUnchecked){
+    alert('Please input an answer first');
+    return;
+  }
 }
 
   document.querySelector('a[href="#popup2"]').style.display = 'flex';

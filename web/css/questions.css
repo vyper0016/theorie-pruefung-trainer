@@ -145,8 +145,10 @@ body {
 }
   .asw-container {
     margin-left: 10px;
+    margin-top: 20px;
     overflow-wrap: break-word;
     font-size: large;
+    position: relative;
   }
 
   input[type="number"]{
@@ -163,9 +165,12 @@ body {
   padding: 5px 0;
     display: flex;
     align-items: center; /* Center the elements vertically */
-    white-space: nowrap;
+    text-align: left;
   }
-  
+
+  .asw label{
+    padding: 5px;
+  }
 
   .asw input[type="checkbox"] {
     width: 40px;
