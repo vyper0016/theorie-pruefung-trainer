@@ -222,14 +222,18 @@ function fillAnswers(){
     var input = document.getElementById('iasw'+i);
     if(current_question['type'] === 'number'){
        input.value = asw;
+       if(current_question.asw_corr1 == current_question['state_asw'+i]){
+        checkbar.style.border = 'solid green 4px';
+      }else{
+        checkbar.style.border = 'solid red 4px';
+      }
        break;
     }else{
-      input.checked = asw;
-      
+      input.checked = asw;      
     }
 
     if(submitted){
-      const checkbar = document.getElementById('checkbar'+i);
+
       if(current_question['asw_corr'+i] == current_question['state_asw'+i]){
         checkbar.style.border = 'solid green 4px';
       }else{
@@ -342,6 +346,8 @@ function updateAnswers(){
     var input = document.getElementById('iasw'+i);
     if(current_question['type'] === 'number'){
       current_question['state_asw1'] = input.value;
+      console.log('here ' + input.value, i, current_question['state_asw1']);
+      break;
     }else{
       current_question['state_asw'+i] = input.checked;
     }
@@ -559,8 +565,9 @@ window.onload = () => {
 window.addEventListener('beforeunload', function (e) {
     // Cancel the event and show alert that
     // the unsaved changes would be lost
-    e.preventDefault();
-    e.returnValue = '';
+    if(!submitted){
+      e.preventDefault();
+      e.returnValue = '';}
 
 });
 
