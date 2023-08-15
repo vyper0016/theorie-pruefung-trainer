@@ -1762,5 +1762,107 @@
       "wrong": 84,
       "not_seen": 700,
       "practiced": 343
+   },
+   "15-08-2023 16:27": {
+      "mastered": 59,
+      "wrong": 85,
+      "not_seen": 696,
+      "practiced": 346
+   },
+   "15-08-2023 16:28": {
+      "mastered": 59,
+      "wrong": 86,
+      "not_seen": 695,
+      "practiced": 346
+   },
+   "15-08-2023 16:29": {
+      "mastered": 59,
+      "wrong": 87,
+      "not_seen": 694,
+      "practiced": 346
+   },
+   "15-08-2023 16:32": {
+      "mastered": 59,
+      "wrong": 87,
+      "not_seen": 692,
+      "practiced": 348
+   },
+   "15-08-2023 16:33": {
+      "mastered": 59,
+      "wrong": 87,
+      "not_seen": 691,
+      "practiced": 349
+   },
+   "15-08-2023 16:36": {
+      "mastered": 60,
+      "wrong": 87,
+      "not_seen": 688,
+      "practiced": 351
+   },
+   "15-08-2023 16:37": {
+      "mastered": 61,
+      "wrong": 87,
+      "not_seen": 688,
+      "practiced": 350
+   },
+   "15-08-2023 16:41": {
+      "mastered": 61,
+      "wrong": 87,
+      "not_seen": 686,
+      "practiced": 352
+   },
+   "15-08-2023 16:42": {
+      "mastered": 61,
+      "wrong": 88,
+      "not_seen": 683,
+      "practiced": 354
+   },
+   "15-08-2023 16:44": {
+      "mastered": 61,
+      "wrong": 89,
+      "not_seen": 680,
+      "practiced": 356
+   },
+   "15-08-2023 16:45": {
+      "mastered": 61,
+      "wrong": 89,
+      "not_seen": 678,
+      "practiced": 358
+   },
+   "15-08-2023 16:46": {
+      "mastered": 61,
+      "wrong": 89,
+      "not_seen": 676,
+      "practiced": 360
+   },
+   "15-08-2023 16:47": {
+      "mastered": 61,
+      "wrong": 90,
+      "not_seen": 675,
+      "practiced": 360
+   },
+   "15-08-2023 16:51": {
+      "mastered": 61,
+      "wrong": 90,
+      "not_seen": 673,
+      "practiced": 362
+   },
+   "15-08-2023 16:52": {
+      "mastered": 61,
+      "wrong": 89,
+      "not_seen": 673,
+      "practiced": 363
+   },
+   "15-08-2023 16:53": {
+      "mastered": 61,
+      "wrong": 89,
+      "not_seen": 671,
+      "practiced": 365
+   },
+   "15-08-2023 16:54": {
+      "mastered": 61,
+      "wrong": 90,
+      "not_seen": 666,
+      "practiced": 369
    }
 }

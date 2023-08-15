@@ -38,7 +38,7 @@ def called_page(page:str):
     print('called', page)
     if page.startswith('training_'):
         current_filters = eel.getCurrentFilters()()
-        current_filters = current_filters or {'mastered': False}        
+        current_filters = current_filters or {'last_was_right': False}        
         filtered_quesitons = filters.filter_questions(**current_filters)        
             
         if not filtered_quesitons:
