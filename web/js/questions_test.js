@@ -219,15 +219,17 @@ function fillAnswers(){
       break;
     
     const asw = submitted ? current_question['asw_corr'+i] : current_question['state_asw'+i]
-    var input = document.getElementById('iasw'+i);
+    const input = document.getElementById('iasw'+i);
+    const checkbar = document.getElementById('checkbar'+i);
     if(current_question['type'] === 'number'){
        input.value = asw;
-       if(current_question.asw_corr1 == current_question['state_asw'+i]){
-        checkbar.style.border = 'solid green 4px';
-      }else{
-        checkbar.style.border = 'solid red 4px';
-      }
-       break;
+      if(submitted){
+        if(current_question.asw_corr1 == current_question['state_asw'+i]){
+          checkbar.style.border = 'solid green 4px';
+        }else{
+          checkbar.style.border = 'solid red 4px';}
+        }
+        break;
     }else{
       input.checked = asw;      
     }
@@ -486,6 +488,8 @@ function submitTest(){
       correct = (question['state_asw1'] == question['asw_corr1']);
     }else{
     for(let j=1;j<=3;j++){
+      if(! question.hasOwnProperty('asw_'+j))
+        break;
       if(question['state_asw'+j] != question['asw_corr'+j]){
         correct = false;
         break;

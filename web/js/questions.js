@@ -309,6 +309,7 @@ window.onload = () => {
           previousQuestion();
           break;
       case "Enter":
+        console.log('enter pressed');
         document.getElementById('submitButton').click();
         break;
       case "*":

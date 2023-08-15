@@ -9,6 +9,8 @@ import progress
 
 eel.init('web')  # Set the web folder path (containing index.html, style.css, and script.js)
 
+TESTING = False  # set to true to prevent changing progress during testing
+
 all_questions = get_json('questions.json')
 sets = get_json('sets.json')
 vids = get_json('vids.json')
@@ -134,6 +136,8 @@ def mark_question(qid, mark:bool):
 
 @eel.expose
 def submitted_question(qdata, correct: bool):
+    if TESTING:
+        return
     progress.submitted_question(qdata['number'], correct)
     
     
@@ -174,6 +178,8 @@ def get_set_questions():
 
 @eel.expose
 def update_set_progress(success:bool):
+    if TESTING:
+        return
     progress.update_set(success, current_sid)
 
 

@@ -100,22 +100,22 @@
       "marked": true
    },
    "1.1.01-112": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_seen": 2,
+      "times_wrong": 1,
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
    "1.1.02-005": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:15",
       "ease": 0,
       "marked": false
    },
@@ -130,12 +130,12 @@
       "marked": false
    },
    "1.1.02-023": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:34",
       "ease": 0,
       "marked": false
    },
@@ -210,12 +210,12 @@
       "marked": false
    },
    "1.1.02-041-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -230,12 +230,12 @@
       "marked": false
    },
    "1.1.02-043-M": {
-      "times_seen": 0,
+      "times_seen": 3,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 3,
+      "times_right_iar": 3,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -280,12 +280,12 @@
       "marked": false
    },
    "1.1.03-001": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -320,22 +320,22 @@
       "marked": false
    },
    "1.1.03-104": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:29",
       "ease": 0,
       "marked": false
    },
    "1.1.03-105": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "13-08-2023 23:22",
       "ease": 0,
       "marked": false
    },
@@ -360,12 +360,12 @@
       "marked": false
    },
    "1.1.03-110": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:07",
       "ease": 0,
       "marked": false
    },
@@ -430,12 +430,12 @@
       "marked": false
    },
    "1.1.06-002": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:09",
       "ease": 0,
       "marked": false
    },
@@ -470,14 +470,14 @@
       "marked": false
    },
    "1.1.07-001": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 16:11",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.1.07-002": {
       "times_seen": 1,
@@ -510,12 +510,12 @@
       "marked": false
    },
    "1.1.07-010": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -550,12 +550,12 @@
       "marked": false
    },
    "1.1.07-101": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "13-08-2023 23:19",
       "ease": 0,
       "marked": false
    },
@@ -580,22 +580,22 @@
       "marked": false
    },
    "1.1.07-111": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 14:13",
       "ease": 0,
       "marked": false
    },
    "1.1.07-113": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "13-08-2023 23:56",
       "ease": 0,
       "marked": false
    },
@@ -650,22 +650,22 @@
       "marked": false
    },
    "1.1.07-121": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:55",
       "ease": 0,
       "marked": false
    },
    "1.1.07-122": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:10",
       "ease": 0,
       "marked": false
    },
@@ -700,12 +700,12 @@
       "marked": false
    },
    "1.1.09-008": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -750,12 +750,12 @@
       "marked": false
    },
    "1.1.09-018": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "15-08-2023 15:44",
       "ease": 0,
       "marked": false
    },
@@ -800,14 +800,14 @@
       "marked": false
    },
    "1.2.02-101-B": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 16:29",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.2.03-001": {
       "times_seen": 0,
@@ -830,12 +830,12 @@
       "marked": false
    },
    "1.2.03-101": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "11-08-2023 12:59",
+      "last_seen": "14-08-2023 00:01",
       "ease": 0,
       "marked": false
    },
@@ -890,12 +890,12 @@
       "marked": false
    },
    "1.2.04-101": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "10-08-2023 18:40",
+      "last_seen": "14-08-2023 17:02",
       "ease": 0,
       "marked": false
    },
@@ -980,12 +980,12 @@
       "marked": false
    },
    "1.2.05-110": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:09",
       "ease": 0,
       "marked": false
    },
@@ -1010,22 +1010,22 @@
       "marked": false
    },
    "1.2.07-103": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.2.07-104": {
       "times_seen": 1,
       "times_wrong": 0,
       "times_right": 1,
       "times_right_iar": 1,
       "last_was_right": true,
-      "last_seen": "11-08-2023 13:15",
+      "last_seen": "15-08-2023 16:01",
+      "ease": 0,
+      "marked": false
+   },
+   "1.2.07-104": {
+      "times_seen": 2,
+      "times_wrong": 0,
+      "times_right": 2,
+      "times_right_iar": 2,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:42",
       "ease": 0,
       "marked": false
    },
@@ -1070,12 +1070,12 @@
       "marked": false
    },
    "1.2.09-109": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:23",
       "ease": 0,
       "marked": false
    },
@@ -1100,12 +1100,12 @@
       "marked": false
    },
    "1.2.10-005": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 13:54",
       "ease": 0,
       "marked": false
    },
@@ -1150,24 +1150,24 @@
       "marked": false
    },
    "1.2.12-002": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.2.12-103": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 18:17",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.2.12-104": {
       "times_seen": 0,
@@ -1220,22 +1220,22 @@
       "marked": false
    },
    "1.2.12-110": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "15-08-2023 15:34",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.2.12-111": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:21",
       "ease": 0,
       "marked": false
    },
@@ -1310,22 +1310,22 @@
       "marked": false
    },
    "1.2.17-001": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:41",
       "ease": 0,
       "marked": false
    },
    "1.2.19-002": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:03",
       "ease": 0,
       "marked": false
    },
@@ -1390,32 +1390,32 @@
       "marked": false
    },
    "1.2.19-104": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
    "1.2.19-105": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:19",
       "ease": 0,
       "marked": false
    },
    "1.2.19-107": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:54",
       "ease": 0,
       "marked": false
    },
@@ -1440,12 +1440,12 @@
       "marked": false
    },
    "1.2.20-003": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -1590,22 +1590,22 @@
       "marked": false
    },
    "1.2.36-001": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:54",
       "ease": 0,
       "marked": false
    },
    "1.2.36-003": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:52",
       "ease": 0,
       "marked": false
    },
@@ -1620,12 +1620,12 @@
       "marked": false
    },
    "1.2.36-005-B": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:36",
       "ease": 0,
       "marked": false
    },
@@ -1670,14 +1670,14 @@
       "marked": false
    },
    "1.2.37-007": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:40",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.2.37-009": {
       "times_seen": 1,
@@ -1720,12 +1720,12 @@
       "marked": false
    },
    "1.2.38-002": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:30",
       "ease": 0,
       "marked": false
    },
@@ -1770,12 +1770,12 @@
       "marked": false
    },
    "1.3.01-002": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "09-08-2023 22:36",
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -1890,12 +1890,12 @@
       "marked": false
    },
    "1.3.01-050-M": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "09-08-2023 22:33",
+      "last_seen": "14-08-2023 17:14",
       "ease": 0,
       "marked": false
    },
@@ -1920,12 +1920,12 @@
       "marked": true
    },
    "1.4.40-005": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:56",
       "ease": 0,
       "marked": false
    },
@@ -1970,22 +1970,22 @@
       "marked": false
    },
    "1.4.40-106": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:23",
       "ease": 0,
       "marked": false
    },
    "1.4.40-108": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:00",
       "ease": 0,
       "marked": false
    },
@@ -2020,12 +2020,12 @@
       "marked": false
    },
    "1.4.40-115": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:21",
       "ease": 0,
       "marked": false
    },
@@ -2040,12 +2040,12 @@
       "marked": false
    },
    "1.4.40-118": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:32",
       "ease": 0,
       "marked": false
    },
@@ -2070,12 +2070,12 @@
       "marked": false
    },
    "1.4.40-130": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:51",
       "ease": 0,
       "marked": false
    },
@@ -2110,32 +2110,32 @@
       "marked": false
    },
    "1.4.41-005": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:16",
       "ease": 0,
       "marked": false
    },
    "1.4.41-006": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:44",
       "ease": 0,
       "marked": false
    },
    "1.4.41-007": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:12",
       "ease": 0,
       "marked": false
    },
@@ -2250,22 +2250,22 @@
       "marked": false
    },
    "1.4.41-116": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.4.41-118": {
       "times_seen": 1,
       "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "10-08-2023 01:46",
+      "last_seen": "14-08-2023 23:40",
+      "ease": 0,
+      "marked": true
+   },
+   "1.4.41-118": {
+      "times_seen": 2,
+      "times_wrong": 1,
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:15",
       "ease": 0,
       "marked": true
    },
@@ -2370,12 +2370,12 @@
       "marked": false
    },
    "1.4.41-132": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:54",
       "ease": 0,
       "marked": false
    },
@@ -2410,22 +2410,22 @@
       "marked": false
    },
    "1.4.41-136": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:58",
       "ease": 0,
       "marked": false
    },
    "1.4.41-140-B": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:59",
       "ease": 0,
       "marked": false
    },
@@ -2460,22 +2460,22 @@
       "marked": false
    },
    "1.4.41-144": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:09",
       "ease": 0,
       "marked": false
    },
    "1.4.42-001": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:24",
       "ease": 0,
       "marked": false
    },
@@ -2510,14 +2510,14 @@
       "marked": false
    },
    "1.4.42-104": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:21",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.4.42-106": {
       "times_seen": 0,
@@ -2550,14 +2550,14 @@
       "marked": false
    },
    "1.4.42-110": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_seen": 2,
+      "times_wrong": 1,
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:35",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.4.42-111": {
       "times_seen": 0,
@@ -2580,12 +2580,12 @@
       "marked": false
    },
    "1.4.42-116": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "10-08-2023 18:51",
+      "last_seen": "14-08-2023 18:12",
       "ease": 0,
       "marked": false
    },
@@ -2610,14 +2610,14 @@
       "marked": false
    },
    "1.4.42-125": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:53",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.4.42-126": {
       "times_seen": 0,
@@ -2730,12 +2730,12 @@
       "marked": false
    },
    "1.5.01-110": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -2770,12 +2770,12 @@
       "marked": false
    },
    "2.1.01-001": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 13:51",
       "ease": 0,
       "marked": false
    },
@@ -2830,12 +2830,12 @@
       "marked": true
    },
    "2.1.03-021-B": {
-      "times_seen": 1,
+      "times_seen": 3,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 3,
+      "times_right_iar": 3,
       "last_was_right": true,
-      "last_seen": "11-08-2023 13:21",
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -2850,12 +2850,12 @@
       "marked": false
    },
    "2.1.03-025": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "10-08-2023 02:05",
+      "last_seen": "14-08-2023 16:42",
       "ease": 0,
       "marked": false
    },
@@ -2960,24 +2960,24 @@
       "marked": false
    },
    "2.1.05-002": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "11-08-2023 13:27",
+      "last_seen": "14-08-2023 14:09",
       "ease": 0,
       "marked": false
    },
    "2.1.05-005": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.1.05-101": {
       "times_seen": 0,
@@ -3010,12 +3010,12 @@
       "marked": false
    },
    "2.1.06-005-B": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:37",
       "ease": 0,
       "marked": false
    },
@@ -3040,14 +3040,14 @@
       "marked": false
    },
    "2.1.07-102": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 17:15",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.1.07-106": {
       "times_seen": 0,
@@ -3200,14 +3200,14 @@
       "marked": false
    },
    "2.2.03-016": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 23:49",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.2.03-101": {
       "times_seen": 0,
@@ -3220,14 +3220,14 @@
       "marked": false
    },
    "2.2.03-104": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.2.03-105": {
       "times_seen": 1,
@@ -3250,12 +3250,12 @@
       "marked": true
    },
    "2.2.04-001": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:09",
       "ease": 0,
       "marked": false
    },
@@ -3300,14 +3300,14 @@
       "marked": false
    },
    "2.2.09-001": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "13-08-2023 23:28",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.2.12-001": {
       "times_seen": 0,
@@ -3360,12 +3360,12 @@
       "marked": false
    },
    "2.2.12-106": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:38",
       "ease": 0,
       "marked": false
    },
@@ -3380,12 +3380,12 @@
       "marked": false
    },
    "2.2.13-002": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:40",
       "ease": 0,
       "marked": false
    },
@@ -3440,12 +3440,12 @@
       "marked": false
    },
    "2.2.14-105": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:39",
       "ease": 0,
       "marked": false
    },
@@ -3480,12 +3480,12 @@
       "marked": false
    },
    "2.2.16-001": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:17",
       "ease": 0,
       "marked": false
    },
@@ -3520,12 +3520,12 @@
       "marked": false
    },
    "2.2.17-101": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "13-08-2023 19:09",
+      "last_seen": "14-08-2023 16:28",
       "ease": 0,
       "marked": false
    },
@@ -3550,12 +3550,12 @@
       "marked": false
    },
    "2.2.17-109": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:54",
       "ease": 0,
       "marked": false
    },
@@ -3570,14 +3570,14 @@
       "marked": false
    },
    "2.2.18-003": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.2.18-006": {
       "times_seen": 0,
@@ -3600,24 +3600,24 @@
       "marked": false
    },
    "2.2.18-009": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:40",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.2.18-011": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 16:47",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.2.18-101": {
       "times_seen": 0,
@@ -3640,12 +3640,12 @@
       "marked": false
    },
    "2.2.21-102": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:19",
       "ease": 0,
       "marked": false
    },
@@ -3690,12 +3690,12 @@
       "marked": false
    },
    "2.2.21-108": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:09",
       "ease": 0,
       "marked": false
    },
@@ -3780,12 +3780,12 @@
       "marked": false
    },
    "2.2.22-108": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:13",
       "ease": 0,
       "marked": false
    },
@@ -3860,12 +3860,12 @@
       "marked": true
    },
    "2.2.23-036": {
-      "times_seen": 0,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 2,
+      "times_right_iar": 2,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:44",
       "ease": 0,
       "marked": false
    },
@@ -3910,22 +3910,22 @@
       "marked": false
    },
    "2.2.23-107": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
    "2.2.23-113": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:16",
       "ease": 0,
       "marked": false
    },
@@ -3970,22 +3970,22 @@
       "marked": true
    },
    "2.2.37-003": {
-      "times_seen": 0,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 2,
+      "times_right_iar": 2,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:23",
       "ease": 0,
       "marked": false
    },
    "2.2.37-004": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:07",
       "ease": 0,
       "marked": false
    },
@@ -4020,12 +4020,12 @@
       "marked": false
    },
    "2.4.41-101": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 1,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "09-08-2023 21:19",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:44",
       "ease": 0,
       "marked": false
    },
@@ -4100,12 +4100,12 @@
       "marked": false
    },
    "2.4.42-002": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:00",
       "ease": 0,
       "marked": false
    },
@@ -4220,14 +4220,14 @@
       "marked": false
    },
    "2.5.01-106": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 17:00",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.5.01-107": {
       "times_seen": 1,
@@ -4250,12 +4250,12 @@
       "marked": false
    },
    "2.5.01-111": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:24",
       "ease": 0,
       "marked": false
    },
@@ -4300,22 +4300,22 @@
       "marked": false
    },
    "2.6.03-106": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 18:15",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.7.01-043": {
-      "times_seen": 0,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 2,
+      "times_right_iar": 2,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:00",
       "ease": 0,
       "marked": false
    },
@@ -4330,14 +4330,14 @@
       "marked": false
    },
    "2.7.01-046": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 13:52",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.7.01-047": {
       "times_seen": 0,
@@ -4370,12 +4370,12 @@
       "marked": false
    },
    "2.7.01-104": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:30",
       "ease": 0,
       "marked": false
    },
@@ -4390,12 +4390,12 @@
       "marked": false
    },
    "2.7.01-107": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "10-08-2023 18:51",
+      "last_seen": "14-08-2023 16:16",
       "ease": 0,
       "marked": false
    },
@@ -4410,14 +4410,14 @@
       "marked": false
    },
    "2.7.01-109": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 16:48",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.7.01-110": {
       "times_seen": 0,
@@ -4510,12 +4510,12 @@
       "marked": false
    },
    "2.7.01-124": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:08",
       "ease": 0,
       "marked": false
    },
@@ -4530,22 +4530,22 @@
       "marked": false
    },
    "2.7.01-127": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.7.02-015": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -4650,22 +4650,22 @@
       "marked": false
    },
    "2.7.02-115": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:15",
       "ease": 0,
       "marked": false
    },
    "2.7.02-117": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "13-08-2023 23:36",
       "ease": 0,
       "marked": false
    },
@@ -4750,14 +4750,14 @@
       "marked": false
    },
    "2.7.06-105": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "13-08-2023 23:43",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.8.01-001": {
       "times_seen": 0,
@@ -4840,12 +4840,12 @@
       "marked": false
    },
    "1.1.02-125-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:23",
       "ease": 0,
       "marked": false
    },
@@ -4880,12 +4880,12 @@
       "marked": false
    },
    "1.1.02-129": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:08",
       "ease": 0,
       "marked": false
    },
@@ -4960,12 +4960,12 @@
       "marked": false
    },
    "1.1.05-103": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "10-08-2023 02:16",
+      "last_seen": "14-08-2023 23:59",
       "ease": 0,
       "marked": false
    },
@@ -5040,12 +5040,12 @@
       "marked": false
    },
    "1.1.07-139": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:11",
       "ease": 0,
       "marked": false
    },
@@ -5060,22 +5060,22 @@
       "marked": false
    },
    "1.1.07-142": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 13:55",
       "ease": 0,
       "marked": false
    },
    "1.1.07-143": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:40",
       "ease": 0,
       "marked": false
    },
@@ -5110,14 +5110,14 @@
       "marked": false
    },
    "1.2.02-106": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 16:19",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.2.05-116": {
       "times_seen": 0,
@@ -5230,14 +5230,14 @@
       "marked": false
    },
    "1.2.10-108": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 14:00",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.2.11-104": {
       "times_seen": 0,
@@ -5250,12 +5250,12 @@
       "marked": false
    },
    "1.2.11-105": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:53",
       "ease": 0,
       "marked": false
    },
@@ -5320,22 +5320,22 @@
       "marked": false
    },
    "1.2.20-104": {
+      "times_seen": 2,
+      "times_wrong": 0,
+      "times_right": 2,
+      "times_right_iar": 2,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:11",
+      "ease": 0,
+      "marked": false
+   },
+   "1.2.22-107": {
       "times_seen": 1,
       "times_wrong": 0,
       "times_right": 1,
       "times_right_iar": 1,
       "last_was_right": true,
-      "last_seen": "10-08-2023 02:03",
-      "ease": 0,
-      "marked": false
-   },
-   "1.2.22-107": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 23:43",
       "ease": 0,
       "marked": false
    },
@@ -5360,12 +5360,12 @@
       "marked": false
    },
    "1.2.26-108": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:08",
       "ease": 0,
       "marked": false
    },
@@ -5410,12 +5410,12 @@
       "marked": false
    },
    "1.2.26-114": {
-      "times_seen": 0,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 2,
+      "times_right_iar": 2,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:44",
       "ease": 0,
       "marked": false
    },
@@ -5460,22 +5460,22 @@
       "marked": false
    },
    "1.2.34-110": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "1.2.34-111": {
       "times_seen": 1,
       "times_wrong": 0,
       "times_right": 1,
       "times_right_iar": 1,
       "last_was_right": true,
-      "last_seen": "09-08-2023 21:31",
+      "last_seen": "14-08-2023 18:16",
+      "ease": 0,
+      "marked": false
+   },
+   "1.2.34-111": {
+      "times_seen": 2,
+      "times_wrong": 0,
+      "times_right": 2,
+      "times_right_iar": 2,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:10",
       "ease": 0,
       "marked": false
    },
@@ -5510,12 +5510,12 @@
       "marked": false
    },
    "1.2.37-017": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -5530,22 +5530,22 @@
       "marked": false
    },
    "1.3.01-007-M": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "09-08-2023 22:28",
+      "last_seen": "14-08-2023 16:18",
       "ease": 0,
       "marked": false
    },
    "1.3.01-013-M": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "09-08-2023 22:25",
+      "last_seen": "14-08-2023 16:40",
       "ease": 0,
       "marked": false
    },
@@ -5580,22 +5580,22 @@
       "marked": false
    },
    "1.3.01-114-M": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "09-08-2023 21:46",
+      "last_seen": "14-08-2023 13:53",
       "ease": 0,
       "marked": true
    },
    "1.3.01-116": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "09-08-2023 23:09",
+      "last_seen": "13-08-2023 23:24",
       "ease": 0,
       "marked": false
    },
@@ -5630,12 +5630,12 @@
       "marked": false
    },
    "1.3.01-120-M": {
-      "times_seen": 1,
-      "times_wrong": 1,
+      "times_seen": 2,
+      "times_wrong": 2,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "09-08-2023 22:37",
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": true
    },
@@ -5670,24 +5670,24 @@
       "marked": false
    },
    "1.4.40-142": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:16",
       "ease": 0,
       "marked": false
    },
    "1.4.40-143": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 14:01",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.4.40-144": {
       "times_seen": 0,
@@ -5710,14 +5710,14 @@
       "marked": false
    },
    "1.4.41-146": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:04",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.4.41-147": {
       "times_seen": 2,
@@ -5750,12 +5750,12 @@
       "marked": false
    },
    "1.4.41-150": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:22",
       "ease": 0,
       "marked": false
    },
@@ -5830,12 +5830,12 @@
       "marked": false
    },
    "1.4.42-138": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "13-08-2023 23:31",
       "ease": 0,
       "marked": false
    },
@@ -5860,12 +5860,12 @@
       "marked": false
    },
    "2.1.03-111": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:32",
       "ease": 0,
       "marked": false
    },
@@ -5880,12 +5880,12 @@
       "marked": false
    },
    "2.1.04-104": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:07",
       "ease": 0,
       "marked": false
    },
@@ -5910,12 +5910,12 @@
       "marked": false
    },
    "2.1.07-202": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:34",
       "ease": 0,
       "marked": false
    },
@@ -5960,12 +5960,12 @@
       "marked": false
    },
    "2.1.07-208": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:13",
       "ease": 0,
       "marked": false
    },
@@ -6000,42 +6000,42 @@
       "marked": false
    },
    "2.1.08-015": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:27",
       "ease": 0,
       "marked": false
    },
    "2.1.11-008": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:35",
       "ease": 0,
       "marked": false
    },
    "2.1.11-118": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:50",
       "ease": 0,
       "marked": false
    },
    "2.1.11-119": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "13-08-2023 23:14",
       "ease": 0,
       "marked": false
    },
@@ -6090,14 +6090,14 @@
       "marked": false
    },
    "2.2.12-203": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 16:35",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.2.15-110": {
       "times_seen": 0,
@@ -6190,12 +6190,12 @@
       "marked": false
    },
    "2.4.40-006": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "11-08-2023 13:12",
+      "last_seen": "15-08-2023 15:48",
       "ease": 0,
       "marked": false
    },
@@ -6220,14 +6220,14 @@
       "marked": false
    },
    "2.7.01-058": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "15-08-2023 15:48",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.7.06-405": {
       "times_seen": 0,
@@ -6250,32 +6250,32 @@
       "marked": false
    },
    "1.1.07-146": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:46",
       "ease": 0,
       "marked": false
    },
    "1.2.37-011-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:15",
       "ease": 0,
       "marked": false
    },
    "1.3.01-053": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 1,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "09-08-2023 21:43",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "13-08-2023 23:23",
       "ease": 0,
       "marked": true
    },
@@ -6300,12 +6300,12 @@
       "marked": false
    },
    "2.6.02-030": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:14",
       "ease": 0,
       "marked": false
    },
@@ -6340,12 +6340,12 @@
       "marked": false
    },
    "1.1.07-014-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:08",
       "ease": 0,
       "marked": false
    },
@@ -6370,12 +6370,12 @@
       "marked": false
    },
    "1.2.09-112-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -6480,12 +6480,12 @@
       "marked": false
    },
    "1.2.05-120": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:27",
       "ease": 0,
       "marked": false
    },
@@ -6520,22 +6520,22 @@
       "marked": false
    },
    "1.2.26-007": {
-      "times_seen": 0,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 2,
+      "times_right_iar": 2,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:47",
       "ease": 0,
       "marked": false
    },
    "1.2.34-112": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:22",
       "ease": 0,
       "marked": false
    },
@@ -6560,12 +6560,12 @@
       "marked": false
    },
    "1.4.42-140": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:49",
       "ease": 0,
       "marked": false
    },
@@ -6580,12 +6580,12 @@
       "marked": false
    },
    "1.5.01-014": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:09",
       "ease": 0,
       "marked": false
    },
@@ -6640,24 +6640,24 @@
       "marked": false
    },
    "2.1.03-028": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:20",
       "ease": 0,
       "marked": false
    },
    "2.1.03-029": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 14:20",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.1.03-030": {
       "times_seen": 0,
@@ -6810,12 +6810,12 @@
       "marked": false
    },
    "2.5.01-014": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:38",
       "ease": 0,
       "marked": false
    },
@@ -6910,12 +6910,12 @@
       "marked": false
    },
    "1.4.41-157": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:52",
       "ease": 0,
       "marked": false
    },
@@ -6940,14 +6940,14 @@
       "marked": false
    },
    "2.5.01-208": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 17:21",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.5.01-209": {
       "times_seen": 0,
@@ -6980,12 +6980,12 @@
       "marked": false
    },
    "2.5.01-212": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:17",
       "ease": 0,
       "marked": false
    },
@@ -7020,22 +7020,22 @@
       "marked": false
    },
    "1.1.07-148": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:14",
       "ease": 0,
       "marked": false
    },
    "1.1.07-149": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:44",
       "ease": 0,
       "marked": false
    },
@@ -7100,12 +7100,12 @@
       "marked": false
    },
    "1.2.36-011": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "11-08-2023 13:18",
+      "last_seen": "14-08-2023 13:51",
       "ease": 0,
       "marked": false
    },
@@ -7140,12 +7140,12 @@
       "marked": false
    },
    "1.4.42-141": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -7180,12 +7180,12 @@
       "marked": false
    },
    "2.1.08-018": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:02",
       "ease": 0,
       "marked": false
    },
@@ -7280,12 +7280,12 @@
       "marked": false
    },
    "1.2.12-121-M": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "11-08-2023 13:13",
+      "last_seen": "15-08-2023 15:42",
       "ease": 0,
       "marked": false
    },
@@ -7310,12 +7310,12 @@
       "marked": false
    },
    "1.3.01-126-M": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "09-08-2023 23:09",
+      "last_seen": "14-08-2023 17:00",
       "ease": 0,
       "marked": false
    },
@@ -7350,12 +7350,12 @@
       "marked": false
    },
    "2.1.06-014": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:09",
       "ease": 0,
       "marked": false
    },
@@ -7370,12 +7370,12 @@
       "marked": false
    },
    "2.1.08-021": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:13",
       "ease": 0,
       "marked": false
    },
@@ -7390,22 +7390,22 @@
       "marked": false
    },
    "2.1.11-127": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:17",
       "ease": 0,
       "marked": false
    },
    "2.1.11-128": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "13-08-2023 23:25",
       "ease": 0,
       "marked": false
    },
@@ -7420,22 +7420,22 @@
       "marked": false
    },
    "2.2.05-011": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:56",
       "ease": 0,
       "marked": false
    },
    "2.2.05-012": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 1,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "13-08-2023 19:11",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:22",
       "ease": 0,
       "marked": true
    },
@@ -7500,12 +7500,12 @@
       "marked": false
    },
    "2.2.22-117": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:07",
       "ease": 0,
       "marked": false
    },
@@ -7530,22 +7530,22 @@
       "marked": false
    },
    "2.5.01-016": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
    "2.7.05-217": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:41",
       "ease": 0,
       "marked": false
    },
@@ -7560,12 +7560,12 @@
       "marked": false
    },
    "1.1.02-050-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:25",
       "ease": 0,
       "marked": false
    },
@@ -7650,12 +7650,12 @@
       "marked": false
    },
    "1.4.41-164": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -7670,22 +7670,22 @@
       "marked": false
    },
    "1.4.42-144": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:42",
       "ease": 0,
       "marked": false
    },
    "2.1.11-130": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:45",
       "ease": 0,
       "marked": false
    },
@@ -7720,12 +7720,12 @@
       "marked": false
    },
    "2.2.07-008": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:03",
       "ease": 0,
       "marked": false
    },
@@ -7750,12 +7750,12 @@
       "marked": true
    },
    "2.2.09-003-M": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "13-08-2023 20:14",
+      "last_seen": "14-08-2023 17:08",
       "ease": 0,
       "marked": false
    },
@@ -7770,12 +7770,12 @@
       "marked": false
    },
    "2.2.18-103": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:14",
       "ease": 0,
       "marked": false
    },
@@ -7790,12 +7790,12 @@
       "marked": false
    },
    "2.2.23-117": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:17",
       "ease": 0,
       "marked": false
    },
@@ -7830,12 +7830,12 @@
       "marked": false
    },
    "2.7.01-130": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:06",
       "ease": 0,
       "marked": false
    },
@@ -7870,12 +7870,12 @@
       "marked": false
    },
    "1.1.07-154": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:41",
       "ease": 0,
       "marked": false
    },
@@ -7940,12 +7940,12 @@
       "marked": false
    },
    "1.2.34-005": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:43",
       "ease": 0,
       "marked": false
    },
@@ -7970,34 +7970,34 @@
       "marked": false
    },
    "1.4.41-165": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:02",
       "ease": 0,
       "marked": false
    },
    "1.4.41-166": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 14:14",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.4.41-167": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 17:26",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.4.42-145": {
       "times_seen": 0,
@@ -8020,12 +8020,12 @@
       "marked": false
    },
    "2.1.05-105-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:43",
       "ease": 0,
       "marked": false
    },
@@ -8110,12 +8110,12 @@
       "marked": false
    },
    "2.1.07-119": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:15",
       "ease": 0,
       "marked": false
    },
@@ -8140,12 +8140,12 @@
       "marked": false
    },
    "2.2.09-004-M": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "10-08-2023 18:42",
+      "last_seen": "14-08-2023 17:10",
       "ease": 0,
       "marked": false
    },
@@ -8250,12 +8250,12 @@
       "marked": true
    },
    "1.5.01-124": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:11",
       "ease": 0,
       "marked": false
    },
@@ -8290,12 +8290,12 @@
       "marked": false
    },
    "2.1.11-011": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:06",
       "ease": 0,
       "marked": false
    },
@@ -8340,12 +8340,12 @@
       "marked": false
    },
    "2.2.05-017": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:01",
       "ease": 0,
       "marked": false
    },
@@ -8370,22 +8370,22 @@
       "marked": false
    },
    "2.2.23-119": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.6.01-003": {
       "times_seen": 1,
       "times_wrong": 0,
       "times_right": 1,
       "times_right_iar": 1,
       "last_was_right": true,
-      "last_seen": "13-08-2023 19:38",
+      "last_seen": "14-08-2023 16:30",
+      "ease": 0,
+      "marked": false
+   },
+   "2.6.01-003": {
+      "times_seen": 2,
+      "times_wrong": 0,
+      "times_right": 2,
+      "times_right_iar": 2,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:10",
       "ease": 0,
       "marked": false
    },
@@ -8410,22 +8410,22 @@
       "marked": false
    },
    "2.6.03-113": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:24",
       "ease": 0,
       "marked": false
    },
    "2.7.01-063": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:59",
       "ease": 0,
       "marked": false
    },
@@ -8530,12 +8530,12 @@
       "marked": false
    },
    "1.1.01-004": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "13-08-2023 20:14",
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -8620,22 +8620,22 @@
       "marked": false
    },
    "1.3.01-127-M": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 1,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "09-08-2023 22:23",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:44",
       "ease": 0,
       "marked": true
    },
    "2.1.07-120-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "13-08-2023 23:21",
       "ease": 0,
       "marked": false
    },
@@ -8720,12 +8720,12 @@
       "marked": false
    },
    "2.2.34-001-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:43",
       "ease": 0,
       "marked": false
    },
@@ -8770,12 +8770,12 @@
       "marked": false
    },
    "2.7.02-127": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "09-08-2023 21:04",
+      "last_seen": "14-08-2023 17:24",
       "ease": 0,
       "marked": false
    },
@@ -8790,14 +8790,14 @@
       "marked": false
    },
    "2.7.05-001": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 18:08",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.7.05-101": {
       "times_seen": 0,
@@ -8820,12 +8820,12 @@
       "marked": false
    },
    "2.8.01-012": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "13-08-2023 23:21",
       "ease": 0,
       "marked": false
    },
@@ -8880,12 +8880,12 @@
       "marked": false
    },
    "2.1.05-008": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:24",
       "ease": 0,
       "marked": false
    },
@@ -8920,14 +8920,14 @@
       "marked": false
    },
    "2.1.06-022-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 17:16",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.1.06-023-M": {
       "times_seen": 0,
@@ -8950,22 +8950,22 @@
       "marked": false
    },
    "2.1.06-025-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:51",
       "ease": 0,
       "marked": false
    },
    "2.1.07-008-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:59",
       "ease": 0,
       "marked": false
    },
@@ -9010,12 +9010,12 @@
       "marked": false
    },
    "2.5.01-120": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:27",
       "ease": 0,
       "marked": false
    },
@@ -9030,12 +9030,12 @@
       "marked": false
    },
    "2.7.01-141": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:57",
       "ease": 0,
       "marked": false
    },
@@ -9080,12 +9080,12 @@
       "marked": false
    },
    "2.7.05-103": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "10-08-2023 02:15",
+      "last_seen": "13-08-2023 23:25",
       "ease": 0,
       "marked": false
    },
@@ -9100,12 +9100,12 @@
       "marked": false
    },
    "2.7.05-105": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 15:38",
       "ease": 0,
       "marked": false
    },
@@ -9130,12 +9130,12 @@
       "marked": false
    },
    "1.2.02-111": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "11-08-2023 12:55",
+      "last_seen": "14-08-2023 18:21",
       "ease": 0,
       "marked": false
    },
@@ -9150,12 +9150,12 @@
       "marked": false
    },
    "1.1.07-157-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:08",
       "ease": 0,
       "marked": false
    },
@@ -9170,12 +9170,12 @@
       "marked": false
    },
    "1.2.09-016": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:59",
       "ease": 0,
       "marked": false
    },
@@ -9190,24 +9190,24 @@
       "marked": false
    },
    "1.2.09-132-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:02",
       "ease": 0,
       "marked": false
    },
    "1.2.12-124": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 2,
+      "times_wrong": 2,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "15-08-2023 15:40",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.2.19-116": {
       "times_seen": 0,
@@ -9240,12 +9240,12 @@
       "marked": false
    },
    "1.4.40-147": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "13-08-2023 23:14",
       "ease": 0,
       "marked": false
    },
@@ -9310,12 +9310,12 @@
       "marked": false
    },
    "1.4.40-154": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:39",
       "ease": 0,
       "marked": false
    },
@@ -9350,12 +9350,12 @@
       "marked": false
    },
    "2.1.07-009-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:24",
       "ease": 0,
       "marked": false
    },
@@ -9440,12 +9440,12 @@
       "marked": true
    },
    "2.2.22-126": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:55",
       "ease": 0,
       "marked": false
    },
@@ -9460,12 +9460,12 @@
       "marked": false
    },
    "2.2.29-001": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:38",
       "ease": 0,
       "marked": false
    },
@@ -9540,12 +9540,12 @@
       "marked": false
    },
    "1.1.07-159-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:13",
       "ease": 0,
       "marked": false
    },
@@ -9580,22 +9580,22 @@
       "marked": false
    },
    "1.2.05-123": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:59",
       "ease": 0,
       "marked": false
    },
    "1.2.05-124": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:26",
       "ease": 0,
       "marked": false
    },
@@ -9630,12 +9630,12 @@
       "marked": false
    },
    "1.2.09-019-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:00",
       "ease": 0,
       "marked": false
    },
@@ -9670,12 +9670,12 @@
       "marked": false
    },
    "1.2.26-009-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:31",
       "ease": 0,
       "marked": false
    },
@@ -9690,12 +9690,12 @@
       "marked": false
    },
    "1.3.01-128-M": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "09-08-2023 22:33",
+      "last_seen": "14-08-2023 17:31",
       "ease": 0,
       "marked": false
    },
@@ -9710,24 +9710,24 @@
       "marked": false
    },
    "1.4.40-010": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "13-08-2023 23:28",
       "ease": 0,
       "marked": false
    },
    "1.4.40-156": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "15-08-2023 15:45",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.4.40-157": {
       "times_seen": 1,
@@ -9790,12 +9790,12 @@
       "marked": false
    },
    "1.4.42-146": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:15",
       "ease": 0,
       "marked": false
    },
@@ -9850,12 +9850,12 @@
       "marked": false
    },
    "1.5.01-128": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "10-08-2023 02:14",
+      "last_seen": "14-08-2023 16:21",
       "ease": 0,
       "marked": false
    },
@@ -9910,22 +9910,22 @@
       "marked": false
    },
    "1.5.01-134": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 18:22",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.1.01-007-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:17",
       "ease": 0,
       "marked": false
    },
@@ -9980,12 +9980,12 @@
       "marked": false
    },
    "2.1.10-006": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -10020,14 +10020,14 @@
       "marked": false
    },
    "2.2.17-012": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 17:29",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.2.21-123": {
       "times_seen": 0,
@@ -10200,22 +10200,22 @@
       "marked": false
    },
    "2.7.04-101": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:18",
       "ease": 0,
       "marked": false
    },
    "1.1.03-121": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:00",
       "ease": 0,
       "marked": false
    },
@@ -10250,12 +10250,12 @@
       "marked": false
    },
    "1.1.07-163": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "09-08-2023 21:19",
+      "last_seen": "14-08-2023 18:22",
       "ease": 0,
       "marked": false
    },
@@ -10290,12 +10290,12 @@
       "marked": false
    },
    "1.3.01-060-M": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 1,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "09-08-2023 21:48",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:07",
       "ease": 0,
       "marked": true
    },
@@ -10310,12 +10310,12 @@
       "marked": false
    },
    "2.1.03-119": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:55",
       "ease": 0,
       "marked": false
    },
@@ -10360,12 +10360,12 @@
       "marked": false
    },
    "2.1.11-014-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -10380,14 +10380,14 @@
       "marked": false
    },
    "2.1.11-016": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 16:14",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.1.11-133": {
       "times_seen": 0,
@@ -10520,12 +10520,12 @@
       "marked": false
    },
    "2.7.01-146": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:40",
       "ease": 0,
       "marked": false
    },
@@ -10550,12 +10550,12 @@
       "marked": false
    },
    "2.7.01-149": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "15-08-2023 15:48",
       "ease": 0,
       "marked": false
    },
@@ -10570,12 +10570,12 @@
       "marked": false
    },
    "2.7.02-038": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:26",
       "ease": 0,
       "marked": false
    },
@@ -10700,12 +10700,12 @@
       "marked": false
    },
    "1.1.07-166-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 16:23",
       "ease": 0,
       "marked": false
    },
@@ -10740,14 +10740,14 @@
       "marked": false
    },
    "1.2.34-114": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 17:27",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.3.01-039-M": {
       "times_seen": 1,
@@ -10770,12 +10770,12 @@
       "marked": false
    },
    "1.4.41-020-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -10810,14 +10810,14 @@
       "marked": false
    },
    "2.1.07-015-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_seen": 2,
+      "times_wrong": 1,
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:14",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.1.07-023-M": {
       "times_seen": 0,
@@ -10870,34 +10870,34 @@
       "marked": false
    },
    "2.2.02-101-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
-      "ease": 0,
-      "marked": false
-   },
-   "2.2.03-024": {
       "times_seen": 1,
       "times_wrong": 0,
       "times_right": 1,
       "times_right_iar": 1,
       "last_was_right": true,
-      "last_seen": "10-08-2023 19:00",
+      "last_seen": "14-08-2023 16:14",
+      "ease": 0,
+      "marked": false
+   },
+   "2.2.03-024": {
+      "times_seen": 2,
+      "times_wrong": 0,
+      "times_right": 2,
+      "times_right_iar": 2,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:12",
       "ease": 0,
       "marked": false
    },
    "2.2.07-012-M": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 23:59",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.2.12-107-M": {
       "times_seen": 1,
@@ -10980,22 +10980,22 @@
       "marked": false
    },
    "2.7.02-135": {
+      "times_seen": 2,
+      "times_wrong": 0,
+      "times_right": 2,
+      "times_right_iar": 2,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:23",
+      "ease": 0,
+      "marked": false
+   },
+   "2.7.06-115": {
       "times_seen": 1,
       "times_wrong": 0,
       "times_right": 1,
       "times_right_iar": 1,
       "last_was_right": true,
-      "last_seen": "10-08-2023 02:06",
-      "ease": 0,
-      "marked": false
-   },
-   "2.7.06-115": {
-      "times_seen": 0,
-      "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 16:21",
       "ease": 0,
       "marked": false
    },
@@ -11010,14 +11010,14 @@
       "marked": false
    },
    "1.4.41-171": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "15-08-2023 15:40",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.2.04-004": {
       "times_seen": 0,
@@ -11030,12 +11030,12 @@
       "marked": false
    },
    "1.1.06-131-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "15-08-2023 16:01",
       "ease": 0,
       "marked": false
    },
@@ -11060,12 +11060,12 @@
       "marked": false
    },
    "1.2.09-137-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:01",
       "ease": 0,
       "marked": false
    },
@@ -11080,12 +11080,12 @@
       "marked": false
    },
    "1.2.12-132": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 1,
-      "times_right_iar": 1,
+      "times_right": 2,
+      "times_right_iar": 2,
       "last_was_right": true,
-      "last_seen": "10-08-2023 01:45",
+      "last_seen": "14-08-2023 16:17",
       "ease": 0,
       "marked": false
    },
@@ -11100,22 +11100,22 @@
       "marked": false
    },
    "1.2.34-008": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:38",
       "ease": 0,
       "marked": false
    },
    "1.4.41-021": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "13-08-2023 23:26",
       "ease": 0,
       "marked": false
    },
@@ -11140,14 +11140,14 @@
       "marked": false
    },
    "1.4.41-024": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 13:56",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.4.41-025": {
       "times_seen": 1,
@@ -11170,12 +11170,12 @@
       "marked": false
    },
    "2.1.03-121": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:56",
       "ease": 0,
       "marked": false
    },
@@ -11190,12 +11190,12 @@
       "marked": false
    },
    "2.1.06-104-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:18",
       "ease": 0,
       "marked": false
    },
@@ -11230,32 +11230,32 @@
       "marked": false
    },
    "2.2.07-013-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:41",
       "ease": 0,
       "marked": false
    },
    "2.4.41-108": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 18:23",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "2.4.41-109": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:44",
       "ease": 0,
       "marked": false
    },
@@ -11280,22 +11280,22 @@
       "marked": false
    },
    "2.6.02-038": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:08",
       "ease": 0,
       "marked": false
    },
    "2.6.03-115": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "13-08-2023 23:28",
       "ease": 0,
       "marked": false
    },
@@ -11320,12 +11320,12 @@
       "marked": false
    },
    "2.7.01-154": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:52",
       "ease": 0,
       "marked": false
    },
@@ -11390,12 +11390,12 @@
       "marked": false
    },
    "2.7.02-137": {
-      "times_seen": 0,
+      "times_seen": 2,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 2,
+      "times_right_iar": 2,
+      "last_was_right": true,
+      "last_seen": "13-08-2023 23:18",
       "ease": 0,
       "marked": false
    },
@@ -11410,14 +11410,14 @@
       "marked": false
    },
    "2.7.06-117": {
-      "times_seen": 0,
-      "times_wrong": 0,
+      "times_seen": 1,
+      "times_wrong": 1,
       "times_right": 0,
       "times_right_iar": 0,
       "last_was_right": false,
-      "last_seen": "never",
+      "last_seen": "14-08-2023 16:39",
       "ease": 0,
-      "marked": false
+      "marked": true
    },
    "1.2.12-133": {
       "times_seen": 1,
@@ -11460,22 +11460,22 @@
       "marked": false
    },
    "2.6.03-116": {
-      "times_seen": 1,
+      "times_seen": 2,
       "times_wrong": 1,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "13-08-2023 20:14",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 23:58",
       "ease": 0,
       "marked": true
    },
    "1.1.02-051-M": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 14:01",
       "ease": 0,
       "marked": false
    },
@@ -11670,12 +11670,12 @@
       "marked": false
    },
    "2.1.03-037": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 17:18",
       "ease": 0,
       "marked": false
    },
@@ -11690,12 +11690,12 @@
       "marked": false
    },
    "2.1.03-122": {
-      "times_seen": 0,
+      "times_seen": 1,
       "times_wrong": 0,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "never",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "14-08-2023 18:19",
       "ease": 0,
       "marked": false
    },
