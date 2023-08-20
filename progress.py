@@ -174,7 +174,7 @@ def daily_goal(progress_days):
     keys = list(progress_days.keys())
     qleft = progress_days[keys[-2]]['not_seen']
     days_left = (TEST_DATE - datetime.now()).days
-    return ceil(qleft / days_left)
+    return ceil(qleft / (days_left+1))
     
 
 def seen_today(progress_days:dict):
