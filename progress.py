@@ -11,7 +11,7 @@ TEST_DATE = datetime.strptime(TEST_DATE, '%d-%m-%Y')
 all_questions = get_json('questions.json')
 TOTAL = len(all_questions)
 
-STAT_DAYS = 10  #number of days to get stats for
+STAT_DAYS = 12  #number of days to get stats for
 
 def init_progress():
     init_progress_sets()
