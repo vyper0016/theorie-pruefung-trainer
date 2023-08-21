@@ -2440,12 +2440,12 @@
       "marked": false
    },
    "1.4.41-142": {
-      "times_seen": 3,
+      "times_seen": 4,
       "times_wrong": 3,
-      "times_right": 0,
-      "times_right_iar": 0,
-      "last_was_right": false,
-      "last_seen": "21-08-2023 01:53",
+      "times_right": 1,
+      "times_right_iar": 1,
+      "last_was_right": true,
+      "last_seen": "21-08-2023 02:49",
       "ease": 0,
       "marked": true
    },
