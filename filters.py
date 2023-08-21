@@ -123,5 +123,5 @@ def filter_undone_sets():
     
 
 if __name__ == '__main__':
-    print(filter_questions(mastered=False))
+    print(len(filter_questions(marked=True)))
     
