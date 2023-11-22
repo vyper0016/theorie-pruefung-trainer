@@ -6,7 +6,6 @@ async function fillStats(){
     const last_hour = response['last_hour']
     const last_days = response['days']
     const {seen_today, goal} = response;
-    console.log(seen_today);
     stats.forEach(element => {
         const {cid, mastered, not_seen, wrong, practiced, total} = element;
         const container = document.getElementById('categories'+cid[0]);

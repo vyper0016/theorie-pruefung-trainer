@@ -87,6 +87,16 @@ tr .correction-block{
   padding-top: 20px;
 }
 
+a[href="#popup1"]{
+  background-image: url("/img/info.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; /* Center the background image */
+}
+
+a[href="#popup2"]{
+  background-image: none;
+}
 
 .overlay{
   background: rgba(0, 0, 0, 0.9);

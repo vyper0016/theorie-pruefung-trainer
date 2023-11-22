@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from math import ceil
 
 DATE_FORMAT = '%d-%m-%Y %H:%M'
-TEST_DATE = '21-08-2023'
+TEST_DATE = '22-08-2023'
 TEST_DATE = datetime.strptime(TEST_DATE, '%d-%m-%Y')
 
 all_questions = get_json('questions.json')
@@ -13,6 +13,12 @@ TOTAL = len(all_questions)
 
 STAT_DAYS = 12  #number of days to get stats for
 
+
+# allows spoofing the date for testing
+def now_date():
+    # return datetime.now()
+    return datetime(2023, 8, 21, 12, 52)
+    
 def init_progress():
     init_progress_sets()
     progress = {}
@@ -54,7 +60,7 @@ def init_progress_sets():
 
 def log_progress():
     progress = get_json('progress_log.json')
-    progress[datetime.strftime(datetime.now(), DATE_FORMAT)] = get_total_stats()
+    progress[datetime.strftime(now_date(), DATE_FORMAT)] = get_total_stats()
     dump_dict(progress, 'progress_log.json')
     
 
@@ -67,7 +73,7 @@ def mark_question(qid, mark: bool):
 def submitted_question(qid, correct:bool):
     progress = get_json('progress.json')
     progress[qid]['times_seen'] += 1
-    progress[qid]['last_seen'] = datetime.strftime(datetime.now(), DATE_FORMAT)
+    progress[qid]['last_seen'] = datetime.strftime(now_date(), DATE_FORMAT)
     if correct:
         progress[qid]['times_right'] += 1
         progress[qid]['times_right_iar'] += 1
@@ -150,7 +156,7 @@ def get_stats():
 
 # return how many questions seen during the last hour
 def last_hour_progress():
-    now = datetime.now()
+    now = now_date()
     logs = get_json('progress_log.json')
     keys = logs.keys()
     last_key = list(keys)[-1]
@@ -173,7 +179,7 @@ def compare_days(date1: datetime, date2: datetime):
 def daily_goal(progress_days):
     keys = list(progress_days.keys())
     qleft = progress_days[keys[-2]]['not_seen']
-    days_left = (TEST_DATE - datetime.now()).days
+    days_left = (TEST_DATE - now_date()).days
     return ceil(qleft / (days_left+2))
     
 
@@ -188,7 +194,7 @@ def format_date(date_string):
 
 def last_days_progress():
     # Get today's date
-    today = datetime.today().date()
+    today = now_date().date()
     
     logs = get_json('progress_log.json')
     keys = list(logs.keys()) 
@@ -221,3 +227,4 @@ def last_days_progress():
         
 if __name__ == '__main__':
     t = get_stats()
+    pass
